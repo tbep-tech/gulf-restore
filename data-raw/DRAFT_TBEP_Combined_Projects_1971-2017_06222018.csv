@@ -1,0 +1,892 @@
+DATA_SOURCE,Unique_Project_ID,Project_Name,Bay_Segment,Lead_Entity,Project_Activity,Project_Technology,Completion_Date,TN_Reduction_lbs_yr,ProjectLatitude,ProjectLongitude,Acres,ActualProjectCost,MAC_Notes
+TBEP_APDB_1992-2016,OSS_Syn_0001,Tampa Bay Regional Surface Water Treatment Plant Expansion (Alafia River),Hillsborough Bay,Tampa Bay Water,Nonpoint_Source,Send_to_WWTP,2016,47880,28.019236,-82.21548,,,(HB mid)
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0002,Freeman Park,Old Tampa Bay,BAEAT,Habitat_Establishment,Mangroves,1993,,27.892209,-82.540301,7,NA,Al Palonis now?
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0003,Polanis Park,Old Tampa Bay,FDNR,Habitat_Establishment,Saltmarsh,1990,,27.892209,-82.540301,3.3,NA,Al Palonis now?
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0004,Mosaic Process Water Discharge - Hillsborough Bay Oyster Pilot Project,Hillsborough Bay,NOAA,Habitat_Establishment,Oyster_Habitat,2005,,27.8674,-82.4241,0.1,NA,an island in HB?
+TBEP_APDB_1992-2016,OSS_Syn_0005,Lower Sweetwater Creek Stormwater Retrofits,Old Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Management,2012,17.3,27.996852,-82.561863,,,at Creek in HC
+TBEP_APDB_1992-2016,OSS_Syn_0006,Bridgeway Acres Pond A Dredging,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Management,2012,5212.8,27.872066,-82.671488,,,at landfill PC
+TBEP_APDB_1992-2016,OSS_Syn_0007,Robles Park Water Quality and Natural Systems Improvement,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Wetland_Treatment,2016,143,27.974273,-82.45542,,,at Robles Park
+TBEP_APDB_1992-2016,OSS_Syn_0008,Plant repowering,Old Tampa Bay,Progress Energy Inc.,Nonpoint_Source,Atmospheric_Deposition,2009,15900,27.8616,-82.6008,,NA,Bartow plant
+TBEP_APDB_1992-2016,OSS_Syn_0009,SWIM Phase 3 Ecosystem Restoration,Middle Tampa Bay,MacDill AFB,Habitat_Enhancement,Hydrologic_Restoration,2013,965.9,27.836204,-82.47151,,,Bay Palms Golf Complex
+TBEP_APDB_1992-2016,OSS_Syn_0010,Booker Lake Alum Treatment Facility,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Alum_Treatment,2009,522.9,27.784186,-82.662602,,1000000,Booker Lake
+TBEP_APDB_1992-2016,OSS_Syn_0011,Booker Lake Regional Stormwater Treatment Facility,Middle Tampa Bay,SWFWMD,Nonpoint_Source,BMP_Alum_Treatment,2011,NA,27.784186,-82.662602,,NA,Booker Lake
+TBEP_APDB_1992-2016,OSS_Syn_0012,29th S/N Nutrient Seperating Baffle Box,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Baffle_Box,2010,105.8,27.782974,-82.671154,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0013,34th Ave NE at Poplar St,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Baffle_Box,2018,NA,27.80308,-82.627542,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0014,47th & Frierson Pond Project,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Stormwater_Pond,2011,7.4,27.99428653,-82.40599231,,125000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0015,A.J. Palonis Park Oyster Restoration,Old Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2003,,27.9459,-82.5421,0.41,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0016,Abercrombie Park,Boca Ciega Bay,City of St. Petersburg Parks Department,Habitat_Enhancement,Exotic_Control,1997,,27.806242,-82.756938,11,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0017,Acceptance of City of Plant City Reclaimed Water at CF Industries-Plant City Facility,Hillsborough Bay,Mosaic,Point_Source,Increase_Reuse,2008,15257.6,28.163949,-82.147351,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0018,Alafia Bank Bird Island,Hillsborough Bay,NAS,Habitat_Establishment,Mangroves,1988,,27.848224,-82.405612,0.06,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0019,Alafia Bank Bird Island,Hillsborough Bay,NAS,Habitat_Establishment,Mangroves,1989,,27.84976,-82.40566,0.2,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0020,Alafia Bank Sunken Island Extension-Phase 1,Hillsborough Bay,NAS,Habitat_Establishment,Mangroves,1978,,27.84414,-82.419831,2,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0021,Alafia Bank Sunken Island Extension-Phase 2,Hillsborough Bay,NAS,Habitat_Establishment,Mangroves,1979,,27.84414,-82.419831,0.1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0022,Alafia Bank Sunken Island Extension-Phase 3,Hillsborough Bay,NAS,Habitat_Establishment,Mangroves,1979,,27.846636,-82.419831,2,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0023,Alafia Bank Sunken Island Extension-Phase 4,Hillsborough Bay,NAS,Habitat_Establishment,Mangroves,1980,,27.846636,-82.419831,0.1,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0024,Alafia Banks Restoration Settling Pond,Hillsborough Bay,Mosaic,Nonpoint_Source,BMP_Stormwater_Pond,2011,61.1,27.863575,-82.385047,,200000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0025,Alafia River Cooridor - North Prong,Hillsborough Bay,Hillsborough County,Habitat_Protection,Acquisition,2006,NA,27.8892,-82.0919,,8264400,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0026,Alderman's Ford Park,Hillsborough Bay,Hillsborough County Parks & Recreation,Habitat_Enhancement,Exotic_Control,2005,,27.862614,-82.14458,75,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0027,Allen's Creek at St. Paul's Drive,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1996,,27.931575,-82.753931,1,"$40,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0028,Alligator Creek Channel B Phase II,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Management,2008,NA,27.986,-82.7274,,500000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0029,Alligator Creek Channel B Phase III,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Management,2010,NA,27.986,-82.7241,,3824600,checked
+TBEP_APDB_1992-2016,OSS_Syn_0030,Alligator Lake/Ruth Eckerd Wetland Creation,Old Tampa Bay,City of Clearwater,Nonpoint_Source,BMP_Wetland_Treatment,2008,58.1,27.976967,-82.703099,,1400000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0031,Apollo Beach Seawall,Hillsborough Bay,FDNR,Habitat_Establishment,Mangroves,1987,,27.795975,-82.419831,0.01,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0032,Archie Creek Restoration,Hillsborough Bay,Mosaic,Habitat_Establishment,FW_Wetlands,2006,,27.869887,-82.371361,49.7,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0033,Ballast Point,Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1995,,27.888978,-82.480643,0.5,"$50,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0034,Balm Road Marsh,Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2004,,27.743245,-82.292317,49,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0035,Balm Road Wetland and Stormwater Treatment Facility,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Wetland_Treatment,2004,910.3,27.744119,-82.290208,,1500000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0036,Bartlett Park,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1998,,27.749293,-82.639292,4,"$162,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0037,Bartow Phosphate Complex -  Enhanced Process Water Evaporation -  Nutrient Load Prevention Project,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,2006,16600,27.866425,-81.928348,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0038,Bartow Phosphate Complex -  Enhanced Process Water Evaporation -  Nutrient Load Prevention Project-2001,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,2001,12280,27.866425,-81.928348,,400000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0039,Bartow Phosphate Complex -  Enhanced Process Water Evaporation -  Nutrient Load Prevention -Project-2005,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,2005,3520,27.866425,-81.928348,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0040,Bartow Phosphate Complex -  Enhanced Process Water Evatoration -  Nutrient Load Prevention Project,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,2006,3520,27.866425,-81.928348,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0041,Bayshore Boulevard: Phase 1,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2003,,27.874266,-82.487078,0.03,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0042,Bayview Park,Old Tampa Bay,City of Clearwater,Habitat_Protection,Acquisition,2008,NA,27.960191,-82.709688,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0043,Bell Creek Preserve - Land Acquisition,Hillsborough Bay,Hillsborough County,Habitat_Protection,Acquisition,1997,NA,27.860109,-82.279682,,2788117,checked
+TBEP_APDB_1992-2016,OSS_Syn_0044,Blackwater Creek - Land Acquisition,Hillsborough Bay,Hillsborough County,Habitat_Protection,Acquisition,1997,NA,28.12855,-82.154224,,4314525,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0045,Boca Ceiga (Milenum Park),Boca Ciega Bay,FDNR,Habitat_Establishment,Saltmarsh,1990,,27.832504,-82.812558,2.5,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0046,Broadway Outfall Stormwater Retrofit Project,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_CDS_Unit,2001,139,28.02665,-82.391748,,1390262,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0047,Brooker Creek Preserve-Education Center Restoration,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2006,,28.132053,-82.658019,2,"$51,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0048,Cargill Fertilizer Dedicated Sump At Product Loading Dock,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,1996,1584,27.863575,-82.385047,,10000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0049,Cargill Fertilizer Outfall Structural And Procedural Improvements,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,1997,1962,27.863575,-82.385047,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0050,Clam Bayou (Osgood Point): Phase 1,Boca Ciega Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1995,,27.738062,-82.691463,10,"$156,890.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0051,Clam Bayou (Osgood Point): Phase 2,Boca Ciega Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2000,,27.745067,-82.687888,10,"$156,890.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0052,Clam Bayou Salt Marsh Restoration,Boca Ciega Bay,TBW,Habitat_Enhancement,Saltmarsh,2005,,27.7414,-82.6914,6,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0053,Cockroach Bay - Middle Uplands and Wetlands,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2006,,27.686111,-82.506944,128,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0054,Cockroach Bay Island Exotic Plant Removal,Middle Tampa Bay,Hillsborough County Environmental Lands and Acquisition,Habitat_Enhancement,Exotic_Control,2003,,27.683,-82.508,50,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0055,Cockroach Bay Tidal Creek Marsh Planting,Middle Tampa Bay,TBW,Habitat_Enhancement,Saltmarsh,2005,,27.6765,-82.5151,4.6,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0056,Cockroach Bay: Braided Tidal Creek,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2005,,27.691954,-82.506783,11.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0057,Cockroach Bay: Freshwater Wetlands,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,2004,,27.685963,-82.506673,22,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0058,Cockroach Bay: Phase 1 Uplands,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,1999,,27.689372,-82.503392,45,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0059,Cockroach Bay: Phase 1A1,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1997,,27.69246,-82.51073,37.2,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0060,Cockroach Bay: Phase 1A2,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1999,,27.694443,-82.507368,55.8,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0061,Cockroach Bay: Uplands Final Phase,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,2005,,27.685414,-82.50991,69,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0062,Coffee Pot Bayou,Middle Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2004,,27.799882,-82.63282,NA,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0063,Cone Ranch Restoration Project,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Hydrologic_Restoration,1999,331,28.12181309,-82.12251217,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0064,Coopers Point,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1999,,27.968614,-82.69359,10,"$200,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0065,Coquina Key Park,Middle Tampa Bay,City of St. Petersburg Parks Department,Habitat_Enhancement,Exotic_Control,1999,,27.737405,-82.631126,1,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0066,Crescent Lake at 14th Ave N,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Baffle_Box,2017,41.9,27.785785,-82.643121,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0067,CSX MacDill/Port Tampa,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2005,,27.948088,-82.424804,220,"$220,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0068,CSX Transportation Rockport Terminal Stormwater Management Improvements,Hillsborough Bay,CSX Transportation,Point_Source,BMP_On_Site,1997,74000,27.916449,-82.417664,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0069,Cunningham Key Oyster Dome Project,Boca Ciega Bay,TBW,Habitat_Establishment,Oyster_Habitat,2004,,27.65452,-82.71815,NA,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0070,Cypress Point Park Restoration,Old Tampa Bay,City of Tampa,Habitat_Establishment,Saltmarsh,1998,,27.950873,-82.541804,3,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0071,Dale Mabry Reclaimed,Hillsborough Bay,Hillsborough County,Point_Source,Increase_Reuse,1995,10946.2,28.068939,-82.527091,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0072,Davis Island Beach Boat Ramp,Hillsborough Bay,City of Tampa Parks Department,Habitat_Enhancement,Saltmarsh,2004,,27.910009,-82.453524,0.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0073,Davis Island Salt Marsh Restoration,Hillsborough Bay,TBW,Habitat_Enhancement,Saltmarsh,2004,,27.9119,-82.4506,0.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0074,Davis Tract (Kitchen Nature Preserve) Oyster Restoration,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2005,,27.8346,-82.3957,NA,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0075,Del Oro Park,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1997,,27.985731,-82.691625,1,"$30,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0076,Delany Creek Wetland Restoration Project,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Wetland_Treatment,1997,1691.3,27.92362483,-82.38579458,,445746.13,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0077,Demen's Landing,Middle Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2003,,27.77111,-82.63196,NA,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0078,Desoto Park And Trailer Park In NW McKay Bay,Hillsborough Bay,City of Tampa,Habitat_Enhancement,Saltmarsh,1999,,27.947546,-82.428339,1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0079,Duette Land Acquisition,Manatee River,Manatee County,Habitat_Protection,Acquisition,2006,,27.233,-82.097,50,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0080,E.G. Simmons Park,Middle Tampa Bay,FDNR,Habitat_Establishment,Mangroves,1980,,27.744798,-82.472225,1.98,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0081,E.G. Simmons Park: Phase 1,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1990,,27.744798,-82.472225,14,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0082,E.G. Simmons Park: Phase 2,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,NA,,27.742297,-82.466202,1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0083,Eagle Lake Park Historic Addition,Old Tampa Bay,Pinellas County,Habitat_Protection,Acquisition,2004,,27.935,-82.764,6.6,"$2,250,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0084,East Lake (Alum) Stormwater Retrofit Project,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Stormwater_Pond,2000,5244,27.988065,-82.373728,,807000,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0085,East Lake Mgmt Area Exotic Veg. Control,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2017,,28.096,-82.701,4,"$4,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0086,East Lake Outfall Water Quality Improvement Retrofit,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Management,2000,NA,27.98789,-82.373728,,1260921,checked
+TBEP_APDB_1992-2016,OSS_Syn_0087,Eastern Associated Terminals Stormwater Improvements,Hillsborough Bay,Eastern Terminals,Point_Source,BMP_On_Site,1996,2190,27.918834,-82.41985,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0088,Emerson Point: Phase 1,Manatee River,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1998,,27.533913,-82.632219,25,"$728,500.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0089,Emerson Point: Phase 2,Manatee River,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1999,,27.53394,-82.62577,5,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0090,Fairwood Forest Channel Improvements,Old Tampa Bay,City of Clearwater,Nonpoint_Source,BMP_Management,2009,NA,27.972052,-82.723811,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0091,Falkenburg & Valrico Reclaimed,Hillsborough Bay,Hillsborough County,Point_Source,Increase_Reuse,1995,12186.6,27.952572,-82.335168,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0092,Fantasy Island,Hillsborough Bay,TPA,Habitat_Establishment,Oyster_Habitat,2004,,27.8679,-82.42565,NA,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0093,Foch Lake,Old Tampa Bay,FDER,Habitat_Establishment,FW_Wetlands,1991,,27.82653,-82.620776,3.9,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0094,Fort Brooke Park Shoreline Restoration,Hillsborough Bay,City of Tampa,Habitat_Enhancement,Saltmarsh,2001,,27.947222,-82.458333,1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0095,Fort Brooke Salt Marsh Restoration,Hillsborough Bay,City of Tampa,Habitat_Enhancement,Saltmarsh,2001,,27.9417,-82.4583,0.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0096,Ft. DeSoto 1,Lower Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2006,,27.633305,-82.72055,NA,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0097,Ft. Desoto Circulation Project,Lower Tampa Bay,Pinellas County,Habitat_Enhancement,Hydrologic_Restoration,2004,,27.625467,-82.715436,200,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0098,Ft. DeSoto Park Campground Salt Marsh Restoration,Lower Tampa Bay,TBW,Habitat_Establishment,Saltmarsh,2003,,27.6367,-82.7203,2,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0099,Gateway Tract,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2004,,27.888986,-82.653974,110,"$1,966,765.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0100,Giants Camp Shoreline Restoration,Hillsborough Bay,Mosaic,Habitat_Enhancement,Mangroves,2006,,27.857,-82.385594,2,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0101,Grassy Point Project,Lower Tampa Bay,Manatee County,Habitat_Protection,Acquisition,2002,115.5,27.491669,-82.705239,,347000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0102,Green Key,Hillsborough Bay,NAS,Habitat_Establishment,Mangroves,1990,,27.818312,-82.399176,0.03,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0103,Green Key 1,Hillsborough Bay,AOF,Habitat_Establishment,Oyster_Habitat,2002,,27.818312,-82.399176,0.01,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0104,Green Key 2,Hillsborough Bay,AOF,Habitat_Establishment,Oyster_Habitat,2003,,27.8191,-82.39945,0.01,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0105,Harbor Palms Park,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1994,,28.039279,-82.693374,4.4,"$118,541.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0106,Hendry Delta,Middle Tampa Bay,FDNR,Habitat_Establishment,Mangroves,1986,,27.625461,-82.565525,0.05,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0107,Hillgrove and Stearns Stormwater Facilities -  Phase I-Alafia River,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Treatment_Train,2011,1916.1,27.89003,-82.239398,,2729119,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0108,Howard Frankland West,Old Tampa Bay,FDNR,Habitat_Establishment,Mangroves,1971,,27.941692,-82.549223,0.01,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0109,Hurley Tailwater Pond,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,2006,664.3,27.768576,-82.267185,,250000,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0110,Invasive Species Control,Middle Tampa Bay,MacDill AFB,Habitat_Enhancement,Exotic_Control,2017,,27.843,-82.516,1500,"$218,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0111,Joe's Creek Restoration: Phase 1,Boca Ciega Bay,FDER,Habitat_Establishment,Saltmarsh,1990,,27.838335,-82.752885,4.61,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0112,Jungle Lake Restoration,Boca Ciega Bay,City of St. Petersburg,Habitat_Establishment,FW_Wetlands,1995,,27.797005,-82.745554,35,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0113,Jungle Prada Park,Boca Ciega Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1994,,27.787403,-82.753628,1,"$21,500.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0114,Kapok Restoration Project,Old Tampa Bay,City of Clearwater,Habitat_Enhancement,Hydrologic_Restoration,2006,,27.973699,-82.715043,45,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0115,Kinder-Morgan Tampaplex Terminal (formerly  IMC Port Sutton) Elimination of Heating Water Discharge,Hillsborough Bay,Kinder-Morgan/Pakhoed Dry Bulk Terminals,Point_Source,PS_Treatment,2005,18200,27.900782,-82.417799,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0116,Lake Meade Water Quality Improvement,Hillsborough Bay,Hillsborough County,Habitat_Protection,Protection_Management,2011,417.9,27.947417,-82.29465,,200000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0117,Lake Tarpon Outfall Canal: Phase 1,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1992,,28.053149,-82.708918,1,"$2,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0118,Lake Tarpon Outfall Canal: Phase 2,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1995,,28.053149,-82.708918,1,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0119,Lake Thonotosassa Marsh Restoration Project,Hillsborough Bay,SWFWMD,Habitat_Establishment,FW_Wetlands,1999,66.2,28.05128459,-82.26688174,,1380000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0120,Lake Thonotosassa Project,Hillsborough Bay,SWFWMD,Habitat_Establishment,FW_Wetlands,1999,,28.054001,-82.268807,80,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0121,Lancaster Tract (Allen's Creek),Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,2005,,27.931328,-82.738201,14,"$600,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0122,Largo Central Park,Boca Ciega Bay,City of Largo,Habitat_Enhancement,Exotic_Control,2005,,27.91383,-82.776859,22.5,"$425,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0123,Largo Narrows Park,Boca Ciega Bay,FDNR,Habitat_Establishment,Mangroves,1987,,27.841342,-82.83925,0.15,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0124,Lassing Park,Middle Tampa Bay,FDNR,Habitat_Establishment,Seagrass_Habitat,1988,,27.753756,-82.627591,0.1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0125,Little Bayou Habitat Restoration Project: Phase 1,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1992,,27.719013,-82.637688,3,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0126,Little Bird Key National Wildlife Refuge,Boca Ciega Bay,USFWS,Habitat_Establishment,Oyster_Habitat,2005,,27.68555,-82.71705,NA,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0127,Little Bird Key/Boca Ceiga,Boca Ciega Bay,FDNR,Habitat_Enhancement,Mangroves,1987,,27.792967,-82.777867,0.015,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0128,Long/Cross Bayou,Boca Ciega Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1995,,27.830498,-82.75461,2,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0129,Lowry Park West Stormwater Retrofit Project,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Stormwater_Pond,1998,168.2,28.013639,-82.467792,2,397268,checked
+TBEP_APDB_1992-2016,OSS_Syn_0130,Lowry Park Zoo Stormwater Rehabilitation,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Stormwater_Pond,2002,205.2,28.013639,-82.467792,,344894,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0131,Lowry Park: Spring and Shoreline,Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,1992,,28.014751,-82.464601,0.5,"$18,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0132,MacDill Air Force Base Oyster Dome: Phase 1,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2004,,27.83381,-82.46942,0.13,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0133,MacDill Air Force Base Oyster Dome: Phase 2,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2007,,27.83212,-82.47026,0.17,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0134,MacDill Air Force Base Oyster Reef: Phase 1,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2004,,27.8215,-82.4736,0.03,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0135,MacDill Air Force Base Oyster Reef: Phase 2,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2005,,27.8298,-82.47265,0.06,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0136,MacDill Air Force Base Oyster Reef: Phase 3,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2006,,27.82885,-82.4715,0.05,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0137,MacDill Air Force Base: Phase 1A,Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1994,,27.82976,-82.476617,3,"$350,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0138,MacDill Air Force Base: Phase 1B,Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1997,,27.82976,-82.473317,31.3,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0139,MacDill Air Force Base: Phase 2,Middle Tampa Bay,SWFWMD - SWIM,Habitat_Establishment,Saltmarsh,1999,,27.822205,-82.479637,32.6,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0140,Manatee Plant Cooling Pond Seepage Return Project,Middle Tampa Bay,Florida Power & Light,Nonpoint_Source,BMP_Management,1994,12951.2,27.662673,-82.215645,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0141,Mangrove Bay Habitat Rehabilitation,Old Tampa Bay,City of St. Petersburg,Habitat_Enhancement,Exotic_Control,2003,,27.833333,-82.616667,13,"$3,050.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0142,Mangrove Bay: Phase 1,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1991,,27.842593,-82.629808,13.5,"$155,125.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0143,Mangrove Bay: Phase 2,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1992,,27.83979,-82.625822,0.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0144,Mangrove Bay: Phase 3,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1998,,27.835347,-82.622798,21,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0145,"Mangrove Restoration Phase III & IV, Sites 4 and 16",Middle Tampa Bay,MacDill AFB,Habitat_Enhancement,Hydrologic_Restoration,2017,,27.833,-82.517,17,"$378,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0146,Maximo Park,Boca Ciega Bay,FDNR,Habitat_Enhancement,Saltmarsh,1989,,27.710042,-82.683665,0.05,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0147,McIntosh Park Water Quality/Wetland Enhancement,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Wetland_Treatment,2009,2763,28.071189,-82.129162,,3824564,checked
+TBEP_APDB_1992-2016,OSS_Syn_0148,McKay Bay (Eastshore Commerce Park) (Melbourne Pond) Drainage Basin Rehabilitation,Hillsborough Bay,Tampa Bay Water/SWFWMD,Nonpoint_Source,BMP_Wetland_Treatment,2006,880,27.962889,-82.347508,,1010000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0149,Mckay Bay Nature Park,Hillsborough Bay,City of Tampa Parks Department,Habitat_Enhancement,Exotic_Control,1996?,,27.949402,-82.418145,5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0150,McKay Bay Northeast,Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1991,,27.95212,-82.411395,4,"$116,775.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0151,McKay Bay-East Shore Commerce Park Parcel Stormwater Retrofit,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Treatment_Train,2006,2296.4,27.962889,-82.347508,,1472883,checked
+TBEP_APDB_1992-2016,OSS_Syn_0152,MiraBay Property,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Wetland_Treatment,1999,1340.5,27.748674,-82.429575,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0153,MLKing Ph 2 at 83 Ave N,Old Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Baffle_Box,2015,130.7,27.847697,-82.647039,,,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0154,Mobbly Bayou Wilderness Preserve North Addition,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2006,,28.026143,-82.662079,5,"$213,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0155,Mobbly Bayou Wilderness Preserve Restoration,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2009,NA,28.012172,-82.609611,,2140839,checked
+TBEP_APDB_1992-2016,OSS_Syn_0156,Moody Branch Land Acquisition,Middle Tampa Bay,Manatee County,Habitat_Protection,Acquisition,2003,2695,27.662673,-82.215645,,6000000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0157,Mosaic Riverview Closed Stack Lined Surge Ponds,Hillsborough Bay,Mosaic,Point_Source,Management,2004,3400,27.863575,-82.385047,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0158,Mullet Key,Lower Tampa Bay,FDNR,Habitat_Establishment,Mangroves,1973,,27.647553,-82.715219,0.03,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0159,Neal Preserve,Lower Tampa Bay,Manatee County,Habitat_Protection,Acquisition,2005,409,27.492947,-82.685755,,9000000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0160,New Stormwater Retrofit 2004,Hillsborough Bay,Kinder-Morgan/Pakhoed Dry Bulk Terminals,Point_Source,BMP_On_Site,2005,2720,27.900782,-82.417799,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0161,North Parcel East A,Hillsborough Bay,Mosaic,Habitat_Enhancement,Hydrologic_Restoration,2005,,27.889773,-82.398876,12.8,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0162,North Parcel West A,Hillsborough Bay,Mosaic,Habitat_Enhancement,Exotic_Control,2004,,27.889939,-82.403398,123.9,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0163,North Parcel West B,Hillsborough Bay,Mosaic,Habitat_Enhancement,Exotic_Control,2005,,27.881813,-82.39783,123.9,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0164,North Sunshine Skyway,Boca Ciega Bay,FDNR,Habitat_Enhancement,Saltmarsh,1988,,27.70147,-82.678273,0.05,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0165,Northwest and River Oaks Reclaimed,Hillsborough Bay,Hillsborough County,Point_Source,Increase_Reuse,1995,6472,28.084615,-82.605692,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0166,Onsite Stormwater Management System,Hillsborough Bay,Kinder-Morgan/Pakhoed Dry Bulk Terminals,Point_Source,BMP_On_Site,1998,13882,27.900782,-82.417799,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0167,"Outfall from SR 580 to Sweetwater Creek Canal ""C"" Suntree baffle box retrofit",Old Tampa Bay,FDOT,Nonpoint_Source,BMP_Baffle_Box,2005,34,28.012172,-82.609611,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0168,Palm River,Hillsborough Bay,FDNR,Habitat_Establishment,Mangroves,1979,,27.941669,-82.408085,0.17,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0169,Palmetto Estuary,Manatee River,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2000,,27.511605,-82.564149,30,"$267,918.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0170,Palmetto Estuary Phase 2A,Manatee River,SWFWMD,Habitat_Establishment,Uplands,2017,,27.514,-82.564,0.32,"$99,498.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0171,Peanut Lake,Middle Tampa Bay,FDEP,Habitat_Establishment,Saltmarsh,1993,,27.622965,-82.556267,10,"$266,406.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0172,Peanut Lake Rotary Ditching,Middle Tampa Bay,FDER,Habitat_Enhancement,Hydrologic_Restoration,1987,,27.623001,-82.561741,100,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0173,Perico Preserve,Lower Tampa Bay,Manatee County,Habitat_Protection,Acquisition,2007,NA,27.50125472,-82.67930833,,4132590,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0174,Picnic Island,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1993,,27.852878,-82.5527,8,"$259,076.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0175,Pinellas Point,Lower Tampa Bay,FDNR,Habitat_Enhancement,Saltmarsh,1986,,27.700178,-82.652524,0.04,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0176,Pinellas Point,Lower Tampa Bay,FDNR,Habitat_Establishment,Mangroves,1988,,27.700178,-82.652524,0.05,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0177,Pinellas Point Seagrass Restoration Study,Middle Tampa Bay,USF,Habitat_Enhancement,Seagrass_Habitat,2003,,27.7029,-82.6356,0.07,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0178,Pistol Range Stormwater Retrofit Project,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Stormwater_Pond,2000,2103.3,28.039363,-82.13978,,649810,checked
+TBEP_APDB_1992-2016,OSS_Syn_0179,Plant City Phosphate Complex -  Process Water Balance Improvements -  Prevention Project 1,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,1999,6000,28.160614,-82.153796,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0180,Plant City Phosphate Complex -  Process Water Balance Improvements -  Prevention Project 2,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,2004,6000,28.160614,-82.153796,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0181,Port Manatee (SR 92),Middle Tampa Bay,FDNR,Habitat_Enhancement,Saltmarsh,1987,,27.634717,-82.57302,0.05,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0182,Port Manatee Parcel Restoration Project,Middle Tampa Bay,TECO,Habitat_Enhancement,Exotic_Control,1992,,27.634717,-82.57302,700,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0183,Port Redwing - Land Acquisition,Hillsborough Bay,Hillsborough County,Habitat_Protection,Acquisition,1995,NA,27.86714745,-82.35780285,,750000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0184,Rattlesnake Key (SR 96),Terra Ceia Bay,FDNR,Habitat_Enhancement,Saltmarsh,1987,,27.579701,-82.608605,0.05,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0185,Red Maple Swamp (Allen's Creek),Old Tampa Bay,City of Clearwater,Habitat_Establishment,FW_Wetlands,2001,,27.95023,-82.751223,8.2,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0186,Regatta Point,Manatee River,FDNR,Habitat_Establishment,Mangroves,1986,,27.51181,-82.576338,0.03,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0187,Ribbon of Green,Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,2006,,27.94235,-82.45809,0.62,"$71,826.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0188,River Tower Park Site Acquisition,Hillsborough Bay,City of Tampa,Habitat_Protection,Acquisition,2002,NA,28.021363,-82.457406,,285000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0189,Rivergarden Park Sediment Traps,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2007,1.7,27.973438,-82.4806909,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0190,"Robinson Preserve Restoration Project, Low Marsh",Lower Tampa Bay,Manatee County,Habitat_Establishment,Saltmarsh,2007,,27.511447,-82.669565,147,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0191,Sediment Trap NSBB: N Park Circle,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2009,3.7,28.0130837,-82.4414387,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0192,Sediment Trap: 30th and Corrine,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,1998,4.4,27.9490062,-82.42654093,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0193,Sediment Trap: 46th and Riverhills,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2008,2.2,28.02199831,-82.41004183,,348000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0194,Sediment Trap: Epps Park,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2003,2.5,28.00727349,-82.46417885,,120000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0195,Sediment Trap: Lake Kipling Project #1,Old Tampa Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2005,10.4,27.92164991,-82.52332531,,355000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0196,Sediment Trap: Lake Roberta Downstream Defender unit,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2005,5.1,28.00057518,-82.45089214,,146000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0197,Sediment Trap: Marjorie Park Marina,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2005,NA,27.92984072,-82.45563837,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0198,Sediment Trap: Neptune Way Canal,Old Tampa Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2003,2.7,27.94135476,-82.52529097,,76000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0199,Sediment Trap: North Street Outfall,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2003,3.2,28.00542371,-82.4648599,,207000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0200,Shell Key Australian Pine Removal,Boca Ciega Bay,PCDEM,Habitat_Enhancement,Exotic_Control,2006,,27.665089,-82.744016,4,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0201,Shore Acres,Middle Tampa Bay,FDNR,Habitat_Establishment,Seagrass_Habitat,1988,,27.793232,-82.606084,0.1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0202,South Bayshore Boulevard,Hillsborough Bay,SWFWM- SWIM,Habitat_Establishment,Mangroves,1990,,27.874716,-82.486776,1.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0203,South Skyway,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1999,,27.584024,-82.599459,3,"$30,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0204,South Tampa Greenway/Tappan Habitat Restoration Site,Hillsborough Bay,SWFWMD,Habitat_Protection,Acquisition,2004,NA,27.86109007,-82.53022555,,492861,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0205,Spoil Island Boca Ciega Bay Salt Marsh Restoration,Boca Ciega Bay,TBW,Habitat_Enhancement,Saltmarsh,2000,,27.816,-82.7981,1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0206,Spoil Island CMDA-2D,Hillsborough Bay,TPA,Habitat_Enhancement,Saltmarsh,1985,,27.873951,-82.431234,10,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0207,Street Sweeping - Middle Tampa Bay,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,Street_Sweeping,2007,500,27.768925,-82.642078,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0208,Sweetwater (Borrow Pit Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1997,,28.021257,-82.549148,1.265,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0209,Sweetwater (Casey Road (Area East) Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1998,,28.042935,-82.514063,0.55,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0210,Sweetwater (Raintree Oaks Phase II Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1998,,28.059178,-82.384168,0.4,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0211,Sweetwater (Sligh Avenue Mitigation),Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1994,,28.010131,-82.511514,1.925,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0212,Sweetwater (Westlake Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1997,,28.066195,-82.48348,0.405,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0213,Tampa Bay Oil Spill - Boca Ciega Bay (Cross Bayou Mangrove Restoration),Boca Ciega Bay,NOAA,Habitat_Establishment,Mangroves,1999,,27.835,-82.76,4.8,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0214,Tampa Bay Oil Spill - Eleanor Island Emergency Stabilization (Oyster Restoration),Boca Ciega Bay,NOAA?,Habitat_Enhancement,Oyster_Habitat,1996,,27.7867,-82.7754,0.18,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0215,Tampa Bay Oil Spill - Ft. DeSoto Dune Restoration,Lower Tampa Bay,Pinellas County,Habitat_Protection,Protection_Management,2006,,27.6195,-82.7198,1.8,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0216,Tampa Bay Oil Spill - Pinellas County (War Veterans Memorial Park Oyster Reef),Boca Ciega Bay,Pinellas County,Habitat_Establishment,Oyster_Habitat,2005,,27.8017,-82.7756,0.4,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0217,Tampa Bay Oil Spill - Treasure Island Dune Vegetation Restoration,Boca Ciega Bay,unknown,Habitat_Protection,Protection_Management,2005,,27.755,-82.7649,0.9,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0218,Tampa Bay Water Regional Surface Water Treatment Plant,Hillsborough Bay,Tampa Bay Water,Nonpoint_Source,Send_to_WWTP,2003,151760,27.9607937,-82.34500766,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0219,Tampa Bypass (Animal Services Mitigation),Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1997,,27.956384,-82.338128,0.6,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0220,Tampa Bypass (Davis Park Mitigation),Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2004,,27.946404,-82.291887,0.09,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0221,Tappan  Site,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2003,,27.869478,-82.533754,17,"$492,861.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0222,Tarpon Key National Wildlife Refuge,Boca Ciega Bay,USFWS,Habitat_Establishment,Oyster_Habitat,2006,,27.66535,-82.6951,NA,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0223,Tarpon Key Salt Marsh Restoration,Boca Ciega Bay,USFWS,Habitat_Establishment,Saltmarsh,2002,,27.665612,-82.691069,2.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0224,Terra Ceia Aquatic and Buffer Preserve: Terra Ceia Uplands: Phase 1,Terra Ceia Bay,SWFWMD-SWIM,Habitat_Enhancement,Exotic_Control,2002,,27.597167,-82.547546,121.3,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0225,Terra Ceia Aquatic and Buffer Preserve: Terra Ceia Uplands: Phase 2,Terra Ceia Bay,SWFWMD-SWIM,Habitat_Enhancement,Exotic_Control,2002,,27.587675,-82.568899,28,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0226,Terra Ceia Aquatic and Buffer Preserve: Terra Ceia Uplands: Phase 3,Terra Ceia Bay,SWFWMD-SWIM,Habitat_Enhancement,Exotic_Control,2006,,27.587675,-82.568899,217,"$683,110.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0227,Terra Ceia Bird Key,Terra Ceia Bay,FDNR,Habitat_Establishment,Mangroves,1972,,27.616326,-82.565627,0.003,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0228,Terra Ceia Bird Key - Nina Griffith Washburn Bird Sanctuary,Terra Ceia Bay,NAS,Habitat_Establishment,Mangroves,1990,,27.552333,-82.600119,0.1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0229,Terra Ceia Causeway,Terra Ceia Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1994,,27.568731,-82.571038,2.2,"$31,510.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0230,Upper Tampa Bay Park,Old Tampa Bay,Hillsborough County Parks & Recreation,Habitat_Enhancement,Exotic_Control,2005,,28.016907,-82.6324,75,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0231,Urban Lake Rescue -  Lake Kipling,Old Tampa Bay,City of Tampa,Nonpoint_Source,BMP_Management,2010,NA,27.921627,-82.524016,,1129765,checked
+TBEP_APDB_1992-2016,OSS_Syn_0232,Urban Lake Rescue -  Lake Roberta,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Management,2010,31.1,28.00111631,-82.44902588,,1113832,checked
+TBEP_APDB_1992-2016,OSS_Syn_0233,Van Dyke Reclaimed,Hillsborough Bay,Hillsborough County,Point_Source,Increase_Reuse,1995,3052.7,28.14314,-82.546069,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0234,Vinoy Basin Northeast,Middle Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2003,,27.77751,-82.62885,NA,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0235,War Vets Oyster Bar Restoration,Boca Ciega Bay,Pinellas County,Habitat_Establishment,Oyster_Habitat,2005,,27.804005,-82.771483,1,"$356,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0236,Weedon Island,Old Tampa Bay,SWFWMD-SWIM,Habitat_Enhancement,Saltmarsh,1998,,27.846975,-82.609493,0.1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0237,Weedon Island Exotic Removal and Saltern Restoration,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2005,,27.846975,-82.609475,11,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0238,Weedon Island Exotic Removal and Saltern Restoration,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Hydrologic_Restoration,2005,,27.846975,-82.609475,11,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0239,Weedon Island Preserve Exotic Plant Removal,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2004,,27.846975,-82.609493,30,"$34,700.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0240,Whiskey Stump Key,Hillsborough Bay,NAS,Habitat_Establishment,Mangroves,1990,,27.813016,-82.402467,0.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0241,Whiskey Stump Key 1,Hillsborough Bay,AOF,Habitat_Establishment,Oyster_Habitat,2002,,27.814882,-82.40195,0.1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0242,Whiskey Stump Key 2,Hillsborough Bay,AOF,Habitat_Establishment,Oyster_Habitat,2005,,27.81335,-82.40235,0.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0243,Whiskey Stump Key Salt Marsh Restoration,Hillsborough Bay,AOF,Habitat_Establishment,Mangroves,2002,,27.8142,-82.4019,0.01,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0244,Williams Park Salt Marsh Planting,Hillsborough Bay,Hillsborough County Parks & Recreation,Habitat_Establishment,Mangroves,2004,,27.8609,-82.3851,0.01,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0245,Wolf Branch Creek 1,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2001,,27.741949,-82.440722,181,"$3,126,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0246,Wolf Branch Creek 2,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Enhancement,Hydrologic_Restoration,2001,,27.746511,-82.446975,134,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0247,Wolf Branch Creek Uplands,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,2004,,27.746904,-82.436726,281,"$505,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0248,Bear Creek Channel Improvements Phase II,Boca Ciega Bay,Pinellas County,Habitat_Enhancement,Hydrologic_Restoration,2012,NA,27.764665,-82.717904,,,creek mid point
+TBEP_APDB_1992-2016,OSS_Syn_0249,Bear Creek Channel Improvements Phase III,Boca Ciega Bay,Pinellas County,Nonpoint_Source,BMP_Management,2012,NA,27.764665,-82.717904,,,creek mid point
+TBEP_APDB_1992-2016,OSS_Syn_0250,Stormwater Connection to Hookers Point Wastewater Treatment Plant,Hillsborough Bay,CSX Transportation,Nonpoint_Source,Send_to_WWTP,2005,3200,27.923732,-82.437007,,NA,Curren plant
+TBEP_APDB_1992-2016,OSS_Syn_0251,Tampa Bay Regional Surface Water Treatment Plant Expansion,Hillsborough Bay,Tampa Bay Water,Nonpoint_Source,Send_to_WWTP,2008,61293,27.857194,-82.268657,,133000000,duplicates? 
+TBEP_APDB_1992-2016,OSS_Syn_0252,Tampa Bay Regional Surface Water Treatment Plant Expansion,Hillsborough Bay,Tampa Bay Water,Nonpoint_Source,Send_to_WWTP,2008,78456,27.982428,-82.352551,,NA,duplicates? 1273&1271
+TBEP_APDB_1992-2016,OSS_Syn_0253,SHARP,Hillsborough Bay,Hillsborough County,Point_Source,Increase_Reuse,2016,17096.4,27.800641,-82.38378,,,estimated location
+TBEP_APDB_1992-2016,OSS_Syn_0254,Golf Creek at 13th Ave N,Boca Ciega Bay,City of St. Petersburg,Nonpoint_Source,BMP_Baffle_Box,2013,109.3,27.784653,-82.741701,,,from city plan
+TBEP_APDB_1992-2016,OSS_Syn_0255,Tinney Creek at 94th Ave N,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Baffle_Box,2016,80.4,27.856831,-82.652146,,,from city plan
+TBEP_APDB_1992-2016,OSS_Syn_0256,Lake Tarpon Water Quality Area 6 Alum Treatment,Old Tampa Bay,Pinellas Co. & FDOT,Nonpoint_Source,BMP_Alum_Treatment,2012,5055.6,28.141696,-82.739538,,,From PC 
+TBEP_APDB_1992-2016,OSS_Syn_0257,Cypress Point Park Restoration,Hillsborough Bay,City of Tampa,Habitat_Protection,Acquisition,2004,NA,28.019236,-82.21548,,250000,HB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0258,Gibsonton on the Bay,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_CDS_Unit,2005,NA,28.019236,-82.21548,,806247,HB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0259,Street Sweeping - Hillsborough County Total,Hillsborough Bay,Hillsborough County,Nonpoint_Source,Street_Sweeping,2012,1958,28.019236,-82.21548,,,HB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0260,Street Sweeping Program,Hillsborough Bay,City of Tampa,Nonpoint_Source,Street_Sweeping,2016,6804,28.019236,-82.21548,,,HB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0261,Silver Lake Sediment Inactivation,Boca Ciega Bay,PC & FDOT,Nonpoint_Source,BMP_Management,2014,NA,27.795442,-82.768757,,,in Boca Ciega Bay
+TBEP_APDB_1992-2016,OSS_Syn_0262,Stormwater Catch Basin Cleanouts,Boca Ciega Bay,Pinellas County,Nonpoint_Source,BMP_Management,2012,1439,27.795442,-82.768757,,,in Boca Ciega Bay
+TBEP_APDB_1992-2016,OSS_Syn_0263,Street Sweeping,Boca Ciega Bay,Pinellas County,Nonpoint_Source,Street_Sweeping,2012,519,27.795442,-82.768757,,,in Boca Ciega Bay
+TBEP_APDB_1992-2016,OSS_Syn_0264,Street Sweeping - Boca Ciega Bay,Boca Ciega Bay,City of St. Petersburg,Nonpoint_Source,Street_Sweeping,2012,345,27.795442,-82.768757,,,in Boca Ciega Bay
+TBEP_APDB_1992-2016,OSS_Syn_0265,Del Oro Phase 1,Old Tampa Bay,City of Clearwater,Nonpoint_Source,BMP_Management,1996,58.5,27.973912,-82.701773,,328386,in DelOro neighborhood
+TBEP_APDB_1992-2016,OSS_Syn_0266,High Ridge Estates,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Management,1992,87.2,28.011486,-82.749312,,NA,in High Ridge neighborhood
+TBEP_APDB_1992-2016,OSS_Syn_0267,Jean Park STA,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Management,2002,30.1,28.067864,-82.472364,,NA,in Tampa but not near Jean St.
+TBEP_APDB_1992-2016,OSS_Syn_0268,Kapok Restoration Project,Old Tampa Bay,City of Clearwater,Nonpoint_Source,BMP_Treatment_Train,2006,644,27.972613,-82.714438,,13514272,Kapok area
+TBEP_APDB_1992-2016,OSS_Syn_0269,Allen's Creek Rehabilitation At Lake View And Hercules (Red Maple Swamp),Old Tampa Bay,Pinellas County,Habitat_Enhancement,FW_Wetlands,1998,1466.8,27.949945,-82.751747,,NA,Lake/Hercules creek area
+TBEP_APDB_1992-2016,OSS_Syn_0270,City of Largo Reclaimed Water (Reuse),Old Tampa Bay,City of Largo,Point_Source,Increase_Reuse,1997,58592.7,27.907089,-82.703688,,NA,Largo Wastewater Plant
+TBEP_APDB_1992-2016,OSS_Syn_0271,Lealman Area Drainage Improvements,Boca Ciega Bay,Pinellas County,Nonpoint_Source,BMP_Stormwater_Pond,2012,341,27.821352,-82.786942,,,Lealman area
+TBEP_APDB_1992-2016,OSS_Syn_0272,Conservation Easement,Lower Tampa Bay,Manatee County,Habitat_Protection,Acquisition,2009,584,27.59344,-82.675961,,NA,LTB mid point (check??)
+TBEP_APDB_1992-2016,OSS_Syn_0273,MARS Reclaimed Network Upgrades,Lower Tampa Bay,Manatee County,Point_Source,Increase_Reuse,2018,2663,27.478172,-82.343578,,4890000,mid of county
+TBEP_APDB_1992-2016,OSS_Syn_0274,City of Temple Terrace River Fest,Hillsborough Bay,TBRPC,Nonpoint_Source,Education,2005,NA,28.019236,-82.21548,,2162,mid point HB
+TBEP_APDB_1992-2016,OSS_Syn_0275,Discovery Garden,Hillsborough Bay,TBRPC,Nonpoint_Source,Education,2004,NA,28.019236,-82.21548,,17000,mid point HB
+TBEP_APDB_1992-2016,OSS_Syn_0276,Hillsborough River Campaign,Hillsborough Bay,TBRPC,Nonpoint_Source,Education,2004,NA,28.019236,-82.21548,,5834,mid point HB
+TBEP_APDB_1992-2016,OSS_Syn_0277,Hillsborough River Greenways Task Force-HRGTF,Hillsborough Bay,TBRPC,Nonpoint_Source,Education,2005,NA,28.019236,-82.21548,,2300,mid point HB
+TBEP_APDB_1992-2016,OSS_Syn_0278,Alum Treatment of Five Priority Subbasins Discharging to Lake Seminole,Boca Ciega Bay,Pinellas County,Nonpoint_Source,BMP_Alum_Treatment,2012,43812,27.839758,-82.779954,,,mid point Lake Seminole
+TBEP_APDB_1992-2016,OSS_Syn_0279,Clam Bayou Stormwater Treatment and Habitat Restoration (phase 3),Boca Ciega Bay,SWFWMD,Nonpoint_Source,BMP_Treatment_Train,2012,1372,27.741767,-82.691206,,,mid point of bayou
+TBEP_APDB_1992-2016,OSS_Syn_0280,Clam Bayou Stormwater Treatment North,Boca Ciega Bay,SWFWMD,Nonpoint_Source,BMP_Stormwater_Pond,2012,952,27.741767,-82.691206,,,mid point of bayou
+TBEP_APDB_1992-2016,OSS_Syn_0281,Clam Bayou Stormwater Treatment South,Boca Ciega Bay,SWFWMD,Nonpoint_Source,BMP_Stormwater_Pond,2012,272,27.741767,-82.691206,,,mid point of bayou
+TBEP_APDB_1992-2016,OSS_Syn_0282,City of Plant City -  Existing Reuse by Reclaimed Water Irrigation,Hillsborough Bay,City of Plant City,Point_Source,Increase_Reuse,2007,1257.1,28.019236,-82.21548,,NA,mid point of city
+TBEP_APDB_1992-2016,OSS_Syn_0283,City of Plant City -  Reclaimed Water Irrigation at City Parks,Hillsborough Bay,City of Plant City,Point_Source,Increase_Reuse,2009,244.2,28.019236,-82.21548,,NA,mid point of city
+TBEP_APDB_1992-2016,OSS_Syn_0284,Street Sweeping - City of Plant City,Hillsborough Bay,City of Plant City,Nonpoint_Source,Street_Sweeping,2012,434.6,28.019236,-82.21548,,,mid point of City
+TBEP_APDB_1992-2016,OSS_Syn_0285,BRASWA,Manatee River,Manatee County,Nonpoint_Source,BMP_Management,2012,NA,27.468135,-82.093013,,,mid point of County
+TBEP_APDB_1992-2016,OSS_Syn_0286,Deep Well Injection at NWRF,Manatee River,Manatee County,Point_Source,Increase_Reuse,2018,NA,27.468135,-82.093013,,9997719,mid point of County
+TBEP_APDB_1992-2016,OSS_Syn_0287,Deep Well Injection at SWWRF,Manatee River,Manatee County,Point_Source,Increase_Reuse,2017,NA,27.468135,-82.093013,,6627000,mid point of County
+TBEP_APDB_1992-2016,OSS_Syn_0288,Manatee County SEWRF Upgrades,Manatee River,Manatee County,Point_Source,Increase_Reuse,2016,NA,27.468135,-82.093013,,,mid point of County
+TBEP_APDB_1992-2016,OSS_Syn_0289,Manatee County SWWRF Upgrade,Manatee River,Manatee County,Point_Source,PS_Treatment,2017,34.3,27.468135,-82.093013,,NA,mid point of County
+TBEP_APDB_1992-2016,OSS_Syn_0290,Wares Creek Flood Reduction & Dredging,Manatee River,Manatee County,Nonpoint_Source,BMP_Management,2015,NA,27.49477,-82.577904,,,mid point of creek
+TBEP_APDB_1992-2016,OSS_Syn_0291,Seminole Bypass Canal Regional Stormwater Treatment Facility,Boca Ciega Bay,Pinellas County,Nonpoint_Source,BMP_Baffle_Box,2012,18339,27.839758,-82.779954,,,mid point of lake
+TBEP_APDB_1992-2016,OSS_Syn_0292,Bennett Park,Manatee River,Manatee County,Habitat_Enhancement,Exotic_Control,2012,NA,27.501128,-82.484261,,,mid point of park
+TBEP_APDB_1992-2016,OSS_Syn_0293,Duette Preserve Wetlands Restoration,Manatee River,Manatee County,Habitat_Establishment,FW_Wetlands,2015,NA,27.529163,-82.105036,,,mid point of preserve
+TBEP_APDB_1992-2016,OSS_Syn_0294,Lake Seminole Alum Treatment Subbasin 2,Boca Ciega Bay,Pinellas County,Nonpoint_Source,BMP_Alum_Treatment,2017,NA,27.853511,-82.782753,,NA,mid point top lobe of lake
+TBEP_APDB_1992-2016,OSS_Syn_0295,Filter Baskets- Allens Creek Watershed,Old Tampa Bay,City of Largo,Nonpoint_Source,BMP_Management,2013,NA,27.908671,-82.786604,,,Middle of City of Largo
+TBEP_APDB_1992-2016,OSS_Syn_0296,Nitrogen Reduction Evaluation,Old Tampa Bay,City of Largo,Nonpoint_Source,BMP_Management,2016,NA,27.908671,-82.786604,,,Middle of City of Largo
+TBEP_APDB_1992-2016,OSS_Syn_0297,Street Sweeping – Long Branch & Allens Creek,Old Tampa Bay,City of Largo,Nonpoint_Source,Street_Sweeping,2016,482.6,27.908671,-82.786604,,,Middle of City of Largo
+TBEP_APDB_1992-2016,OSS_Syn_0298,Lake Tarpon Stormwater Treatment (Areas 44/47),Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Management,2014,559.2,28.12119,-82.726622,,,Middle of Lake Tarpon
+TBEP_APDB_1992-2016,OSS_Syn_0299,Street Sweeping,Old Tampa Bay,City of Safety Harbor,Nonpoint_Source,Street_Sweeping,2012,180.6,28.002831,-82696412,,,Middle of Safety Harbor
+TBEP_APDB_1992-2016,OSS_Syn_0300,Cargill Fertilizer Dedicated Sump By Production Lab,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,1996,59.4,27.863575,-82.385047,,NA,Mosaic plant
+TBEP_APDB_1992-2016,OSS_Syn_0301,Cargill Fertilizer Stormwater Ponds,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,1998,9.6,27.863575,-82.385047,,NA,Mosaic plant
+TBEP_APDB_1992-2016,OSS_Syn_0302,CF Industries Improved Dust Suppressant Application On Fertilizer Products,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,1994,108,27.927192,-82.435207,,NA,Mosaic plant
+TBEP_APDB_1992-2016,OSS_Syn_0303,CF Industries Product Conveyor System Enhancement - Phase 2,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,1997,41.4,27.927192,-82.435207,,NA,Mosaic plant
+TBEP_APDB_1992-2016,OSS_Syn_0304,Mosaic Riverview -  Enhanced Housekeeping and Street Sweeping,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,2004,40,27.863575,-82.385047,,NA,Mosaic plant
+TBEP_APDB_1992-2016,OSS_Syn_0305,Mosaic Riverview -  Improved drainage in Phosphoric Acid Production Areas,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,2005,20,27.863575,-82.385047,,NA,Mosaic plant
+TBEP_APDB_1992-2016,OSS_Syn_0306,Roosevelt Creek Stormwater - Phase I,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Stormwater_Pond,2002,109.1,27.91004,-82.704393,,1300000,near Roosevelt
+TBEP_APDB_1992-2016,OSS_Syn_0307,Alafia River Corridor Land Acquisition,Hillsborough Bay,SWFWMD,Habitat_Protection,Acquisition,1995,504,27.826852,-82.132505,,NA,near State Park
+TBEP_APDB_1992-2016,OSS_Syn_0308,Sediment Trap: West Tampa,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2005,1.5,27.97661666,-82.48889106,,278000,near W. Ohio Ave & N. Habana
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0309,Sweetwater (Skyway Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2003,,27.973164,-82.547552,0.365,NA,not near skyway
+TBEP_APDB_1992-2016,OSS_Syn_0310,Brooker / Anclote Corridor Land Acquisition -1,Old Tampa Bay,Pinellas County,Habitat_Protection,Acquisition,2001,NA,28.012172,-82.609611,,411500,OTB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0311,Brooker / Anclote Corridor Land Acquisition -2,Old Tampa Bay,Pinellas County,Habitat_Protection,Acquisition,2001,NA,28.012172,-82.609611,,105000,OTB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0312,Brooker / Anclote Corridor Land Acquisition -3,Old Tampa Bay,Pinellas County,Habitat_Protection,Acquisition,2001,NA,28.012172,-82.609611,,450000,OTB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0313,Brooker Creek Land Acquisition -1,Old Tampa Bay,Pinellas County,Habitat_Protection,Acquisition,2001,NA,28.012172,-82.609611,,5382000,OTB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0314,Brooker Creek Land Acquisition -2,Old Tampa Bay,Pinellas County,Habitat_Protection,Acquisition,2001,NA,28.012172,-82.609611,,46800,OTB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0315,Wall Springs Land Acquisition -2,Old Tampa Bay,Pinellas County,Habitat_Protection,Acquisition,2001,NA,28.012172,-82.609611,,21450000,OTB mid point
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0316,Tampa Bypass (Rice Road/Jim Johnson Mitigation),Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2003,,27.997755,-82.098523,2.135,NA,outside Plant City
+TBEP_APDB_1992-2016,OSS_Syn_0317,Pinellas Park Channel 2 Alum Stormwater Retrofit Project,Middle Tampa Bay,City of Pinellas Park,Nonpoint_Source,BMP_Treatment_Train,1998,272,27.85742,-82.712465,,NA,random mid point of P. Park
+TBEP_APDB_1992-2016,OSS_Syn_0318,Overlay District Projects - Agriculture,Lower Tampa Bay,Manatee County,Nonpoint_Source,BMP_Management,2000,17154.5,27.498853,-82.292007,,NA,random mid-county point
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0319,Marsh Creek,Manatee River,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2005,,27.71903,-82.432454,9,NA,Ruskin ?
+TBEP_APDB_1992-2016,OSS_Syn_0320,Tampa Bay Regional Surface Water Treatment Plant Expansion (TBC/Hillsborough River),Hillsborough Bay,Tampa Bay Water,Nonpoint_Source,Send_to_WWTP,2016,121438,28.019236,-82.21548,,,same as 1273&1271? (HB mid)
+TBEP_APDB_1992-2016,OSS_Syn_0321,Lake Maggiore Alum Injection,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Alum_Treatment,1998,6212,27.729943,-82.651428,,4000000,shore of Lake
+TBEP_APDB_1992-2016,OSS_Syn_0322,Snell Isle & Rafael Blvds. NE,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Baffle_Box,2017,NA,27.795393,-82.615613,,NA,st rafael near snell isle
+USEPA_GPRA_2008-2017,OSS_Syn_0323,Alafia Bank Bird Sanctuary Artificial Reef,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2012,,27.847,-82.415,0,"$84,500.00 ",Sunken Island
+TBEP_APDB_1992-2016,OSS_Syn_0324,Jungle Lake NE at Walter Fuller Park,Boca Ciega Bay,City of St. Petersburg,Nonpoint_Source,BMP_Baffle_Box,2013,26.6,27.798089,-82.747827,,,SWFWMD plans
+TBEP_APDB_1992-2016,OSS_Syn_0325,Jungle Lake Outfall at 27th Ave N,Boca Ciega Bay,City of St. Petersburg,Nonpoint_Source,BMP_Baffle_Box,2012,32.4,27.796376,-82.747535,,,SWFWMD plans
+TBEP_APDB_1992-2016,OSS_Syn_0326,29th or 30th Street Outfall/ Mckay Bay,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Baffle_Box,1998,33.3,28.027694,-82.426375,70-75,NA,updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0327,Alafia River Boat Ramp,Hillsborough Bay,Hillsborough County Parks & Recreation,Habitat_Enhancement,Exotic_Control,2005,,27.880799,-82.299613,1,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0328,Allen's Creek Erosion Control,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Management,2010,NA,27.949945,-82.751747,,690000,updated
+TBEP_APDB_1992-2016,OSS_Syn_0329,"Alligator Creek Channel ""H"" Stormwater Treatment Pond",Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Stormwater_Pond,1995,798.9,27.986,-82.7274,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0330,Alligator Creek Pond at Logan Street,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Stormwater_Pond,2002,431.8,27.986,-82.7241,,1400000,updated
+TBEP_APDB_1992-2016,OSS_Syn_0331,Ballast Point Shoreline Restoration,Hillsborough Bay,City of Tampa,Habitat_Establishment,Saltmarsh,2004,NA,27.889141,-82.481505,,105000,updated
+TBEP_APDB_1992-2016,OSS_Syn_0332,Bayside Bridge Pond Rehabilitation,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Stormwater_Pond,2004,11.4,27.95994,-82.70818,,200000,updated
+TBEP_APDB_1992-2016,OSS_Syn_0333,Boy Scout - Land Acquisition,Hillsborough Bay,Hillsborough County,Habitat_Protection,Acquisition,1999,NA,27.866504,-82.204979,,51355,updated
+TBEP_APDB_1992-2016,OSS_Syn_0334,Brushy Creek Wetland Enhancement Project,Old Tampa Bay,Hillsborough County,Habitat_Enhancement,FW_Wetlands,1993,2.4,28.0611281,-82.5650969,,638494,updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0335,City of Clearwater Exotic and Invasive Species Project - Cliff Stephens,Old Tampa Bay,City of Clearwater,Habitat_Enhancement,Exotic_Control,2006,,27.974098,-82.722698,2,"$35,567.00 ",updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0336,City of Clearwater Exotic and Invasive Species project - Northeast Coachman,Old Tampa Bay,City of Clearwater,Habitat_Enhancement,Exotic_Control,2006,,27.975838,-82.737074,17,"$35,567.00 ",updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0337,City of Clearwater Exotic and Invasive Species Project - Winding Woods,Old Tampa Bay,City of Clearwater,Habitat_Enhancement,Exotic_Control,2006,,28.015649,-82.725947,15,"$35,567.00 ",updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0338,Clam Bayou: Phase 2,Boca Ciega Bay,City of St. Petersburg,Habitat_Enhancement,Exotic_Control,NA,,27.745067,-82.687888,30,"$98,000.00 ",updated
+TBEP_APDB_1992-2016,OSS_Syn_0339,Cliff Stephens Park Stormwater Retrofitting,Old Tampa Bay,City of Clearwater,Nonpoint_Source,BMP_Wetland_Treatment,2002,11600,27.974098,-82.722698,,690000,updated
+TBEP_APDB_1992-2016,OSS_Syn_0340,Cooper's Point Restoration,Old Tampa Bay,City of Clearwater,Habitat_Establishment,Mangroves,2001,NA,27.972939,-82.691683,,315221,updated
+TBEP_APDB_1992-2016,OSS_Syn_0341,Facility Improvements,Hillsborough Bay,Eastern Terminals,Point_Source,BMP_On_Site,2008,3000,27.921396,-82.418562,,NA,updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0342,Felts Preserve-Audubon Restoration Project,Terra Ceia Bay,FDEP,Habitat_Establishment,FW_Wetlands,2006,,27.555058,-82.53916,30,"$25,000.00 ",updated
+TBEP_APDB_1992-2016,OSS_Syn_0343,Fort Brooke/Cotanchobee Park Shoreline - habitat restoration,Hillsborough Bay,SWFWMD,Habitat_Establishment,Saltmarsh,2002,NA,27.9416,-82.451627,,272625,updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0344,Grandview Park,Middle Tampa Bay,City of St. Petersburg Parks Department,Habitat_Enhancement,Exotic_Control,2001,,27.735016,-82.640825,2.5,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0345,Itchepackesassa Creek Wetland Treatment Project,Hillsborough Bay,Polk County,Nonpoint_Source,BMP_Wetland_Treatment,2013,3760,28.060513,-82.030588,,,updated
+TBEP_APDB_1992-2016,OSS_Syn_0346,Lake Maggiore Dredging Project,Middle Tampa Bay,City of St. Petersburg,Habitat_Enhancement,Dredging,2006,3425.7,27.729943,-82.651428,,13000000,updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0347,Little Bayou Habitat Restoration Project: Phase 2,Middle Tampa Bay,City of St. Petersburg,Habitat_Establishment,Saltmarsh,2005,,27.719013,-82.637688,3,"$75,000.00 ",updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0348,Lower Sweetwater (Hoover Blvd Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2005,,27.991027,-82.562671,1.15,NA,updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0349,MacDill Airforce Base Salt Marsh Restoration,Hillsborough Bay,TBW,Habitat_Enhancement,Saltmarsh,2001,,27.83381,-82.46942,3,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0350,McMullen Booth Road @ Curlew Road,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Treatment_Train,2003,NA,28.049405,-82.708656,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0351,Mirror Lake Stormwater Retrofit,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Management,2000,1553,27.774319,-82.642477,,529000,updated
+TBEP_APDB_1992-2016,OSS_Syn_0352,Moccasin Lake Park Restoration,Old Tampa Bay,City of Clearwater,Habitat_Establishment,Mangroves,2001,NA,27.975851,-82.724149,,460000,updated
+TBEP_APDB_1992-2016,OSS_Syn_0353,Repowering Gannon Power Plant - Bayside Facility,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2003,3588,27.734344,-82.403848,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0354,Repowering Gannon Power Plant - Bayside Facility,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2003,4137,27.734344,-82.403848,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0355,Repowering Gannon Power Plant - Bayside Facility,Old Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2003,3877,27.734344,-82.403848,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0356,Safety Harbor Stormwater Retrofit Project,Old Tampa Bay,City of Safety Harbor,Nonpoint_Source,BMP_Management,1995,1079.4,28.002975,-82.696415,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0357,Schultz Nature Park,Hillsborough Bay,SWFWMD,Habitat_Establishment,FW_Wetlands,2004,NA,27.811021,-82.391221,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0358,Schultz Nature Park,Hillsborough Bay,SWFWMD,Habitat_Establishment,Mangroves,2004,NA,27.811021,-82.391221,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0359,St. Paul's Drive Restoration,Old Tampa Bay,Pinellas County,Habitat_Establishment,FW_Wetlands,1997,NA,27.935076,-82.757302,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0360,St. Petersburg Retrofit - CDS Units (storage yard under 1-275),Middle Tampa Bay,SWFWMD,Nonpoint_Source,BMP_CDS_Unit,2002,4.7,27.76694,-82.657248,,109301,updated
+TBEP_APDB_1992-2016,OSS_Syn_0361,Annual Street Sweeping Maintenance BMP,Old Tampa Bay,City of Tampa,Nonpoint_Source,Street_Sweeping,2012,NA,28.012172,-82.609611,,,updated - OTB mid point
+TBEP_APDB_1992-2016,OSS_Syn_0362,"Howard Frankland Habitat Restoration ""Gateway""",Old Tampa Bay,SWFWMD,Habitat_Establishment,Uplands,2004,NA,27.944329,-82.543802,,2931676,"updated - Tampa, end of bridge"
+TBEP_APDB_1992-2016,OSS_Syn_0363,Agricultural BMPs,Hillsborough Bay,FDEP/FDACS,Nonpoint_Source,BMP_Agricultural,2012,NA,28.019236,-82.21548,,,updated HB mid
+TBEP_APDB_1992-2016,OSS_Syn_0364,Septic To Sewer Conversions In Largo,Old Tampa Bay,City of Largo,Nonpoint_Source,Send_to_WWTP,1997,3000,27.908671,-82.786604,,1900000,updated mid point of largo
+TBEP_APDB_1992-2016,OSS_Syn_0365,Stormwater Catch Basin Cleanouts,Middle Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Management,2012,74,27.729943,-82.215645,,,updated Middle TBay
+TBEP_APDB_1992-2016,OSS_Syn_0366,Street Sweeping,Middle Tampa Bay,Pinellas County,Nonpoint_Source,Street_Sweeping,2012,27,27.729943,-82.215645,,,updated Middle TBay
+TBEP_APDB_1992-2016,OSS_Syn_0367,Pond project,Old Tampa Bay,"Duke Energy, Inc.",Nonpoint_Source,BMP_Stormwater_Pond,2013,10600,28.012172,-82.609611,,,updated OTB mid
+TBEP_APDB_1992-2016,OSS_Syn_0368,Stormwater Catch Basin Cleanouts,Old Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Management,2012,1170,28.012172,-82.609611,,,updated OTB mid
+TBEP_APDB_1992-2016,OSS_Syn_0369,Street Sweeping,Old Tampa Bay,Pinellas County,Nonpoint_Source,Street_Sweeping,2012,422,28.012172,-82.609611,,,updated OTB mid
+TBEP_APDB_1992-2016,OSS_Syn_0370,Street Sweeping - Hillsborough County Total,Old Tampa Bay,Hillsborough County,Nonpoint_Source,Street_Sweeping,2012,1958,28.012172,-82.609611,,,updated OTB mid
+TBEP_APDB_1992-2016,OSS_Syn_0371,Street Sweeping - Old Tampa Bay,Old Tampa Bay,City of St. Petersburg,Nonpoint_Source,Street_Sweeping,2012,136,28.012172,-82.609611,,,updated OTB mid
+TBEP_APDB_1992-2016,OSS_Syn_0372,Al Lopez Park Pond Enhancement,Old Tampa Bay,City of Tampa,Nonpoint_Source,BMP_Stormwater_Pond,1994,43.9,27.989239,-82.502568,,375000,updated to Al Lopez Park
+TBEP_APDB_1992-2016,OSS_Syn_0373,Arcturas Pond Outfall,Old Tampa Bay,City of Clearwater,Nonpoint_Source,BMP_Management,2001,NA,27.962585,-82.759522,,NA,"updated to Arcturas area, Clw."
+TBEP_APDB_1992-2016,OSS_Syn_0374,Braden River Park of Commerce,Lower Tampa Bay,Manatee County,Habitat_Protection,Acquisition,2007,508,27.418089,-82.397918,,NA,updated to Braden River
+TBEP_APDB_1992-2016,OSS_Syn_0375,Cabbage Patch Point,Old Tampa Bay,City of Largo,Habitat_Establishment,Mangroves,2007,NA,27.911411,-82.655932,,NA,updated to Cabbage Patch point
+TBEP_APDB_1992-2016,OSS_Syn_0376,Lower Bullfrog Creek - habitat restoration,Hillsborough Bay,SWFWMD,Habitat_Establishment,Saltmarsh,2001,NA,27.837637,-82.382455,,571351,updated to creek
+TBEP_APDB_1992-2016,OSS_Syn_0377,Channel A at the Long Center,Old Tampa Bay,City of Clearwater,Nonpoint_Source,BMP_Management,2006,NA,27.979661,-82.743986,,NA,updated to Long Center
+TBEP_APDB_1992-2016,OSS_Syn_0378,McKay Bay - Melbourne Pond SW,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Stormwater_Pond,2006,531,27.948669,-82.417868,,977726,updated to McKay area
+TBEP_APDB_1992-2016,OSS_Syn_0379,City of Tampa Interactive Watershed Atlas,Hillsborough Bay,City of Tampa,Nonpoint_Source,Education,2007,NA,28.019236,-82.21548,,NA,updated to mid point HB
+TBEP_APDB_1992-2016,OSS_Syn_0380,South MacDill 48 Property Acquisition,Hillsborough Bay,City of Tampa,Habitat_Protection,Acquisition,2002,NA,27.851485,-82.491319,,7866000,updated to peninsula area
+TBEP_APDB_1992-2016,OSS_Syn_0381,Cockroach Bay Restoration Project,Middle Tampa Bay,SWFWMD,Habitat_Establishment,Uplands,1996,570.9,27.680497,-82.489145,,6300000,updated to Preserve area
+TBEP_APDB_1992-2016,OSS_Syn_0382,Schultz Nature Park,Hillsborough Bay,SWFWMD,Habitat_Establishment,Saltmarsh,2004,NA,27.811821,-82.393181,,NA,updated to Preserve area
+TBEP_APDB_1992-2016,OSS_Syn_0383,Wolf Branch Creek #1 - habitat creation (Phases I & II),Hillsborough Bay,SWFWMD,Habitat_Establishment,Saltmarsh,2003,NA,27.743467,-82.470774,,4019480,updated to Preserve area
+TBEP_APDB_1992-2016,OSS_Syn_0384,Sawgrass Lake Pond (Haynesworth Tract),Middle Tampa Bay,Pinellas County,Nonpoint_Source,BMP_Stormwater_Pond,1999,480.3,27.841433,-82.668493,,1500000,updated to Sawgrass Park area
+TBEP_APDB_1992-2016,OSS_Syn_0385,Allens Creek Rehabilitation at Lake View and Hercules (Red Maple Swamp),Old Tampa Bay,City of Clearwater,Nonpoint_Source,BMP_Wetland_Treatment,1999,1401.9,27.949945,-82.751747,,1803310,"updated, dup of 1026?"
+TBEP_APDB_1992-2016,OSS_Syn_0386,Repowering Gannon Power Plant - Bayside Facility,Lower Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2003,2915,27.734344,-82.403848,,NA,"updated, dup of 1128?"
+TBEP_APDB_1992-2016,OSS_Syn_0387,Alligator Lake Restoration,Old Tampa Bay,Pinellas County,Habitat_Establishment,FW_Wetlands,2011,NA,27.981774,-82.697953,,NA,"updated, mid point of lake"
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0388,Fred & Idah Schultz Preserve (Port Redwing),Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2004,,27.811021,-82.391202,120,"$1,800,000.00 ",upddated
+TBEP_APDB_1992-2016,OSS_Syn_0389,North Dale Mabry Highway Stormwater Retrofit & Wetland Restoration,Old Tampa Bay,FDOT,Nonpoint_Source,BMP_Treatment_Train,2012,900,28.127894,-82.502205,,,used FDOT 
+TBEP_APDB_1992-2016,OSS_Syn_0390,South County Reuse System,Hillsborough Bay,Hillsborough County,Point_Source,Increase_Reuse,1995,35451,27.800154,-82.382987,,NA,used plant address
+TBEP_APDB_1992-2016,OSS_Syn_0391,City of Plant City proposed reuse by reclaimed water irrigation at Walden Lake Golf course,Hillsborough Bay,City of Plant City,Point_Source,Increase_Reuse,2012,1600.2,27.994104,-82.154207,,,Walden Lake Golf Course
+TBEP_APDB_1992-2016,OSS_Syn_0392,12th Street Forcemain Replacement,Hillsborough Bay,City of Tampa,Point_Source,Management,2009,NA,28.018916,-82.447264,,13000000,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0393,2000 TBW Homeowner Oyster Restoration-Middle Tampa Bay,Middle Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2000,,27.729943,-82.215645,NA,NA,updated to mid point MTB
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0394,2001 TBW Homeowner Oyster Restoration-Lower Tampa Bay,Lower Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2001,,27.59344,-82.675961,NA,NA,updated to mid point LTB
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0395,2001 TBW Homeowner Oyster Restoration-Middle Tampa Bay,Middle Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2001,,27.729943,-82.215645,NA,NA,updated to mid point MTB
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0396,2001 TBW Homeowner Oyster Restoration-Upper Tampa Bay,Old Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2001,,28.012172,-82.609611,NA,NA,updated (mid OTB)
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0397,2002 TBW Homeowner Oyster Restoration-Lower Tampa Bay,Lower Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2002,,27.59344,-82.675961,NA,NA,updated to mid point LTB
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0398,2002 TBW Homeowner Oyster Restoration-Middle Tampa Bay,Middle Tampa Bay,TBW,Habitat_Establishment,Oyster_Habitat,2002,,27.729943,-82.215645,NA,NA,updated to mid point MTB
+TBEP_APDB_1992-2016,OSS_Syn_0399,58th Street North Sewer Extension Project,Old Tampa Bay,City of Largo,Nonpoint_Source,Send_to_WWTP,2006,NA,28.012172,-82.609611,,NA,mid OTB
+TBEP_APDB_1992-2016,OSS_Syn_0400,8th Biennial Conference of Stormwater Research & Watershed Management,All Segments,SWFWMD,Nonpoint_Source,Education,2004,NA,27.662673,-82.215645,,NA,updated to mid watershed
+USEPA_GPRA_2008-2017,OSS_Syn_0401,Abercrombie Park Oyster Reef Creation Project,Boca Ciega Bay,"Tampa Bay Watch, Inc.",Habitat_Establishment,Oyster_Habitat,2016,,27.807053,-82.75786,0.04,"$20,000.00 ",updated to shoreline of Park
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0402,Alafia River (Park Road (Park South Area C) Mitigation),Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1996,,27.999769,-82.105371,0.635,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0403,Alafia River (Tropical Acres (South Area B) Mitigation),Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2000,,27.819212,-82.285483,0.25,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0404,Alafia South Prong,Hillsborough Bay,,Habitat_Protection,Acquisition,2009,,27.836,-82.119,80,"$185,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0405,Allen’s Creek Management Area Exotic Vegetation Control,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2015,,27.93,-82.741,4,"$29,379.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0406,Alligator Lake Habitat Restoration,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2015,,27.981335,-82.698066,18.64,"$1,750,000.00 ",updated to mid point of Lake
+USEPA_GPRA_2008-2017,OSS_Syn_0407,Alligator Lake Habitat Restoration,Old Tampa Bay,,Habitat_Establishment,Uplands,2013,,27.981335,-82.698066,18.64,"$1,750,000.00 ",updated to mid point of Lake
+USEPA_GPRA_2008-2017,OSS_Syn_0408,Alligator Lake Habitat Restoration,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2012,,27.981335,-82.698066,18.64,"$1,750,000.00 ",updated to mid point of Lake
+USEPA_GPRA_2008-2017,OSS_Syn_0409,Alligator Lake Wetland Creation and Stormwater Treatment Project,Old Tampa Bay,,Habitat_Establishment,FW_Wetlands,2008,,27.981335,-82.698066,6,"$650,000.00 ",updated to mid point of Lake
+USEPA_GPRA_2008-2017,OSS_Syn_0410,Anderson Park Exotic Control,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2014,,28.132941,-82.738196,48,"$42,341.00 ",updated to shore of Park
+USEPA_GPRA_2008-2017,OSS_Syn_0411,Anderson Park Exotics,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2014,,28.132941,-82.738196,48,"$7,660.00 ",updated to shore of Park
+USEPA_GPRA_2008-2017,OSS_Syn_0412,Anderson Park-Melaleuca,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2014,,28.132941,-82.738196,5.5,"$6,479.00 ",updated to shore of Park
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0413,Apollo Beach,Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2004,,27.790055,-82.416695,37,"$2,236,044.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0414,Apollo Beach Cargill Park - Land Acquisition,Hillsborough Bay,Hillsborough County,Habitat_Protection,Acquisition,1996,NA,28.019236,-82.21548,,2066258,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0415,Assist businesses in implementing site management practices to reduce stormwater runoff,All Segments,EPCHC,Nonpoint_Source,Education,2000,NA,27.86714745,-82.35780285,,400000,all segments
+TBEP_APDB_1992-2016,OSS_Syn_0416,Atmospheric deposition studies,All Segments,Pinellas County,Nonpoint_Source,Atmospheric_Deposition,2002,NA,27.86714745,-82.35780285,,NA,all segments
+USEPA_GPRA_2008-2017,OSS_Syn_0417,Bahia Beach,Middle Tampa Bay,,Habitat_Establishment,Uplands,2014,,27.726,-82.461,148,"$1,800,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0418,Bahia Beach Coastal Restoration,Middle Tampa Bay,,Habitat_Enhancement,Uplands,2013,,27.726,-82.462,4,"$40,413.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0419,Bahia Beach Nature Preserve,Manatee River,,Habitat_Enhancement,Exotic_Control,2015,,27.722,-82.468,80,"$56,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0420,Ballast Point Habitat Restoration,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2004,,27.888989,-82.480854,0.02,NA,updated to Ballast Point Park
+USEPA_GPRA_2008-2017,OSS_Syn_0421,Balm Boyette Scrub Preserve,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Uplands,2017,,27.786,-82.246,13,"$16,500.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0422,Balm Boyette Scrub Preserve,Hillsborough Bay,,Habitat_Enhancement,Uplands,2015,,27.78,-82.257,97,"$293,354.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0423,Balm Scrub - Land Acquisition,Hillsborough Bay,Hillsborough County,Habitat_Protection,Acquisition,1997,NA,27.78,-82.257,,3183740,updated to Preserve area
+USEPA_GPRA_2008-2017,OSS_Syn_0424,Balm Scrub Addition,Middle Tampa Bay,,Habitat_Enhancement,Exotic_Control,2015,,27.723,-82.294,430,"$89,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0425,Bartow Operations Effluent Treatment Wetland System,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,2011,880,27.768537,-81.943245,,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0426,Bay Pines,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2012,,27.811,-82.786,12,"$22,932.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0427,Bay Vista Park Oyster Reef Creation Project,Middle Tampa Bay,"Tampa Bay Watch, Inc.",Habitat_Establishment,Oyster_Habitat,2016,,27.704,-82.639,0,"$20,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0428,Bayshore Beautiful HOA Seawall Oyster Dome Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2011,,27.90075,-82.48891,0,"$63,440.00 ",used Bayshore Phase 3
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0429,Bayshore Boulevard: Phase 2,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2005,,27.894883,-82.485826,0.04,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0430,Bayshore Boulevard: Phase 3,Hillsborough Bay,TBW,Habitat_Establishment,Oyster_Habitat,2007,,27.90075,-82.48891,0.14,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0431,Bear Creek Channel Improvements,Boca Ciega Bay,,Habitat_Enhancement,Dredging,2015,,27.759,-82.729,7,"$6,500,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0432,Best Practices for Landscape Bed Cultivation,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Management,2004,NA,27.662673,-82.215645,,10000,used middle watershed
+USEPA_GPRA_2008-2017,OSS_Syn_0433,Bi-Annual Bear Creek Clean-Up,Boca Ciega Bay,,Habitat_Enhancement,Management,2011,,27.769,-82.714,0,"$6,750.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0434,Big Bend Power Plant improvements,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2004,214,28.019236,-82.21548,,NA,mid Hills.  Bay
+TBEP_APDB_1992-2016,OSS_Syn_0435,Big Bend Power Plant improvements,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2005,570,28.019236,-82.21548,,NA,mid Hills.  Bay
+TBEP_APDB_1992-2016,OSS_Syn_0436,Big Bend Power Plant improvements,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2004,630,28.019236,-82.21548,,NA,mid Hills.  Bay
+TBEP_APDB_1992-2016,OSS_Syn_0437,Big Bend Power Plant improvements,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2004,872,28.019236,-82.21548,,NA,mid Hills.  Bay
+TBEP_APDB_1992-2016,OSS_Syn_0438,Big Bend Power Plant improvements,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2004,1006,28.019236,-82.21548,,NA,mid Hills.  Bay
+TBEP_APDB_1992-2016,OSS_Syn_0439,Big Bend Power Plant improvements,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2005,1677,28.019236,-82.21548,,NA,mid Hills.  Bay
+TBEP_APDB_1992-2016,OSS_Syn_0440,Big Bend Power Plant improvements,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2005,2676,28.019236,-82.21548,,NA,mid Hills.  Bay
+TBEP_APDB_1992-2016,OSS_Syn_0441,Big Bend Power Plant improvements,Lower Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2004,709,27.59344,-82.675961,,NA,Mid LTB
+TBEP_APDB_1992-2016,OSS_Syn_0442,Big Bend Power Plant improvements,Lower Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2005,1886,27.59344,-82.675961,,NA,mid LTB
+TBEP_APDB_1992-2016,OSS_Syn_0443,Big Bend Power Plant improvements,Middle Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2004,289,27.729943,-82.215645,,NA,used MTB
+TBEP_APDB_1992-2016,OSS_Syn_0444,Big Bend Power Plant improvements,Middle Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2005,769,27.729943,-82.215645,,NA,used MTB
+TBEP_APDB_1992-2016,OSS_Syn_0445,Big Bend Power Plant improvements,Old Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2004,942,28.012172,-82.609611,,NA,used mid OTB
+TBEP_APDB_1992-2016,OSS_Syn_0446,Big Bend Power Plant improvements,Old Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2005,2507,28.012172,-82.609611,,NA,used mid OTB
+TBEP_APDB_1992-2016,OSS_Syn_0447,Bishop Creek Streambank Protection,Old Tampa Bay,SWFWMD,Nonpoint_Source,BMP_Management,2002,3.3,28.012172,-82.609611,,510000,used mid OTB
+USEPA_GPRA_2008-2017,OSS_Syn_0448,Blackwater Creek Preseve,Hillsborough Bay,,Habitat_Enhancement,Uplands,2015,,28.132,-82.176,650,"$37,500.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0449,Bloomingdale Providence Mitigation,Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2003,,27.884955,-82.319796,5.91,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0450,Boca Ciega: Phase 1,Boca Ciega Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1992,,27.832504,-82.812558,3.5,"$56,365.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0451,Boca Ciega: Phase 2,Boca Ciega Bay,SWFWMD - SWIM,Habitat_Establishment,Saltmarsh,1993,,27.832504,-82.812558,1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0452,Boca Ciega: Phase 3,Boca Ciega Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1999,,27.832504,-82.812558,2.5,"$225,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0453,Booker Creek Habitat Restoration at Campbell Park,Middle Tampa Bay,,Habitat_Enhancement,Exotic_Control,2013,,27.783,-82.662,0,"$4,900.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0454,Braden River: Phase 1 (SR64),Manatee River,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2000,,27.49809,-82.521931,10,"$64,704.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0455,Braden River: Phase 2 (SR70),Lower Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1999,,27.450251,-82.491132,10,"$46,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0456,Brooker Creek Buffer,Old Tampa Bay,,Habitat_Protection,Acquisition,2009,,28.138,-82.648,66,"$1,200,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0457,Brooker Creek Channel F,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,2005,,28.078317,-82.676179,0.2,"$1,001,440.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0458,Brooker Creek Channel L,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,2005,,28.119026,-82.653319,4,"$919,590.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0459,Brooker Creek Preserve - Mt. Brooker exotics removal,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2004,,28.065278,-82.675,100,"$21,375.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0460,Brooker Creek Preserve - Pine Ridge Area Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2011,,28.065278,-82.675,5.5,"$11,621.00 ",used Mt. Brooker location
+USEPA_GPRA_2008-2017,OSS_Syn_0461,Brooker Creek Preserve - South Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2012,,28.065,-82.689,20,"$22,380.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0462,Brooker Creek Preserve - South Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2011,,28.065,-82.689,14,"$16,211.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0463,Brooker Creek Preserve Flatwoods Restoration,Old Tampa Bay,,Habitat_Enhancement,Uplands,2015,,28.104,-82.658,250,"$296,250.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0464,Brooker Creek Preserve Pine Ridge Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2012,,28.065278,-82.675,5.5,"$8,567.00 ",used Mt. Brooker location
+USEPA_GPRA_2008-2017,OSS_Syn_0465,Brooker Creek Preserve Prescribed Burn – Unit: Northeast,Old Tampa Bay,,Habitat_Enhancement,Uplands,2015,,28.144,-82.652,21,"$1,015.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0466,Brooker Creek Preserve Prescribed Burn – Unit: Red Trail,Old Tampa Bay,,Habitat_Enhancement,Uplands,2015,,28.097,-82.656,66,"$4,090.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0467,Brooker Creek Preserve Prescribed Burn – Unit: Twisted Pine Trail,Old Tampa Bay,,Habitat_Enhancement,Uplands,2015,,28.093,-82.654,59,"$4,090.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0468,Brooker Creek Preserve Prescribed Burn – Unit: Whispering Lakes West,Old Tampa Bay,,Habitat_Enhancement,Uplands,2015,,28.141,-82.662,9,"$3,275.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0469,Brooker Creek Preserve Prescribed Burn (Unit North Diagonal West),Old Tampa Bay,,Habitat_Enhancement,Uplands,2011,,28.122,-82.681,5,"$4,650.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0470,Brooker Creek Preserve Prescribed Burn (Unit-Diagonal Ponds East),Old Tampa Bay,,Habitat_Enhancement,Uplands,2011,,28.12,-82.673,21,"$3,150.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0471,Brooker Creek Preserve Prescribed Burn (Unit-Glenridge),Old Tampa Bay,,Habitat_Enhancement,Uplands,2011,,28.101,-82.672,8,"$2,321.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0472,Brooker Creek Preserve Prescribed Burn (Unit-Lora Lane to Diagonal),Old Tampa Bay,,Habitat_Enhancement,Uplands,2012,,28.116,-82.672,22,"$3,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0473,Brooker Creek Preserve Prescribed Burn (Unit-Worthington Cir),Old Tampa Bay,,Habitat_Enhancement,Uplands,2012,,28.117,-82.684,12,"$3,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0474,Brooker Creek Preserve Wilde Tract Acquisition,Old Tampa Bay,,Habitat_Protection,Acquisition,2009,,28.148,-82.658,771,"$15,500,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0475,Brooker Creek Preserve-Education Center Mitigation,Old Tampa Bay,Pinellas County,Habitat_Establishment,FW_Wetlands,2006,,28.131311,-82.658786,3.88,"$29,500.00 ",updated - used Ed Center
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0476,Brooker Creek Preserve-Flatwoods Restoration,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2005,,28.125278,-82.655,26,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0477,Bullfrog Creek Scrub Preserve,Hillsborough Bay,,Habitat_Enhancement,Hydrologic_Restoration,2015,,27.837,-82.382,302,"$58,280.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0478,Bullfrog/Wolf (Sumner Road Mitgation),Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1999,,27.756927,-82.324464,3.83,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0479,Cabbage Key Exotic Vegetation Removal,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2011,,27.667,-82.725,4.5,"$43,660.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0480,Cabbagehead Bayou,Old Tampa Bay,FDOT?,Habitat_Enhancement,Hydrologic_Restoration,1989,,27.998175,-82.617238,50,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0481,Canterbury School Bay Restoration,Old Tampa Bay,,Habitat_Establishment,Oyster_Habitat,2011,,27.855,-82.617,0,"$2,925.00 ",at Riviera Bay??
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0482,Cargill Park Salt Marsh Planting,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Saltmarsh,2004,,27.8644,-82.3824,0.01,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0483,Cargill South Parcel,Hillsborough Bay,FDEP,Habitat_Enhancement,Exotic_Control,1995,,27.84223,-82.390065,50,"$800,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0484,Cargill South Parcel,Hillsborough Bay,FDEP,Habitat_Enhancement,Hydrologic_Restoration,1995,,27.84223,-82.390065,50,"$800,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0485,CF Industries Product Conveyor System Upgrade,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,1993,19600,27.927192,-82.435207,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0486,CF Industries Stormwater Management System Project,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,1997,NA,27.927192,-82.435207,,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0487,Channel A,Old Tampa Bay,FDNR,Habitat_Establishment,Mangroves,1980,,27.999111,-82.616707,2,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0488,Channel B Stabilization,Old Tampa Bay,City of Clearwater,Nonpoint_Source,BMP_Management,2001,NA,28.012172,-82.609611,,503000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0489,Citrus Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,14,28.019236,-82.21548,,NA,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0490,Citrus Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,87.5,28.019236,-82.21548,,NA,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0491,Citrus Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,109.7,28.019236,-82.21548,,NA,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0492,Citrus Conversion to Micro-Irrigation,Lower Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,2000,26.1,27.59344,-82.675961,,NA,mid LTB
+TBEP_APDB_1992-2016,OSS_Syn_0493,Citrus Conversion to Micro-Irrigation,Lower Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,1995,197.4,27.59344,-82.675961,,NA,mid LTB
+TBEP_APDB_1992-2016,OSS_Syn_0494,Citrus Conversion to Micro-Irrigation,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,2000,0.9,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0495,Citrus Conversion to Micro-Irrigation,Middle Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,6.3,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0496,Citrus Conversion to Micro-Irrigation,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,1995,6.5,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0497,Citrus Conversion to Micro-Irrigation,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,2000,37.8,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0498,Citrus Conversion to Micro-Irrigation,Middle Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,61.7,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0499,Citrus Conversion to Micro-Irrigation,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,1995,285.8,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0500,Citrus Conversion to Micro-Irrigation,Old Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,15.9,28.012172,-82.609611,,NA,mid OTB
+TBEP_APDB_1992-2016,OSS_Syn_0501,Citywide Drainage Improvement Projects,Old Tampa Bay,City of Largo,Nonpoint_Source,BMP_Management,2001,NA,28.012172,-82.609611,,250000,mid OTB
+TBEP_APDB_1992-2016,OSS_Syn_0502,City-Wide Reclaimed Water Service,Old Tampa Bay,City of Clearwater,Point_Source,Increase_Reuse,2011,NA,28.012172,-82.609611,,NA,mid OTB
+USEPA_GPRA_2008-2017,OSS_Syn_0503,Clam Bayou Marine Education Center Restoration Project II,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2009,,27.736,-82.691,0,"$25,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0504,Clam Bayou Native Planting,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2011,,27.741,-82.687,0.25,"$4,400.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0505,Clam Bayou Phase 3,Boca Ciega Bay,,Habitat_Establishment,Uplands,2012,,27.743,-82.685,28.36,"$9,013,772.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0506,Cockroach Bay Aquatic Preserve,Middle Tampa Bay,,Habitat_Establishment,Saltmarsh,2012,,27.694263,-82.505908,10,"$15,275.00 ",updated to Cbay Aqua Preserve
+USEPA_GPRA_2008-2017,OSS_Syn_0507,Cockroach Bay Aquatic Preserve Salt Barren Restoration,Middle Tampa Bay,,Habitat_Establishment,Salt_Barren,2010,,27.684,-82.513,26,"$200,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0508,Cockroach Bay Freshwater Wetlands,Middle Tampa Bay,Hillsborough County Expressway Authority,Habitat_Establishment,FW_Wetlands,2003,,27.689836,-82.507512,25,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0509,Cockroach Bay Regional Stormwater Treatment Facility,Middle Tampa Bay,SWFWMD,Nonpoint_Source,BMP_Stormwater_Pond,1997,NA,27.662673,-82.215645,,780000,(mid watershed)
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0510,Cockroach Bay: Phase 1B,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,FW_Wetlands,1997,,27.686144,-82.499258,24.5,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0511,Cockroach Bay: Phase 1B2,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1996,,27.684603,-82.499355,18.5,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0512,Conference on Ecosystems Restoration & Creation,All Segments,TBEP,Habitat_Protection,Education,2004,NA,27.662673,-82.215645,,NA,updated to mid point watershed
+USEPA_GPRA_2008-2017,OSS_Syn_0513,Cow Branch Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2012,,28.072,-82.713,1.4,"$2,074.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0514,Cow Branch Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2011,,28.072,-82.713,1.4,"$2,492.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0515,Creative Drive Outfall Project,Hillsborough Bay,Polk County,Nonpoint_Source,BMP_Management,2006,NA,27.96387,-81.968871,,218225,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0516,CSX MacDill/Port Tampa,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Hydrologic_Restoration,2005,,27.948088,-82.424804,220,"$220,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0517,CSXT Rockport Terminal Non-Contact Storm Water Mgmt,Hillsborough Bay,CSX Transportation,Point_Source,BMP_On_Site,2011,NA,27.915475,-82.420308,,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0518,Cunningham Key Oyster Dome Project - Phase II,Boca Ciega Bay,,Habitat_Establishment,Oyster_Habitat,2008,,27.654,-82.718,0.01,"$5,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0519,Curosity Creek Preserve,Hillsborough Bay,,Habitat_Protection,Acquisition,2012,,28.067575,-82.46383,164,"$4,212,905.00 ",updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0520,Cypress (Bullard Parkway @ Cypress Creek Mitigation),Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2005,,28.157973,-82.396997,1.02,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0521,Cypress Point Park Beach Restoration,Old Tampa Bay,,Habitat_Enhancement,Management,2008,,27.95,-82.546,0,"$250,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0522,Cypress Point Park Restoration,Old Tampa Bay,City of Tampa,Habitat_Enhancement,Exotic_Control,NA,,27.950873,-82.541804,12.7,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0523,Davis Tract,Hillsborough Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,2002,,27.829129,-82.387955,60,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0524,Davis Tract Salt Marsh Restoration,Hillsborough Bay,TBW,Habitat_Enhancement,Hydrologic_Restoration,2001,,27.8346,-82.3957,7,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0525,Delaney Pop-Off Canal,Hillsborough Bay,FDEP,Habitat_Enhancement,Hydrologic_Restoration,1990,,27.885124,-82.402507,10,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0526,Delaney/Archie (Delaney Creek Stormwater Project Mitigation),Hillsborough Bay,Hillsborough County,Habitat_Establishment,Saltmarsh,2000,,27.885124,-82.402507,1.28,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0527,development of standardized mitigation guidelines,All Segments,Pinellas County,Nonpoint_Source,Education,2000,NA,27.86714745,-82.35780285,,NA,All segments
+USEPA_GPRA_2008-2017,OSS_Syn_0528,Diamondback Terrapins in Tampa Bay - Tarpon Key Comprehensive Habitat Restoration Project,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2013,,27.666,-82.691,0,"$41,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0529,Do Good. Have fun. Bud Light Summer Project,Hillsborough Bay,,Habitat_Enhancement,Management,2014,,28.019236,-82.21548,0,"$10,000.00 ",updated-mid HB
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0530,Dog Leg Key,Boca Ciega Bay,FDEP Aquatic Preserves,Habitat_Establishment,Mangroves,2002,,27.802259,-82.761683,0.01,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0531,Double Branch (Citrus Park Roadway Improvements  Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2004,,28.029859,-82.598736,10.53,NA,updated
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0532,Double Branch (County Way Boulevard Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1994,,28.029859,-82.598736,0.225,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0533,Double Branch (Linebaugh Extension  Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2003,,28.062113,-82.63953,10,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0534,Double Branch Mitigation Bank  Mitigation,Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2003,,28.058853,-82.612737,33.14,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0535,Duette Preserve Exotic Treatment,Manatee River,,Habitat_Enhancement,Exotic_Control,2015,,27.534,-82.104,7000,"$247,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0536,Duette Preserve Hydrological Restoration,Manatee River,,Habitat_Enhancement,Hydrologic_Restoration,2012,,27.523,-82.156,300,"$100,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0537,Duette Preserve Longleaf Pine Planting 2015,Manatee River,,Habitat_Enhancement,Uplands,2015,,27.532,-82.101,165,"$8,700.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0538,Duette Preserve Prescribed Burning,Manatee River,,Habitat_Enhancement,Uplands,2015,,27.534,-82.104,5775,"$47,500.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0539,E.G. Simmons Park Salt Marsh Restoration: Phase 1,Middle Tampa Bay,TBW,Habitat_Enhancement,Saltmarsh,2002,,27.7333,-82.4667,1.5,NA,updated to phase 2 location
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0540,E.G. Simmons Park Salt Marsh Restoration: Phase 2,Middle Tampa Bay,TBW,Habitat_Enhancement,Saltmarsh,2003,,27.7333,-82.4667,1,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0541,Eagle Lake Park,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2009,,27.927,-82.764,5,"$1,522,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0542,East Gate Drainage Improvements,Old Tampa Bay,SWFWMD,Nonpoint_Source,BMP_Stormwater_Pond,2005,518,28.012172,-82.609611,,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0543,East Lake Management Area,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2009,,28.095,-82.701,3.7,"$10,040.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0544,East Lake Management Area Exotic Vegetation Control,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2015,,28.096,-82.7,3.7,"$4,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0545,East Lake Management Area Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2012,,28.096,-82.7,3.7,"$2,074.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0546,East Lake Management Area Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2011,,28.096,-82.7,3.7,"$5,881.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0547,Ekker Restoration Project,Hillsborough Bay,,Habitat_Establishment,FW_Wetlands,2010,,27.8384,-82.3644,19,"$1,359,718.00 ",updated - Ekker Preserve
+USEPA_GPRA_2008-2017,OSS_Syn_0548,Elnor Island Oyster Bar Creation Project,Boca Ciega Bay,,Habitat_Establishment,Oyster_Habitat,2013,,27.786794,-82.773771,0,"$50,000.00 ",updated to Eleanor Island
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0549,Epps Park Shoreline Restoration,Hillsborough Bay,City of Tampa,Habitat_Establishment,FW_Wetlands,1997,,28.005,-82.4675,1,NA,updated - Epps Park
+USEPA_GPRA_2008-2017,OSS_Syn_0550,Estuary EDventures,Lower Tampa Bay,,Habitat_Establishment,Saltmarsh,2011,,27.636,-82.74,3.1,"$6,000.00 ",checked (Ft. DeSoto)
+TBEP_APDB_1992-2016,OSS_Syn_0551,FDOT 56th Street Retrofit,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Wetland_Treatment,2003,NA,28.025438,-82.393401,,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0552,Feather Sound Coastal Restoration,Old Tampa Bay,"Tampa Bay Watch, Inc.",Habitat_Enhancement,Exotic_Control,2016,,27.902,-82.658,10,"$20,990.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0553,Feather Sound Coastal Restoration,Old Tampa Bay,,Habitat_Enhancement,FW_Wetlands,2015,,27.902,-82.658,5,"$20,900.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0554,Feather Sound Phase 2,Old Tampa Bay,Southwest Florida Water Management District,Habitat_Establishment,Salt_Barren,2016,,27.90337,-82.66184,11,"$238,905.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0555,Field and Row Conversion to Micro-Irrigation,Lower Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,2000,55.2,27.59344,-82.675961,,NA,mid-LTB
+TBEP_APDB_1992-2016,OSS_Syn_0556,Field and Row Crop Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,2000,48.2,28.019236,-82.21548,,NA,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0557,Field and Row Crop Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,106.2,28.019236,-82.21548,,NA,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0558,Field and Row Crop Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,2000,139.2,28.019236,-82.21548,,NA,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0559,Field and Row Crop Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,307.4,28.019236,-82.21548,,NA,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0560,Field and Row Crop Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,2000,316.1,28.019236,-82.21548,,NA,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0561,Field and Row Crop Conversion to Micro-Irrigation,Lower Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,1995,219.8,27.59344,-82.675961,,NA,mid LTB
+TBEP_APDB_1992-2016,OSS_Syn_0562,Field and Row Crop Conversion to Micro-Irrigation,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,2000,13.1,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0563,Field and Row Crop Conversion to Micro-irrigation,Middle Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,2000,20.7,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0564,Field and Row Crop Conversion to Micro-Irrigation,Middle Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,45.9,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0565,Field and Row Crop Conversion to Micro-Irrigation,Middle Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,2000,104,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0566,Field and Row Crop Conversion to Micro-Irrigation,Middle Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,229.7,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0567,Field and Row Crop Conversion to Micro-Irrigation,Old Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,2004,20.7,28.012172,-82.609611,,NA,mid OTB
+TBEP_APDB_1992-2016,OSS_Syn_0568,Field and Row Crop Conversion to Micro-Irrigation,Old Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,45.6,28.012172,-82.609611,,NA,mid OTB
+TBEP_APDB_1992-2016,OSS_Syn_0569,Field and Row Crop Conversion to Micro-Irrigation â€“ Manatee County,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,1995,1272.3,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0570,Field and Row Crop Conversionn to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,697.7,28.019236,-82.21548,,NA,mid HB
+TBEP_APDB_1992-2016,OSS_Syn_0571,Field and Row Crop Converson to Micro-Irrigation ï¿½ï¿½ï¿½ Manatee County,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,2000,319.5,27.662673,-82.215645,,NA,mid MTB
+TBEP_APDB_1992-2016,OSS_Syn_0572,Field and Row Crops to Micro-Irrigation,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,1995,52.2,27.662673,-82.215645,,NA,mid MTB
+USEPA_GPRA_2008-2017,OSS_Syn_0573,Fish Hawk Preserve,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Uplands,2017,,27.831,-82.244,116,"$39,785.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0574,Fishhook Spoil,Hillsborough Bay,FDNR,Habitat_Establishment,Mangroves,1974,,27.802673,-82.419169,0.02,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0575,Fishhook Spoil,Hillsborough Bay,FDNR,Habitat_Establishment,Mangroves,1976,,27.802673,-82.419169,0.01,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0576,Five-Year Stormwater Capital Improvement Program,Old Tampa Bay,City of Tampa,Nonpoint_Source,BMP_Management,2010,NA,27.86714745,-82.35780285,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0577,Flood Management Program,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Management,2002,4000,28.019236,-82.21548,,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0578,Fort De Soto Native Coastal Planting - Site #2,Lower Tampa Bay,,Habitat_Enhancement,FW_Wetlands,2012,,27.638,-82.736,0.17,"$2,257.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0579,Fort De Soto Native Coastal Planting - Site #4,Lower Tampa Bay,,Habitat_Enhancement,FW_Wetlands,2012,,27.635,-82.735,0.19,"$2,257.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0580,Fort De Soto Native Coastal Planting Site 3,Lower Tampa Bay,,Habitat_Establishment,FW_Wetlands,2013,,27.636,-82.736,0.27,"$1,030.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0581,Fort De Soto North Beach,Lower Tampa Bay,,Habitat_Establishment,Saltmarsh,2010,,27.64,-82.741,0.22,"$5,707.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0582,Fort DeSoto Native Coastal Planting Site 1,Lower Tampa Bay,,Habitat_Enhancement,FW_Wetlands,2013,,27.642,-82.739,0.17,"$2,060.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0583,Fort Desoto North Beach Habitat Restoration,Lower Tampa Bay,,Habitat_Enhancement,Exotic_Control,2014,,27.636,-82.736,0,"$10,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0584,Fort DeSoto Park Prescribed Burn,Lower Tampa Bay,,Habitat_Enhancement,Uplands,2011,,27.625,-82.706,29,"$4,350.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0585,Ft De Soto Ecological Enhancement Recirculation Phase II,Lower Tampa Bay,Pinellas County,Habitat_Enhancement,Hydrologic_Restoration,2016,,27.629,-82.708,450,"$1,217,600.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0586,Ft. Brooke/Cotanchobee Park,Hillsborough Bay,,Habitat_Enhancement,Oyster_Habitat,2009,,27.941,-82.45,0,"$300,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0587,Give A Day for the Bay - Rye Preserve,Manatee River,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2013,,27.513,-82.364,8,$357.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0588,Give A Day for the Bay - Al Palonis Park,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2013,,27.892,-82.54,2,$834.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0589,Give A Day for the Bay - Al Palonis Park,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2011,,27.892,-82.54,2.5,$215.00 ,updated
+USEPA_GPRA_2008-2017,OSS_Syn_0590,Give A Day for the Bay - Emerson Point Preserve,Manatee River,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2011,,27.531,-82.626,8.2,$225.00 ,updated
+USEPA_GPRA_2008-2017,OSS_Syn_0591,Give A Day for the Bay - Emerson Point Preserve,Manatee River,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2010,,27.531,-82.626,12,$500.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0592,Give A Day for the Bay - Florida State Fairgrounds,Hillsborough Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2014,,27.988,-82.361,1,$300.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0593,Give A Day for the Bay - Fort De Soto Park,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2014,,27.618,-82.723,5,$350.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0594,Give A Day for the Bay - Fort DeSoto Park,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2011,,27.635,-82.74,2,$275.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0595,Give A Day for the Bay - Joe's Creek Management Area,Boca Ciega Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2010,,27.8329,-82.7495,6.7,$400.00 ,updated
+USEPA_GPRA_2008-2017,OSS_Syn_0596,Give A Day for the Bay - Joe's Creek Park,Boca Ciega Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2013,,27.815,-82.692,2,$408.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0597,Give A Day for the Bay - Lake Seminole Park,Boca Ciega Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2012,,27.841,-82.774,5,$321.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0598,Give A Day for the Bay - Little Manatee River State Park,Manatee River,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2012,,27.657,-82.373,0.5,$248.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0599,Give A Day for the Bay - Lost River/Cockroach Bay,Middle Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,FW_Wetlands,2011,,27.686,-82.506,2,$360.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0600,Give A Day for the Bay - Lowry Park Zoo,Hillsborough Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2014,,28.01,-82.468,1,$360.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0601,Give A Day for the Bay - Lowry Park Zoo,Hillsborough Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2013,,28.011,-82.47,4,$870.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0602,Give A Day for the Bay - McKay Creek Greenway,Boca Ciega Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2011,,27.883,-82.809,10,$150.00 ,Walsingham/P2000?
+USEPA_GPRA_2008-2017,OSS_Syn_0603,Give A Day for the Bay - Moccasin Lake Nature Park,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2011,,27.976,-82.724,1.45,$188.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0604,Give A Day for the Bay - P2000 North,Boca Ciega Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2010,,27.88,-82.804,2.9,$400.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0605,Give A Day for the Bay - Perico (grass plugs),Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2014,,27.4967,-82.6775,8,$600.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0606,Give A Day for the Bay - Perico Preserve,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2014,,27.4967,-82.6775,10,$550.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0607,Give A Day for the Bay - Perico Preserve,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2013,,27.4967,-82.6775,12,$490.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0608,Give A Day for the Bay - Picnic Island Park,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2011,,27.855,-82.55,3,$235.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0609,Give A Day for the Bay - Robinson Preserve,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2011,,27.514,-82.663,1,$180.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0610,Give A Day for the Bay - Rye Preserve,Manatee River,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2012,,27.513,-82.364,0.5,$259.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0611,Give a Day for the Bay - Sawgrass Lake,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2013,,27.842,-82.671,11,$450.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0612,Give A Day for the Bay - Sawgrass Lake Park,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2014,,27.842,-82.671,8,$550.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0613,Give A Day for the Bay - Sawgrass Lake Park,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2012,,27.838,-82.667,0.5,$300.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0614,Give A Day for the Bay - South Gandy Park,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2012,,27.892,-82.533,7.9,$256.00 ,updated
+USEPA_GPRA_2008-2017,OSS_Syn_0615,Give A Day for the Bay - Walsingham Park,Boca Ciega Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2010,,27.867,-82.814,1.91,$400.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0616,Give A Day for the Bay at Cockroach Bay Aquatic Preserve,Middle Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2016,,27.694,-82.502,5,$500.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0617,Give A Day for the Bay at Moccasin Lake Nature Park,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2016,,27.977,-82.725,5,$500.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0618,Give A Day for the Bay at Perico Preserve,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Saltmarsh,2016,,27.4967,-82.6775,0.5,$900.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0619,Give A Day for the Bay at Robinson Preserve,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Establishment,Oyster_Habitat,2016,,27.516,-82.663,0.04,$900.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0620,Give A Day for the Bay Boyd Hill Nature Preserve,Middle Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2015,,27.732,-82.658,2,$400.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0621,Give A Day for the Bay Fort De Soto Park,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2015,,27.618,-82.723,3,$600.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0622,Give A Day for the Bay Moccasin Lake Nature Center,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2015,,27.977,-82.725,5,$400.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0623,Give A Day for the Bay at Robinson Preserve,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Establishment,Oyster_Habitat,2015,,27.516,-82.661,0,$400.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0624,Give A Day for the Bay Robinson Preserve Reef Creation,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Establishment,Oyster_Habitat,2015,,27.516,-82.66,0,$600.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0625,Give-A-Day for the Bay at McKay Bay Nature Park,Hillsborough Bay,Keep Tampa Bay Beautiful,Habitat_Enhancement,Exotic_Control,2016,,27.952,-82.42,3,$500.00 ,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0626,Golden Aster Scrub Preserve,Hillsborough Bay,,Habitat_Enhancement,Uplands,2015,,27.819,-82.358,30,"$1,750.00 ",Hillsborough Co.
+USEPA_GPRA_2008-2017,OSS_Syn_0627,Gopher Tortoise Habitat Management,Middle Tampa Bay,,Habitat_Enhancement,Uplands,2015,,27.724,-82.65,97,"$15,000.00 ",near Lake Maggiore
+USEPA_GPRA_2008-2017,OSS_Syn_0628,Gopher Tortoise Habitat Management,Middle Tampa Bay,,Habitat_Enhancement,Exotic_Control,2014,,27.724,-82.65,96,"$15,000.00 ",near Lake Maggiore
+USEPA_GPRA_2008-2017,OSS_Syn_0629,Green Key Oyster Bar Creation Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2013,,27.818,-82.399,0,"$75,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0630,Green Key Oyster Bar Creation Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2011,,27.818,-82.399,0,"$75,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0631,Green Key Oyster Bar Creation Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2010,,27.818,-82.399,0,"$45,500.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0632,Gulfstream Pipeline Mitigation,Middle Tampa Bay,Manatee County,Habitat_Protection,Acquisition,2008,166,27.63085538,-82.46453374,,NA,in Man. Co.
+USEPA_GPRA_2008-2017,OSS_Syn_0633,Hands-On Learning Through Coastal Habitat Restoration,Boca Ciega Bay,,Habitat_Enhancement,Uplands,2013,,27.615,-82.735,0.25,"$4,875.00 ",FtDeSoto
+TBEP_APDB_1992-2016,OSS_Syn_0634,Haynsworth Tract Regional Stormwater Treatment Facility,Middle Tampa Bay,SWFWMD,Nonpoint_Source,BMP_Treatment_Train,1998,NA,27.662673,-82.215645,,1201188,
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0635,Hendry Delta,Middle Tampa Bay,FDNR,Habitat_Establishment,Mangroves,1987,,27.652461,-82.565525,0.1,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0636,Hendry Delta,Middle Tampa Bay,FDNR,Habitat_Establishment,Mangroves,1988,,27.625461,-82.565525,0.15,NA,near Pt. Manatee
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0637,Hendry Delta Fill,Middle Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1989,,27.625461,-82.565525,3,NA,near Pt. Manatee
+USEPA_GPRA_2008-2017,OSS_Syn_0638,Hidden Harbor Exotics Treatment,Manatee River,,Habitat_Enhancement,Exotic_Control,2015,,27.525,-82.425,66,"$14,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0639,Hillsborough County Citrus,Middle Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,295.1,27.662673,-82.215645,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0640,Hillsborough County Reclaimed Water Use System,Hillsborough Bay,Hillsborough County,Point_Source,Increase_Reuse,2005,NA,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0641,Hillsborough County Watershed Management Plans,All Segments,Hillsborough County,Nonpoint_Source,BMP_Management,2002,NA,27.86714745,-82.35780285,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0642,Hillsborough Heights project,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Management,2003,NA,28.019236,-82.21548,,145000,mid Hills.  Bay
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0643,Hillsborough River (Bullard Parkway Davis Road Mitigation),Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2002,,28.031179,-82.364053,0.51,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0644,Hillsborough River and Coastal Cleanup,Hillsborough Bay,Keep Tampa Bay Beautiful,Habitat_Enhancement,Management,2016,,27.905,-82.489,0,$500.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0645,Honeymoon Island Oyster Reef Restoration and Enhancement Project,Boca Ciega Bay,,Habitat_Establishment,Oyster_Habitat,2015,,28.0643,-82.8329,0.13,"$60,000.00 ",updated
+TBEP_APDB_1992-2016,OSS_Syn_0646,Hookers Point facility - shut down,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2002,18,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0647,Hookers Point facility - shut down,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2002,54,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0648,Hookers Point facility - shut down,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2002,85,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0649,Hookers Point facility - shut down,Lower Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2002,60,27.59344,-82.675961,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0650,Hookers Point facility - shut down,Middle Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2002,25,27.662673,-82.215645,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0651,Hookers Point facility - shut down,Old Tampa Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2002,81,28.012172,-82.609611,,NA,
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0652,Howard Frankland East,Old Tampa Bay,SWFWMD-SWIM,Habitat_Enhancement,Saltmarsh,1994,,27.942142,-82.545673,3,"$60,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0653,I-4 from I-75 to McIntosh Road - Baker Creek Mitigation,Hillsborough Bay,FDOT,Nonpoint_Source,BMP_Wetland_Treatment,1999,NA,28.0283,-82.2449,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0654,IMC Agrico Company Termination of Ammonia in Flot Plants - Little Manatee River,Middle Tampa Bay,Mosaic,Point_Source,PS_Treatment,1995,21000,27.662673,-82.215645,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0655,IMC-Agrico Company Shiploading Terminals Stormwater And Spillage,Hillsborough Bay,Mosaic,Point_Source,BMP_On_Site,1994,25755,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0656,IMC-Agrico Company Termination Of Ammonia In Flot Plants-Alafia River,Middle Tampa Bay,Mosaic,Point_Source,PS_Treatment,1995,21000,27.662673,-82.215645,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0657,Install and monitor curb inlet protectors,Hillsborough Bay,TBEP,Nonpoint_Source,BMP_Management,2000,NA,28.019236,-82.21548,,5000,
+USEPA_GPRA_2008-2017,OSS_Syn_0658,Invasive Species Control,Middle Tampa Bay,MacDill Air Force Base,Habitat_Enhancement,Exotic_Control,2016,,27.847,-82.522,1500,"$391,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0659,Invasive Species Control,Middle Tampa Bay,,Habitat_Enhancement,Exotic_Control,2014,,27.843,-82.535,850,"$41,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0660,Invasive Species Control,Middle Tampa Bay,,Habitat_Enhancement,Exotic_Control,2013,,27.843,-82.535,880,"$100,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0661,Irrigation Requirements for Developments,All Segments,Manatee County,Nonpoint_Source,Regulation,1999,NA,27.86714745,-82.35780285,,NA,
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0662,Joe's Creek Restoration: Phase 2,Boca Ciega Bay,FDER,Habitat_Enhancement,Exotic_Control,1991,,27.838335,-82.752885,6.06,"$200,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0663,Joe's Creek Restoration: Phase 3,Boca Ciega Bay,FDER,Habitat_Enhancement,Exotic_Control,1992,,27.838335,-82.752885,1.83,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0664,Joe's Creek Restoration: Phase 3,Boca Ciega Bay,FDER,Habitat_Enhancement,Hydrologic_Restoration,1992,,27.838335,-82.752885,1.83,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0665,Joe's Creek School Site,Boca Ciega Bay,SWFWMD-SWIM,Habitat_Enhancement,Exotic_Control,2003,,27.831632,-82.747785,20,"$355,686.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0666,Joe's Creek School Site,Boca Ciega Bay,SWFWMD-SWIM,Habitat_Enhancement,Hydrologic_Restoration,2003,,27.831632,-82.747785,20,"$355,686.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0667,Joe's Creek: Phase 1A,Boca Ciega Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1995,,27.83192,-82.754396,0.5,"$44,212.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0668,Kapok Restoration Project,Old Tampa Bay,City of Clearwater,Habitat_Establishment,FW_Wetlands,2006,,27.973699,-82.715043,20,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0669,Kapok Restoration Project,Old Tampa Bay,City of Clearwater,Habitat_Establishment,FW_Wetlands,2006,,27.973699,-82.715043,26,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0670,Kapok Wetland and Floodplain Restoration Project,Old Tampa Bay,City of Clearwater,Habitat_Establishment,FW_Wetlands,2006,,27.973699,-82.715043,25,"$20,000,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0671,Kayaks for Education and Cleanups,Middle Tampa Bay,City of St. Petersburg,Habitat_Enhancement,Exotic_Control,2016,,27.724,-82.65,0,"$5,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0672,Lake Seminole Regional Stormwater Retrofit: Sub-Basin 2 Alum Facility Phase I,Boca Ciega Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2016,,27.879,-82.781,0.2,"$295,275.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0673,Lake Tarpon Management Area Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2012,,28.136,-82.71,7,"$5,664.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0674,Lake Tarpon Management Area Invasive Plant Management,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2011,,28.136,-82.71,7,"$6,224.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0675,Lake Tomlinson Restoration,Middle Tampa Bay,SWFWMD,Habitat_Establishment,FW_Wetlands,2002,NA,27.7734,-82.6413,,389511,updated
+TBEP_APDB_1992-2016,OSS_Syn_0676,Land Acquisition/Management Project,Lower Tampa Bay,Manatee County,Habitat_Protection,Acquisition,2000,NA,27.59344,-82.675961,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0677,Largo Regional Stormwater Treatment Facility Educational Boardwalk System,Old Tampa Bay,SWFWMD,Nonpoint_Source,Education,2002,NA,28.012172,-82.609611,,782101,
+TBEP_APDB_1992-2016,OSS_Syn_0678,Largo Stormwater Retrofit - CDS Units,Old Tampa Bay,SWFWMD,Nonpoint_Source,BMP_CDS_Unit,2002,63.1,28.012172,-82.609611,,209301,
+USEPA_GPRA_2008-2017,OSS_Syn_0679,Least Tern Roof Nesting Project,Old Tampa Bay,,Habitat_Establishment,Uplands,2011,,27.847,-82.606,0,"$7,310.00 ",checked (@ Weedon)
+USEPA_GPRA_2008-2017,OSS_Syn_0680,Lithia Springs Addition,Hillsborough Bay,,Habitat_Protection,Acquisition,2009,,27.869,-82.231,10,"$150,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0681,Litter Bag Campaign,All Segments,TBRPC,Nonpoint_Source,Education,2001,NA,27.86714745,-82.35780285,,2500,  
+TBEP_APDB_1992-2016,OSS_Syn_0682,Little Manatee River Land Acquisition Project,Middle Tampa Bay,SWFWMD,Habitat_Protection,Acquisition,1995,NA,27.6632,-82.3783,,NA,updated
+TBEP_APDB_1992-2016,OSS_Syn_0683,Lois And Henry Avenues Retention Pond (Drew Park Drainage And Improvements  Phase 1),Old Tampa Bay,City of Tampa,Nonpoint_Source,BMP_Stormwater_Pond,1997,49.2,28.012172,-82.609611,,350000,checked
+TBEP_APDB_1992-2016,OSS_Syn_0684,Long Branch Creek Drainage Basin Improvements,Old Tampa Bay,City of Largo,Nonpoint_Source,BMP_Management,2009,NA,28.012172,-82.609611,,75000,
+USEPA_GPRA_2008-2017,OSS_Syn_0685,Lost River Preserve/Cockroach Bay Wetland Creation Project,Middle Tampa Bay,,Habitat_Establishment,FW_Wetlands,2010,,27.707,-82.487,5.5,"$883,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0686,Lower Green Swamp Preserve,Hillsborough Bay,,Habitat_Enhancement,Uplands,2015,,28.093,-82.176,340,"$19,380.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0687,Mac Dill Air Force Base,Hillsborough Bay,,Habitat_Establishment,Saltmarsh,2013,,27.822,-82.472,0.36,"$1,132.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0688,Mac Dill Air Force Base,Hillsborough Bay,,Habitat_Establishment,Saltmarsh,2012,,27.822,-82.472,0.36,"$3,050.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0689,Mac Dill Air Force Base,Middle Tampa Bay,,Habitat_Establishment,Saltmarsh,2010,,27.821,-82.473,0.5,"$3,070.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0690,Mac Dill Air Force Base Phase III,Hillsborough Bay,,Habitat_Enhancement,Exotic_Control,2014,,27.835,-82.476,109,"$1,651,858.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0691,Mac Dill Air Force Base Shoreline Stabilization and Enhancement Phase IV,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2014,,27.822,-82.472,0,"$150,000.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0692,Mac Dill Phase III Seagrass Transplanting Project,Middle Tampa Bay,,Habitat_Establishment,Seagrass_Habitat,2010,,27.82,-82.495,0.69,"$40,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0693,Mac Dill Shoreline Restoration,Hillsborough Bay,,Habitat_Establishment,Saltmarsh,2014,,27.825,-82.472,3,"$25,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0694,MacDill AFB – Mangrove Restoration Expansion Project,Hillsborough Bay,"Ecosphere Restoration Institute, Inc.",Habitat_Enhancement,Hydrologic_Restoration,2016,,27.824,-82.475,0.1,"$86,500.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0695,MacDill AFB Living Shoreline Creation Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2015,,27.822,-82.472,0,"$56,000.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0696,MacDill Air Force Base Phase 3,Hillsborough Bay,,Habitat_Establishment,FW_Wetlands,2013,,27.835,-82.476,111.45,"$1,633,107.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0697,MacDill Invasive Species Control,Middle Tampa Bay,,Habitat_Enhancement,Exotic_Control,2011,,27.836,-82.518,860,"$190,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0698,MacDill Seagrass Transplanting Project Phase IV,Hillsborough Bay,,Habitat_Establishment,Seagrass_Habitat,2013,,27.823,-82.474,0,"$70,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0699,MacDill Shoreline Stabilization and Enhancement Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2013,,27.822,-82.472,0,"$150,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0700,MacDill Shoreline Stabilization and Enhancement Project Phase 5,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2014,,27.831,-82.47,0,"$150,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0701,MacDill Upland Forest Habitat Management,Hillsborough Bay,,Habitat_Enhancement,Uplands,2012,,27.867,-82.506,35,"$6,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0702,MacDill Upland Forest Habitat Management,Middle Tampa Bay,,Habitat_Enhancement,Uplands,2011,,27.833,-82.489,16,"$9,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0703,Madeira Beach Middle School Oyster Dome Project,Boca Ciega Bay,,Habitat_Establishment,Oyster_Habitat,2008,,27.81,-82.789,0.02,"$9,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0704,Manatee County Fertilizer Ordinance,Lower Tampa Bay,Manatee County,Nonpoint_Source,Education,2011,NA,27.542371,-82.367249,,NA,checked-in Man. Co.
+TBEP_APDB_1992-2016,OSS_Syn_0705,Manatee County Island Trolley Program,Lower Tampa Bay,Manatee County,Nonpoint_Source,Atmospheric_Deposition,2002,NA,27.59344,-82.675961,,1000000,
+TBEP_APDB_1992-2016,OSS_Syn_0706,Manatee Protection Zones,Lower Tampa Bay,Manatee County,Habitat_Protection,Protection_Management,2004,NA,27.59344,-82.675961,,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0707,Manatee River Environmental Stewardship Program,Manatee River,,Habitat_Enhancement,Exotic_Control,2012,,27.531,-82.625,3,"$5,882.00 ",near Emerson Pt.
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0708,Mangrove Bay Pit Filling,Old Tampa Bay,FDEP,Habitat_Enhancement,Hydrologic_Restoration,1992,,27.842593,-82.629808,20,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0709,"Mangrove Restoration, Sites 8 & 15 (Phase I)",Middle Tampa Bay,,Habitat_Enhancement,Hydrologic_Restoration,2015,,27.843,-82.535,0.85,"$350,000.00 ",MacDill AFB
+USEPA_GPRA_2008-2017,OSS_Syn_0710,Marsh Creek Phase 2,Manatee River,,Habitat_Enhancement,Exotic_Control,2009,,27.719,-82.432,40.1,"$55,490.00 ",Little Man. R.
+USEPA_GPRA_2008-2017,OSS_Syn_0711,Maximo Park Oyster Reef Creation Project,Boca Ciega Bay,"Tampa Bay Watch, Inc.",Habitat_Establishment,Oyster_Habitat,2016,,27.71,-82.682,0.05,"$20,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0712,McKay Bay Oyster Creation Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2015,,27.9367,-82.42391,0,"$230,000.00 ",updated
+TBEP_APDB_1992-2016,OSS_Syn_0713,McKay Bay Refuse-to-Energy Retrofit Project,All Segments,City of Tampa,Nonpoint_Source,Atmospheric_Deposition,2001,NA,27.86714745,-82.35780285,,89000000,
+TBEP_APDB_1992-2016,OSS_Syn_0714,McKay Bay Watershed Projects,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Management,2006,NA,27.936119,-82.423841,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0715,Mitigation Recommendations,All Segments,TBRPC,Nonpoint_Source,Education,2005,NA,27.86714745,-82.35780285,,NA,
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0716,Mobbly Bayou: Phase 1,Old Tampa Bay,SWFWMD-SWIM,Habitat_Establishment,Saltmarsh,1998,,28.026143,-82.662079,14,"$200,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0717,Mosaic Mulberry -  Transfer of Mulberry Phosphates process water,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,2005,NA,27.89402,-81.973124,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0718,Mosaic Riverview -  Modifications to Outfall Automation and Monitoring,Hillsborough Bay,Mosaic,Point_Source,Management,2003,20,27.863575,-82.385047,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0719,Mulberry RO Process Water Treatment -  Prevention Project,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,2006,NA,27.89402,-81.973124,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0720,Mulberry/Bartow Regional Process Water Storage Pond and R/O Treatment,Hillsborough Bay,Mosaic,Point_Source,PS_Treatment,2010,NA,27.89402,-81.973124,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0721,Multiple habitat restoration and protection projects,Hillsborough Bay,Tampa Port Authority,Habitat_Protection,Protection_Management,2004,NA,28.019236,-82.21548,,400000,
+USEPA_GPRA_2008-2017,OSS_Syn_0722,NE 4th Avenue Wetlands Restoration,Hillsborough Bay,,Habitat_Enhancement,FW_Wetlands,2014,,27.896,-81.969,0,"$134,125.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0723,NE 4th Avenue Wetlands Restoration,Hillsborough Bay,,Habitat_Enhancement,FW_Wetlands,2013,,27.896,-81.969,0,"$215,125.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0724,Neal Preserve Habitat Restoration,Lower Tampa Bay,,Habitat_Enhancement,Exotic_Control,2012,,27.4949,-82.6863,6.26,"$166,000.00 ",updated
+TBEP_APDB_1992-2016,OSS_Syn_0725,New River Bacteria Source Assessment,Hillsborough Bay,Pasco County,Nonpoint_Source,BMP_Management,2011,NA,28.18612539,-82.26493835,,86620,
+USEPA_GPRA_2008-2017,OSS_Syn_0726,Newman Branch II Exp. E- Saltern & Sheet Flow Restoration,Hillsborough Bay,"Ecosphere Restoration Institute, Inc.",Habitat_Establishment,Salt_Barren,2016,,27.781,-82.404,5,"$30,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0727,Newman Branch III - Creek & Coastal Restoration,Hillsborough Bay,"Ecosphere Restoration Institute, Inc.",Habitat_Enhancement,Hydrologic_Restoration,2016,,27.781,-82.404,5,"$310,000.00 ",
+TBEP_APDB_1992-2016,OSS_Syn_0728,North Boulevard Siphon Rehabilitation Project,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Management,2009,NA,27.950208,-82.4684,,295250,
+TBEP_APDB_1992-2016,OSS_Syn_0729,North Tampa Closed Basins - Phase I,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Stormwater_Pond,2012,10,28.04722491,-82.44657091,,1100000,
+TBEP_APDB_1992-2016,OSS_Syn_0730,North Tampa Pond Enlargements,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Stormwater_Pond,2002,2.5,28.019236,-82.21548,,990000,
+TBEP_APDB_1992-2016,OSS_Syn_0731,Overlay District Projects - Development,Lower Tampa Bay,Manatee County,Nonpoint_Source,BMP_Management,2000,2057.1,27.59344,-82.675961,,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0732,Oyster Reef Shoreline Stabilization Phase IV,Middle Tampa Bay,,Habitat_Establishment,Oyster_Habitat,2010,,27.842,-82.507,0,"$375,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0733,Oyster Reef Shoreline Stabilization Phase V,Middle Tampa Bay,MacDill Air Force Base,Habitat_Establishment,Oyster_Habitat,2016,,27.847,-82.522,0.06,"$880,000.00 ",
+TBEP_APDB_1992-2016,OSS_Syn_0734,Palm River Restoration,Hillsborough Bay,SWFWMD,Habitat_Establishment,Mangroves,2005,NA,27.949071,-82.385384,,4400000,
+TBEP_APDB_1992-2016,OSS_Syn_0735,Palma Ceia Area Stormwater Pond,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Stormwater_Pond,2001,93.4,28.019236,-82.21548,2,1100000,
+TBEP_APDB_1992-2016,OSS_Syn_0736,Peanut Creek Restoration,Lower Tampa Bay,Manatee County,Habitat_Enhancement,Hydrologic_Restoration,2002,NA,27.59344,-82.675961,,926000,
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0737,Peri Island Salt Marsh Restoration,Boca Ciega Bay,TBW,Habitat_Establishment,Saltmarsh,2000,,27.8108,-82.7954,1,NA,near Mad. Bch. Schools
+TBEP_APDB_1992-2016,OSS_Syn_0738,Perico Harbor Clean Marina,Lower Tampa Bay,Manatee County,Nonpoint_Source,BMP_Management,2001,NA,27.59344,-82.675961,,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0739,Perico Preserve Habitat Restoration,Lower Tampa Bay,,Habitat_Establishment,Saltmarsh,2012,,27.5,-82.678,25.36,"$431,827.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0740,Pinellas County Adopt-A-Pond Pilot Project,Old Tampa Bay,PCDEM,Habitat_Protection,Protection_Management,2005,,27.8958,-82.7083,10.159,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0741,Pinellas County Fertilizer Ordinance,Old Tampa Bay,Pinellas County,Nonpoint_Source,Education,2010,NA,27.880356,-82.729797,,NA,
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0742,Pinellas County Island Restoration,Boca Ciega Bay,FDEP,Habitat_Enhancement,Exotic_Control,2003,,28.0673,-82.7967,14,NA,
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0743,Pinellas Point,Lower Tampa Bay,FDNR,Habitat_Enhancement,Saltmarsh,1987,,27.700178,-82.652524,0.03,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0744,Pond 56,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Stormwater_Pond,1998,NA,28.019236,-82.21548,,NA,in Tampa I4 &Fritzke Rd.
+USEPA_GPRA_2008-2017,OSS_Syn_0745,Pond Restoration & Water Quality Monitoring,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2015,,28.103,-82.449,0.5,"$5,000.00 ",
+TBEP_APDB_1992-2016,OSS_Syn_0746,Recommendation of no-vehicle access areas,All Segments,TBRPC,Nonpoint_Source,Education,2005,NA,27.86714745,-82.35780285,,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0747,Reducing Nitrogen Loads to Tampa Bay using Bioretention Systems,Hillsborough Bay,,Habitat_Establishment,FW_Wetlands,2015,,27.981,-82.438,1,"$200,000.00 ",east Tampa
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0748,Regatta Point,Manatee River,FDNR,Habitat_Enhancement,Saltmarsh,1987,,27.51181,-82.576338,0.01,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0749,Regatta Point,Manatee River,FDNR,Habitat_Enhancement,Saltmarsh,1988,,27.51181,-82.576338,0.02,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0750,Repowering Gannon Power Plant - Bayside Facility,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2003,70,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0751,Repowering Gannon Power Plant - Bayside Facility,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2003,882,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0752,Repowering Gannon Power Plant - Bayside Facility,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2003,1189,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0753,Repowering Gannon Power Plant - Bayside Facility,Hillsborough Bay,TECO,Nonpoint_Source,Atmospheric_Deposition,2003,2592,28.019236,-82.21548,,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0754,Restoration at Little Manatee River State Park,Manatee River,,Habitat_Enhancement,Uplands,2011,,27.673,-82.375,71,"$1,765.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0755,Restoration of no-name retention pond at the Shores of Long Bayou,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2013,,27.831,-82.772,0.1,"$7,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0756,Restoration of No-Name Retention Pond at The Shores of Long Bayou,Boca Ciega Bay,,Habitat_Enhancement,FW_Wetlands,2012,,27.831,-82.772,0.15,"$11,400.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0757,Restoration of the Forest Conservation Area,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2011,,28.024,-82.617,2.4,"$3,400.00 ",checked (Memorial Hwy. off Countryway Blvd.)
+TBEP_APDB_1992-2016,OSS_Syn_0758,Retrofit the County's Resource Recovery Facility,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Management,2000,NA,27.86714745,-82.35780285,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0759,River Hills Drive Outfall No. 1,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Management,2005,NA,28.023494,-82.400513,,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0760,River Hills Drive Outfall No.2,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Management,2005,NA,28.023494,-82.400513,,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0761,Rivergarden Shoreline Restoration,Hillsborough Bay,,Habitat_Enhancement,FW_Wetlands,2008,,27.968,-82.477,0.5,"$615,000.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0762,Rivergarden Shoreline Restoration Project,Hillsborough Bay,,Habitat_Enhancement,FW_Wetlands,2010,,27.968,-82.477,0,"$1,000,000.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0763,Riverview Center,Hillsborough Bay,FDEP,Habitat_Enhancement,Saltmarsh,2004,,27.867207,-82.325954,0.1,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0764,Robles Park Water Quality & Natural Systems Enhancement,Hillsborough Bay,Southwest Florida Water Management District,Habitat_Enhancement,FW_Wetlands,2016,,27.974,-82.455,4.5,"$175,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0765,Rock Ponds Ecosystem Restoration,Middle Tampa Bay,,Habitat_Establishment,Saltmarsh,2015,,27.649,-82.538,10,"$30,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0766,Rock Ponds Ecosystem Restoration in Tampa Bay: Tampa Bay Environmental Fund project,Middle Tampa Bay,,Habitat_Establishment,FW_Wetlands,2015,,27.647,-82.542,20,"$400,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0767,Rock Ponds Ecosystem Restoration Project,Middle Tampa Bay,Southwest Florida Water Management District,Habitat_Enhancement,Uplands,2016,,27.649,-82.538,381,"$455,550.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0768,Rock Ponds Upland Restoration 1,Middle Tampa Bay,,Habitat_Enhancement,Exotic_Control,2012,,27.646,-82.532,264,"$396,123.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0769,Rocky Creek Preserve Habitat Restoration,Old Tampa Bay,,Habitat_Enhancement,Exotic_Control,2015,,27.989,-82.593,70,"$93,394.00 ",checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0770,Rocky/Brushy (Brushy Creek Area Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2003,,28.085833,-82.524432,1.905,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0771,Rocky/Brushy (Linebaugh Widening Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2004,,28.040232,-82.580758,2.75,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0772,Rocky/Brushy (Linebaugh/Henderson Mitigation),Old Tampa Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,2006,,28.039338,-82.547712,1.42,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0773,Rocky/Brushy (Sheldon Road at Memorial Highway),Old Tampa Bay,Hillsborough County,Habitat_Establishment,Saltmarsh,2002,,27.99967,-82.583789,62,NA,checked
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0774,Rocky/Brushy (Sheldon Road off Sheldon north of Fountain Avenue),Hillsborough Bay,Hillsborough County,Habitat_Establishment,FW_Wetlands,1999,,28.01178,-82.580634,0.955,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0775,Rye Preserve Exotics Treatment,Manatee River,,Habitat_Enhancement,Exotic_Control,2015,,27.514,-82.363,100,"$14,400.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0776,Rye Preserve Gopher Habitat Improvements,Manatee River,,Habitat_Enhancement,Uplands,2015,,27.514,-82.363,35.4,"$12,500.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0777,SCADA for monitoring pump station failure,Hillsborough Bay,Hillsborough County,Point_Source,Management,2011,NA,28.019236,-82.21548,,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0778,Schultz Nature Preserve Oyster Bar Creation Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2013,,27.812,-82.402,0,"$150,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0779,Schultz Nature Preserve Oyster Bar Creation Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2012,,27.811,-82.402,0,"$110,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0780,Seagrass Mitigation,Lower Tampa Bay,Manatee County,Habitat_Enhancement,Seagrass_Habitat,2002,NA,27.59344,-82.675961,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0781,Seagrass Protection as mitigation,Lower Tampa Bay,Manatee County,Habitat_Protection,Protection_Management,2004,NA,27.59344,-82.675961,,2400,
+TBEP_APDB_1992-2016,OSS_Syn_0782,Seagrass Protection Ordinance 04-72,Lower Tampa Bay,Manatee County,Habitat_Protection,Protection_Management,2004,NA,27.59344,-82.675961,,100000,
+USEPA_GPRA_2008-2017,OSS_Syn_0783,Seagrass Recovery in Tampa Bay,Middle Tampa Bay,,Habitat_Enhancement,Seagrass_Habitat,2009,,27.709,-82.515,1348,"$5,000,000.00 ",cockroach bay
+TBEP_APDB_1992-2016,OSS_Syn_0784,Seagrass scar reduction efforts,All Segments,Pinellas County,Habitat_Protection,Protection_Management,1997,NA,27.86714745,-82.35780285,,74000,
+TBEP_APDB_1992-2016,OSS_Syn_0785,Sediment Trap: Columbus at Riverside S,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2007,NA,27.96536341,-82.47430521,,119000,
+TBEP_APDB_1992-2016,OSS_Syn_0786,Sediment Trap: Spring Lake,Old Tampa Bay,City of Tampa,Nonpoint_Source,BMP_CDS_Unit,2005,4.6,27.91389095,-82.52669924,,175000,
+USEPA_GPRA_2008-2017,OSS_Syn_0787,Seminole Middle School Native Plant Restoration Project,Boca Ciega Bay,,Habitat_Enhancement,Uplands,2012,,27.8521,-82.819,1.5,"$4,000.00 ",updated
+TBEP_APDB_1992-2016,OSS_Syn_0788,Septic Tank Setback Ordinance,Lower Tampa Bay,Manatee County,Nonpoint_Source,BMP_Management,2004,NA,27.59344,-82.675961,,NA,
+USEPA_GPRA_2008-2017,OSS_Syn_0789,Serena Park,Hillsborough Bay,,Habitat_Enhancement,Uplands,2014,,28.043,-82.4,1,"$2,000.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0790,Shell Key Exotic Removal,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2008,,27.651,-82.739,4,"$22,125.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0791,Shoreline Enhancement for MacDill Air Force Base Phase IV,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2011,,27.823,-82.474,0,"$375,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0792,"Shoreline Enhancement for MacDill Air Force Base, Phase IV",Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2012,,27.823,-82.474,0,"$109,200.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0793,Site 9 Mangrove Restoration,Middle Tampa Bay,,Habitat_Enhancement,Hydrologic_Restoration,2010,,27.842,-82.507,2,"$99,000.00 ",at MacDill
+USF_WaterAtlas_Hab_1971-2007,OSS_Syn_0794,Skyway Jacks,Boca Ciega Bay,FDNR,Habitat_Establishment,Mangroves,1998,,27.705961,-82.680808,1,NA,checked
+TBEP_APDB_1992-2016,OSS_Syn_0795,South Glen Arven Outfalls SW retrofit,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Management,2004,NA,28.019724,-82.382928,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0796,South Green Springs Phase Two Stormwater Retrofit Project,Old Tampa Bay,SWFWMD,Nonpoint_Source,BMP_Management,2002,163.8,28.012172,-82.609611,,766172,
+TBEP_APDB_1992-2016,OSS_Syn_0797,Spoil Island Restoration,Lower Tampa Bay,Manatee County,Habitat_Establishment,Mangroves,2002,NA,27.59344,-82.675961,,NA,mid LTB
+USEPA_GPRA_2008-2017,OSS_Syn_0798,Stewart Middle School Shoreline Restoration,Hillsborough Bay,,Habitat_Enhancement,FW_Wetlands,2010,,27.961,-82.471,0,"$250,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0799,Stormwater Diversion Project,Old Tampa Bay,TBRPC,Nonpoint_Source,Education,2005,NA,28.012172,-82.609611,,5000,
+TBEP_APDB_1992-2016,OSS_Syn_0800,Stormwater Pond,Lower Tampa Bay,Manatee County,Nonpoint_Source,BMP_Stormwater_Pond,2005,110.6,27.59344,-82.675961,,NA,mid LTB
+TBEP_APDB_1992-2016,OSS_Syn_0801,Stormwater Research Facility at 132nd and Taliaferro,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Stormwater_Pond,2002,26.9,28.066534,-82.453662,,250000,
+TBEP_APDB_1992-2016,OSS_Syn_0802,Strawberry Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,212,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0803,Strawberry Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,612.9,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0804,Strawberry Conversion to Micro-Irrigation,Hillsborough Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,1391.1,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0805,Strawberry Conversion to Micro-Irrigation,Middle Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,91.4,27.662673,-82.215645,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0806,Strawberry Conversion to Micro-Irrigation,Middle Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,457.8,27.662673,-82.215645,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0807,Strawberry Conversion to Micro-Irrigation,Old Tampa Bay,Hillsborough County,Nonpoint_Source,BMP_Agricultural,1995,90.8,28.012172,-82.609611,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0808,Strawberry Crop Conversion to Micro-Irrigation,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,1995,0.2,27.662673,-82.215645,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0809,Strawberry Crop Conversion to Micro-Irrigation ï¿½ï¿½ï¿½ Manatee County,Middle Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,1995,3.8,27.662673,-82.215645,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0810,Strawberry Crop to Micro-Irrigation,Lower Tampa Bay,Manatee County CES,Nonpoint_Source,BMP_Agricultural,1995,0.6,27.59344,-82.675961,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0811,Street Sweeping in Alafia River Basin,Hillsborough Bay,FDOT,Nonpoint_Source,Street_Sweeping,2013,NA,28.019236,-82.21548,,,
+TBEP_APDB_1992-2016,OSS_Syn_0812,Sumner Road,Hillsborough Bay,SWFWMD,Nonpoint_Source,BMP_Management,2002,NA,27.752228,-82.335362,,NA,near Bullfrog Creek
+TBEP_APDB_1992-2016,OSS_Syn_0813,Support consent orders for clean up of fertilizer facilities,Hillsborough Bay,FDEP,Point_Source,Regulation,2000,NA,27.79,-82.442,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0814,Support standardized monitoring of wastewater discharges,Hillsborough Bay,Hillsborough County,Point_Source,Management,2005,NA,28.019236,-82.21548,,NA,
+TBEP_APDB_1992-2016,OSS_Syn_0815,Tampa Bay Water Regional Surface Water Treatment Plant,Hillsborough Bay,Tampa Bay Water,Nonpoint_Source,Send_to_WWTP,2003,72440,28.019236,-82.21548,,84000000,
+USEPA_GPRA_2008-2017,OSS_Syn_0816,Tarpon Key NWR Tidal Wetland Restoration,Boca Ciega Bay,,Habitat_Enhancement,Saltmarsh,2011,,27.666,-82.694,1,"$42,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0817,Tarpon Key Oyster Bar Creation Project,Boca Ciega Bay,,Habitat_Establishment,Oyster_Habitat,2013,,27.683,-82.716,0,"$50,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0818,Tarpon Key Oyster Bar Creation Project,Boca Ciega Bay,,Habitat_Establishment,Oyster_Habitat,2011,,27.683,-82.691,-,"$50,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0819,Terra Ceia 'Airplane Forest' Upland Restoration,Terra Ceia Bay,SWFWMD,Habitat_Establishment,Uplands,2009,,27.5641,-82.612,47.9,"$81,045.00 ",updated to Terra Ciea Preserve
+USEPA_GPRA_2008-2017,OSS_Syn_0820,Terra Ceia Aquatic Preserve,Terra Ceia Bay,,Habitat_Enhancement,Saltmarsh,2010,,27.535,-82.584,9.9,"$15,565.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0821,Terra Ceia Aquatic Preserve Tidal Wetland Restoration,Terra Ceia Bay,,Habitat_Enhancement,Saltmarsh,2011,,27.584,-82.579,2,"$42,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0822,Terra Ceia Ecosystem Restoration,Terra Ceia Bay,,Habitat_Enhancement,Exotic_Control,2008,,27.5641,-82.612,59.6,"$250,000.00 ",updated to Terra Ciea Preserve
+USEPA_GPRA_2008-2017,OSS_Syn_0823,Terra Ceia Nature Preserve,Terra Ceia Bay,,Habitat_Enhancement,Saltmarsh,2008,,27.577,-82.58,32,"$7,500.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0824,Terra Ceia Nature Preserve,Terra Ceia Bay,,Habitat_Enhancement,Saltmarsh,2008,,27.577,-82.58,9,"$7,500.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0825,Terra Ceia Upland Restoration Phase 7,Terra Ceia Bay,,Habitat_Enhancement,Exotic_Control,2014,,27.589,-82.571,67,"$141,484.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0826,"Terra Ceia Uplands, Phase 6",Terra Ceia Bay,,Habitat_Enhancement,Uplands,2011,,27.589,-82.571,158,"$331,357.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0827,Terra Ceia Wetlands I,Terra Ceia Bay,,Habitat_Establishment,FW_Wetlands,2009,,27.5641,-82.612,134,"$3,800,000.00 ",updated to Terra Ciea Preserve
+TBEP_APDB_1992-2016,OSS_Syn_0828,This Old Pond Video,All Segments,TBRPC,Nonpoint_Source,Education,2000,NA,27.86714745,-82.35780285,,200,
+USEPA_GPRA_2008-2017,OSS_Syn_0829,Three Mile North Reef,Lower Tampa Bay,,Habitat_Enhancement,Hard_Bottom,2011,,27.537,-82.745,23,"$2,200,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0830,Trash Free Waters Day,All Segments,Keep Tampa Bay Beautiful,Habitat_Enhancement,Management,2016,,27.94,-82.458,0,"$2,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0831,Triple Creek Preserve - PH II,Hillsborough Bay,,Habitat_Enhancement,Exotic_Control,2015,,27.82,-82.256,138,"$248,312.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0832,Ulele Springs Restoration Project,Hillsborough Bay,,Habitat_Establishment,FW_Wetlands,2014,,27.959,-82.463,0.5,"$670,000.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0833,Ulele Springs Restoration Project,Hillsborough Bay,,Habitat_Establishment,FW_Wetlands,2013,,27.959,-82.463,0.5,"$655,000.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0834,Ungarelli Preserve Habitat Restoration,Lower Tampa Bay,,Habitat_Enhancement,Exotic_Control,2012,,27.466,-82.647,2.56,"$230,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0835,Unpaved Alleys Sediment and Erosion Control,Old Tampa Bay,City of Largo,Nonpoint_Source,BMP_Management,2010,NA,27.86714745,-82.35780285,,700000,
+USEPA_GPRA_2008-2017,OSS_Syn_0836,Upland Forest Habitat Management,Middle Tampa Bay,MacDill Air Force Base,Habitat_Enhancement,Uplands,2016,,27.847,-82.522,7,"$30,000.00 ",checked
+TBEP_APDB_1992-2016,OSS_Syn_0837,Urban retrofit projects,Middle Tampa Bay,City of St. Petersburg,Nonpoint_Source,BMP_Management,2004,118.8,27.79,-82.442,,50000,
+TBEP_APDB_1992-2016,OSS_Syn_0838,W Palmetto St Stormwater Improvements,Hillsborough Bay,City of Tampa,Nonpoint_Source,BMP_Stormwater_Pond,2011,4.3,27.96238125,-82.49834043,,25000,
+TBEP_APDB_1992-2016,OSS_Syn_0839,W.E. Dunn BNR Optimization,Old Tampa Bay,Pinellas County,Point_Source,PS_Treatment,2009,NA,28.109681,-82.766705,,NA,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0840,Walsingham Park Invasive Plant Control / Give A Day for the Bay,Boca Ciega Bay,,Habitat_Enhancement,Exotic_Control,2012,,27.87,-82.8141,12,"$30,520.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0841,Watershed Improvement Partnership between Shorecrest Preparatory School and Placido Bayou Community Association,Middle Tampa Bay,,Habitat_Enhancement,FW_Wetlands,2011,,27.817,-82.626,4.8,"$2,750.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0842,Weedon Island Oyster Bar Creation,Middle Tampa Bay,,Habitat_Establishment,Oyster_Habitat,2008,,27.85,-82.61,0,"$15,000.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0843,Weedon Island Oyster Bar Creation Project,Middle Tampa Bay,,Habitat_Establishment,Oyster_Habitat,2012,,27.85,-82.61,0,"$80,000.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0844,Weedon Island Preserve,Middle Tampa Bay,,Habitat_Enhancement,Uplands,2009,,27.85,-82.61,14,"$17,600.00 ",updated
+USEPA_GPRA_2008-2017,OSS_Syn_0845,Weedon Island Preserve Prescribed Burn,Middle Tampa Bay,,Habitat_Enhancement,Uplands,2011,,27.85,-82.61,4,$600.00 ,updated
+TBEP_APDB_1992-2016,OSS_Syn_0846,Westshore Ditch Bottom Sumps,Old Tampa Bay,City of Tampa,Nonpoint_Source,BMP_Management,2004,140,27.87083871,-82.53096503,,58815,checked
+USEPA_GPRA_2008-2017,OSS_Syn_0847,Whale Island Oyster Bar Creation Project,Boca Ciega Bay,,Habitat_Establishment,Oyster_Habitat,2011,,27.662,-82.693,0,"$65,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0848,Whiskey Stump Key Oyster Bar Creation Project,Hillsborough Bay,,Habitat_Establishment,Oyster_Habitat,2010,,27.814,-82.401,0,"$45,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0849,Wolf Branch Nature Preserve,Middle Tampa Bay,,Habitat_Enhancement,Exotic_Control,2015,,27.747,-82.437,526,"$68,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0850,Wolfbranch Creek Nature Preserve Ephemeral Pond Creation,Middle Tampa Bay,,Habitat_Establishment,FW_Wetlands,2010,,27.739,-82.444,3.5,"$50,000.00 ",checked
+USEPA_GPRA_2008-2017,OSS_Syn_0851,World Oceans Day,All Segments,Keep Tampa Bay Beautiful,Habitat_Enhancement,Management,2016,,27.94,-82.451,0,"$2,500.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0852,2D Oyster Reef Community Construction Project,Hillsborough Bay,Tampa Bay Watch,Habitat_Establishment,Oyster_Habitat,2017,,27.8725,-82.4277,0.27,"$75,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0853,Alafia River Corridor Preserve,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2017,,27.825,-82.133,357,"$35,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0854,Allen’s Creek Mgmt Area Exotic Veg. Control,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2017,,27.93,-82.741,10,"$10,500.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0855,Bahia Beach Nature Preserve,Middle Tampa Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2017,,27.722,-82.464,24,"$5,928.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0856,Balm Boyette Scrub Preserve,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2017,,27.786,-82.246,13,"$16,500.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0857,Balm Scrub Preserve,Middle Tampa Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2017,,27.723,-82.294,632,"$107,376.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0858,Brooker Creek Headwaters Preserve,Old Tampa Bay,Hillsborough County,Habitat_Enhancement,Uplands,2017,,28.137,-82.556,42,"$12,306.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0859,Brooker Creek Preserve Flatwoods Restoration,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Uplands,2017,,28.076,-82.661,275,"$325,875.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0860,Brooker Creek Preserve Timber Thinning,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Uplands,2017,,28.082,-82.678,150,,
+USEPA_GPRA_2008-2017,OSS_Syn_0861,City of Safety Harbor Waterfront Park,Old Tampa Bay,City of Safety Harbor,Habitat_Enhancement,Exotic_Control,2017,,27.989,-82.685,2,"$2,091,399.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0862,East Lake Mgmt Area Exotic Veg. Control,Old Tampa Bay,Pinellas County,Habitat_Enhancement,Exotic_Control,2017,,28.096,-82.701,4,"$4,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0863,English Creek Preserve,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2017,,27.932,-82.065,50,"$40,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0864,Fantasy Island Community Creation and Shoreline,Hillsborough Bay,Tampa Bay Watch,Habitat_Establishment,Oyster_Habitat,2017,,27.868,-82.425,0.18,"$150,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0865,Fantasy Island Native Vegetation Planting,Hillsborough Bay,Tampa Bay Watch,Habitat_Establishment,Saltmarsh,2017,,27.868,-82.425,0.08,"$10,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0866,Fish Hawk Preserve,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Uplands,2017,,27.831,-82.244,116,"$39,785.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0867,Fred & Idah Schultz Preserve,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2017,,27.812,-82.399,78,"$46,020.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0868,Ft. De Soto Park Burn Unit 22,Lower Tampa Bay,Pinellas County,Habitat_Enhancement,Uplands,2017,,27.631,-82.723,48,$700.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0869,Give-A-Day for the Bay at Blackthorn Memorial,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2017,,27.648,-82.675,2,$450.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0870,Give-A-Day for the Bay at Boyd Hill Nature Preserve,Middle Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2017,,27.726,-82.65,5,$408.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0871,Give-A-Day for the Bay at Cockroach Bay Preserve,Middle Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2017,,27.695,-82.502,0,$222.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0872,Give-A-Day for the Bay at Lake Lisa Park,Outside watershed,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2017,,28.287,-82.697,1,$150.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0873,Give-A-Day for the Bay at Moccasin Lake Nature Park to celebrate National Estuaries Week,Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Exotic_Control,2017,,27.975,-82.723,3,$285.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0874,Give-A-Day for the Bay at Robinson Preserve to celebrate National Estuaries Week,Lower Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2017,,27.517,-82.664,2,$575.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0875,Give-A-Day for the Bay at Rock Ponds Restoration Site,Middle Tampa Bay,Tampa Bay Estuary Program,Habitat_Enhancement,Uplands,2017,,27.678,-82.497,0,$445.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0876,"Give-A-Day for the Bay at Safety Harbor Restoration site: Waterfront Park, Phase II.",Old Tampa Bay,Tampa Bay Estuary Program,Habitat_Establishment,Saltmarsh,2017,,27.991,-82.685,2,$500.00 ,
+USEPA_GPRA_2008-2017,OSS_Syn_0877,Golden Aster Scrub Preserve,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Uplands,2017,,27.819,-82.358,189,"$50,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0878,Invasive Species Control,Middle Tampa Bay,Mac Dill,Habitat_Enhancement,Exotic_Control,2017,,27.843,-82.516,1500,"$218,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0879,Lake Dan Nature Preserve,Old Tampa Bay,Hillsborough County,Habitat_Enhancement,Uplands,2017,,28.159,-82.641,170,"$35,530.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0880,Lower Green Swamp Preserve,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Hydrologic_Restoration,2017,,28.086,-82.076,1,"$28,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0881,Lower Green Swamp Preserve - Invasives,Hillsborough Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2017,,28.086,-82.076,68,"$45,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0882,"Mangrove Restoration Phase III & IV, Sites 4 and 16",Middle Tampa Bay,Mac Dill,Habitat_Enhancement,Hydrologic_Restoration,2017,,27.833,-82.517,17,"$378,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0883,McKay Bay South Oyster Reef Creation and Enhancement,Hillsborough Bay,Tampa Bay Watch,Habitat_Establishment,Oyster_Habitat,2017,,27.555,-82.252,0.51,"$225,000.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0884,Palmetto Estuary Phase 2A,Manatee River,SWFWMD,Habitat_Establishment,Mangroves,2017,,27.514,-82.564,0.32,"$99,498.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0885,Pam Callahan Nature Preserve,Old Tampa Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2017,,27.981,-82.566,20,"$20,784.00 ",
+USEPA_GPRA_2008-2017,OSS_Syn_0886,Wolf Branch Nature Preserve,Middle Tampa Bay,Hillsborough County,Habitat_Enhancement,Exotic_Control,2017,,27.747,-82.437,78,"$18,564.00 ",
+TBEP_LEGACY,OSS_Syn_0887,Howard F. Curren Advanced Wastewater Treatment Upgrades,Hillsborough Bay,City of Tampa,Point_Source,PS_Treatment,1979,,27.911389,-82.440833,,,
+TBEP_LEGACY,OSS_Syn_0888,Albert Whitted WWTP Upgrades,Middle Tampa Bay,City of St. Petersburg,Point_Source,Increase_Reuse,1987,,27.762881,-82.623994,,,
+TBEP_LEGACY,OSS_Syn_0889,Northwest Treatment Plant Upgrades,Boca Ciega Bay,City of St. Petersburg,Point_Source,Increase_Reuse,1983,,27.794827,-82.741778,,,
+TBEP_LEGACY,OSS_Syn_0890,Southwest Treatment Plant Upgrades,Lower Tampa Bay,City of St. Petersburg,Point_Source,Increase_Reuse,1983,,27.716557,-82.681502,,,
+TBEP_LEGACY,OSS_Syn_0891,Northeast Treatment Plant Upgrades,Middle Tampa Bay,City of St. Petersburg,Point_Source,Increase_Reuse,1983,,27.825109,-82.614223,,,
