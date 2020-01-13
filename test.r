@@ -85,23 +85,23 @@ rest <- reststat %>%
   st_as_sf(coords = c('lon', 'lat'), crs = 4326)
 
 
-#Step 1: for a point in rest, get the corresponding catchment and flowline
+#Step 1: for a point in rest, get the corresponding catchment and flowline and catchment (optional)
 #I'm sure this functions can be done on the complete set of points in sf, but I started on just 1st pnt
-
-#find catchment COMID for first sf point
 point <- rest[1,5]
-#get_nhdplus.discover_nhdplus_id
+
+#find catchment COMID for first sf point using get_nhdplus.discover_nhdplus_id
 comid <- discover_nhdplus_id(point)
 
-#get catchment polygon
-#poly = get_nhdplus.get_nhdplus_byid(comid, layer)
+#get flowline get_nhdplus.get_nhdplus_byid(comid, layer)
+layer <- 'nhdflowline_network'
+fline <- get_nhdplus_byid(comid, layer)
+#Length of full path in km?
+flowDist <- fline$'pathlength'
+
+#get catchment polygon (optional)
 layer <- 'catchmentsp'
 catchment <- get_nhdplus_byid(comid, layer)
 #NOTE: gridcode field may be able to be used to get elevetation raster within catchment
-
-#get flowline in catchment
-layer <- 'nhdflowline_network'
-fline <- get_nhdplus_byid(comid, layer)
 
 
 #Plot what we have so far
@@ -110,12 +110,16 @@ ggplot() +
   geom_sf(data = fline) +
   geom_sf(data = point)
 
+#Additional attributes of fline that may be useful
 #length of that segment
 segmentLength <- fline$'lengthkm'
-#Length of full path in km?
-flowDist <- fline$'pathlength'
 #Not sure what this is but may be relevant
 #flowDist <- fline$'terminalpa'
+
+#Other things we may want to calculate at this point:
+#get distance from rest to nearest point on fline?
+#get distance from nearest point on fline to downstream end of line segment?
+
 
 #An alternative way to get the first line segment is to chose one closest to the point
 #index_nhdplu.get_flowline_index  returns nearest fline in flines for point
@@ -123,12 +127,8 @@ flowDist <- fline$'pathlength'
 #However, this requires flines to be local and may not be in the same catchment
 #To get flines local use get_nhdplus.get_nhdplus_bybox and the extent (bbox) from rest or tbshed
 
-#Other things we may want to calculate at this point:
-#get distance from rest to nearest point on line?
-#get distance from nearest point on line to downstream end of line segment?
-
 #NHDPlus flowlines get tricky on the coastline, where coastal catchments are sometime networked together
-#Next step is to get downstream lines and check distance to terminal
+#Next step is to get downstream lines and check distance to terminal, this may not be neccessary
 
 #Option 1
 #get_network.get_DD(network, comid, distance = NULL)
@@ -136,7 +136,7 @@ flowDist <- fline$'pathlength'
 #the above requires flines, I know there is a service to return downstream by comid (option 2)
 
 #Option 2
-#Downstream comid using comid via cida/usgs.gov/nldi 
+#Downstream comid using comid via cida/usgs.gov/nldi
 #https://cida.usgs.gov/nldi/comid/16906589/navigate/DD
 # see https://github.com/ACWI-SSWD/nldi-services
 #NOTE: 1/10/2020 the service was down (404 error) so a try/except with downCOM.json (option 3)
@@ -162,6 +162,7 @@ flowDist_calc <- sum(st_length(nldi_down))
 #Confirm terminal using flines['terminalfl']
 downIDs <- nldi_down$'nhdplus_comid'
 comid_term <- tail(downIDs, n=1)
+layer <- 'nhdflowline_network'
 last_fline <- get_nhdplus_byid(comid_term, layer)
 
 #we don't need the geometry for the catchments but could get/plot it
