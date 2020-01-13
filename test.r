@@ -139,7 +139,7 @@ flowDist <- fline$'pathlength'
 #Downstream comid using comid via cida/usgs.gov/nldi 
 #https://cida.usgs.gov/nldi/comid/16906589/navigate/DD
 # see https://github.com/ACWI-SSWD/nldi-services
-#NOTE: 1/10/2020 the service was down (404 error) so a try/except with downCOM.text might be helpful
+#NOTE: 1/10/2020 the service was down (404 error) so a try/except with downCOM.json (option 3)
 
 #create nldi feature list for nhdplusTools
 nldi_feature <-list("featureSource"='comid', "featureID"=comid)
@@ -181,67 +181,19 @@ ggplot() +
 #There may be a catchment table with 'coastalfl' flagging coastal catchments but I haven't found it yet
 
 
+#option 3
+#I downloaded the seemless and processed the flowtable for that using python, see data/downCOMs.json
+#download seemless using nhdplusTools
+#local_dir <- 'L://Public//jbousqui//Code//GitHub//restore-gulf//data'
+#download_nhdplusv2(local_dir)
 
-#option 3 - use arc rest service for vpu and get flow table
+#option 4 - use arc rest service for vpu and get flow table by vpu
 #https://services6.arcgis.com/2TtZhmoHm5KqwqfS/arcgis/rest/services/NHDPlus_V2_BoundaryUnit/FeatureServer
 #http://www.horizon-systems.com/NHDPlusData/NHDPlusV21/Data/NHDPlusSA/NHDPlus03S/NHDPlusV21_SA_03S_NHDPlusAttributes_07.7z
-#table can then be used to get the catchments/flowlines
-#Another option is I could process the seemless and host the flowtable for that ~250MB
-
-#option 4
-#try instead downloading 3 to create url later
+#table can then be used to download the flowlines/catchments
 #bbox <- st_bbox(rest)
 #get_nhdplus.get_nhdplus_bybox (have to copy function in from dev version)
 #flines <- get_nhdplus_bybbox(bbox, layer)
 #layer <- 'catchmentsp'
 #catchments <- get_nhdplus_bybbox(bbox, layer)
 #we can get catchments and flowlines this way but not the network table
-
-#option 5 
-#download seemless using nhdplusTools
-#local_dir <- 'L://Public//jbousqui//Code//GitHub//restore-gulf//data'
-#download_nhdplusv2(local_dir)
-# failed because status_code != 200
-
-#option 6
-#do regional manually for now (go back to )
-#url1 = "https://www.horizon-systems.com/NHDPlusData/NHDPlusV21/Data/NHDPlusSA/NHDPlus03S/NHDPlusV21_SA_03S_NHDPlusAttributes_07.7z"
-
-# downloader <- function(dir, url, type){
-#   
-#   if (!dir.exists(dir)) {
-#     dir.create(dir, recursive = T)
-#   }
-#   
-#   file <-  file.path(dir, basename(url))
-#   
-#   if (!file.exists(file)) {
-#     
-#     message("Downloading ", basename(url))
-#     
-#     resp <-  httr::GET(url,
-#                        httr::write_disk(file, overwrite = TRUE),
-#                        httr::progress())
-#     
-#     if (resp$status_code != 200) {
-#       stop("Download unsuccessfull :(")
-#     }
-#     
-#   } else {
-#     message("Compressed ", toupper(type), " file already exists ...")
-#   }
-#   
-#   return(file)
-#   
-# }
-
-#downloader(local_dir, url1, "nhdplusV2")
-#Timeout error
-
-
-#Last attempt manually download seamless and generated flowTable from that
-
-# ggplot() + 
-#   geom_sf(data = catchment) +
-#   geom_sf(data = fline) +
-#   geom_sf(data = point)
