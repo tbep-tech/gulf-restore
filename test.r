@@ -2,6 +2,7 @@
 #devtools::install_github('tbep-tech/tbeptools')
 #install.packages("nhdplusTools")
 #install.packages('tidyverse')
+#install.packages('fansi')
 library(tbeptools)
 library(nhdplusTools)
 library(sf)
@@ -83,6 +84,8 @@ rest <- reststat %>%
   full_join(restdat, by = 'id') %>% 
   st_as_sf(coords = c('lon', 'lat'), crs = 4326)
 
+
+#Step 1: for a point in rest, get the corresponding catchment and flowline
 #I'm sure this functions can be done on the complete set of points in sf, but I started on just 1st pnt
 
 #find catchment COMID for first sf point
@@ -107,6 +110,12 @@ ggplot() +
   geom_sf(data = fline) +
   geom_sf(data = point)
 
+#length of that segment
+segmentLength <- fline$'lengthkm'
+#Length of full path in km?
+flowDist <- fline$'pathlength'
+#Not sure what this is but may be relevant
+#flowDist <- fline$'terminalpa'
 
 #An alternative way to get the first line segment is to chose one closest to the point
 #index_nhdplu.get_flowline_index  returns nearest fline in flines for point
@@ -118,24 +127,59 @@ ggplot() +
 #get distance from rest to nearest point on line?
 #get distance from nearest point on line to downstream end of line segment?
 
-#Next step is to get downstream lines/distance to terminal
+#NHDPlus flowlines get tricky on the coastline, where coastal catchments are sometime networked together
+#Next step is to get downstream lines and check distance to terminal
 
 #Option 1
 #get_network.get_DD(network, comid, distance = NULL)
 #dd_comid <- get_DD(flines, comid, distance = NULL)
-#the above requires flines, I know there is a service to return downstream by comid
+#the above requires flines, I know there is a service to return downstream by comid (option 2)
 
 #Option 2
-#I've definitely gotten downstream comid using comid via cida/usgs.gov/nldi 
+#Downstream comid using comid via cida/usgs.gov/nldi 
 #https://cida.usgs.gov/nldi/comid/16906589/navigate/DD
 # see https://github.com/ACWI-SSWD/nldi-services
+#NOTE: 1/10/2020 the service was down (404 error) so a try/except with downCOM.text might be helpful
 
-#create nldi feature list using nhdplusTools
+#create nldi feature list for nhdplusTools
 nldi_feature <-list("featureSource"='comid', "featureID"=comid)
-#navigatedownstream using nldi_feature
-navigate_nldi(nldi_feature, mode = 'downstreamDiversions')
-#the above seems like it should work but 404 errors at the moment
-#the servicerepo (https://github.com/ACWI-SSWD/nldi-services) has a build error at the moment so it may just be down
+#navigatedownstream using nldi_feature (get_nldi.navigate_nldi)
+nldi_down <- navigate_nldi(nldi_feature, mode = 'downstreamMain', data_source = "")
+#Note that there is a diversion in this that then recombines
+# To instead get diversions
+#nldi_dd <- navigate_nldi(nldi_feature, mode = 'downstreamDiversions', data_source = "")
+
+#Plot as a quick check
+ggplot() + 
+  geom_sf(data = nldi_down) +
+  geom_sf(data = point)
+
+
+#Total length
+flowDist_calc <- sum(st_length(nldi_down))
+#flowDist_calc should be about (segmentLength + flowDist)*1000
+
+#Confirm terminal using flines['terminalfl']
+downIDs <- nldi_down$'nhdplus_comid'
+comid_term <- tail(downIDs, n=1)
+last_fline <- get_nhdplus_byid(comid_term, layer)
+
+#we don't need the geometry for the catchments but could get/plot it
+catchments <- catchment
+layer <- 'catchmentsp'
+for(id in downIDs){
+  catchment_temp <- get_nhdplus_byid(id, layer)
+  catchments <- rbind(catchments, catchment_temp)
+}
+
+#Plot as a quick check
+ggplot() + 
+  geom_sf(data = catchments) +
+  geom_sf(data = nldi_down) +
+  geom_sf(data = point)
+
+#There may be a catchment table with 'coastalfl' flagging coastal catchments but I haven't found it yet
+
 
 
 #option 3 - use arc rest service for vpu and get flow table
