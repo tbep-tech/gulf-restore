@@ -84,9 +84,52 @@ rest <- reststat %>%
   full_join(restdat, by = 'id') %>% 
   st_as_sf(coords = c('lon', 'lat'), crs = 4326)
 
+#My feeble attempt to run on the sf
+points <- rest
+# There is a more elegant way to create empty fields
+points$'comid' <- ''
+points$'pathlength' <- ''
+# params for flow lines
+layer <- 'nhdflowline_network'
+rm(flines) #just in case
+#loop over one sf point at a time
+for(i in 1:length(points$id)){
+  point <- rest[i,]
+  comid <- discover_nhdplus_id(point)
+  if (length(comid)>0) {
+    #write comid to table
+    points[i,'comid'] <- comid
+    #use comid to get fline and pathlength
+    fline <- get_nhdplus_byid(comid, layer)
+    points[i,'pathlength'] <- fline$'pathlength'
+    #save fline to flines to plot?
+    if (exists('flines')) {
+      flines <- rbind(flines, fline)
+    } else {
+      flines <- fline #first time
+      }
+  } else {
+      #problem with comid response
+      warning(paste("Issue with row ", i, "\n Returned: ", comid))
+    }
+}
+#plot results
+ggplot() +
+  geom_sf(data = flines) +
+  geom_sf(data = points)
+#Notes:
+#Problem w/ comid for 25 points: 4, 18, 19, 20, 21, 22, 23, 31, 52, 55, 62, 65, 69, 72, 73, 74, 91, 95,
+#96, 97, 100, 101, 102, 103, 122
+#could these be over the water where there isn't a catchment?
+#Very unlikely, but may need to handle if a point falls on catchment line (returns 2 catchments)
+#Some geometries repeat, it takes a while to run and removing duplicates might be worthwhile
+
+
+
+#The following was initialy used to outline the process on 1st point, it includes catchment/downstream
+#functions and some additional options of how to do the same thing
 
 #Step 1: for a point in rest, get the corresponding catchment and flowline and catchment (optional)
-#I'm sure this functions can be done on the complete set of points in sf, but I started on just 1st pnt
 point <- rest[1,5]
 
 #find catchment COMID for first sf point using get_nhdplus.discover_nhdplus_id
