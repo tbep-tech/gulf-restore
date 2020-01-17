@@ -94,6 +94,7 @@ layer <- 'nhdflowline_network'
 rm(flines) #just in case
 #loop over one sf point at a time
 for(i in 1:length(points$id)){
+  cat(round(i / length(points$id), 2), '\n')
   point <- rest[i,]
   comid <- discover_nhdplus_id(point)
   if (length(comid)>0) {
@@ -218,9 +219,11 @@ for(id in downIDs){
 
 #Plot as a quick check
 ggplot() + 
-  geom_sf(data = catchments) +
-  geom_sf(data = nldi_down) +
-  geom_sf(data = point)
+  geom_sf(data = tbshed) + 
+  geom_sf(data = tbseg) + 
+  # geom_sf(data = catchments) +
+  geom_sf(data = nldi_down, col = 'blue') +
+  geom_sf(data = point, col = 'red')
 
 #There may be a catchment table with 'coastalfl' flagging coastal catchments but I haven't found it yet
 
