@@ -162,6 +162,29 @@ segmentLength <- fline$'lengthkm'
 
 #Other things we may want to calculate at this point:
 #get distance from rest to nearest point on fline?
+st_distance(point, fline) #in meters
+#this doesn't tell us where on fline the nearest point is (need to add the rest of the segment distance)
+test_line <- st_nearest_points(point, fline)
+#although coordinates are longitude/latitude, st_nearest_points assumes that they are planar
+
+#get length to check
+#test_sf<-st_as_sf(test_line)
+#st_length(test_sf) # this didn't work and I can't determine why...
+#determine using start/edn points
+st_distance(st_cast(test_line, "POINT")) #passes test
+
+#get start and end points
+st_cast(test_line, "POINT")[2] #end point
+#this may not intersect the fline because of rounding...
+
+#plot it to test it 
+ggplot() + 
+  geom_sf(data = catchment) +
+  geom_sf(data = fline) +
+  geom_sf(data = test_line)
+  geom_sf(data = point)
+
+
 #get distance from nearest point on fline to downstream end of line segment?
 
 
