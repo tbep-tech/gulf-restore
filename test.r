@@ -1,63 +1,13 @@
 #install.packages('devtools')
 #devtools::install_github('tbep-tech/tbeptools')
 #install.packages("nhdplusTools")
+#devtools::install_github('cran/nhdplusTools')
 #install.packages('tidyverse')
 #install.packages('fansi')
 library(tbeptools)
 library(nhdplusTools)
 library(sf)
 library(tidyverse)
-
-#These functions are slated to be added to the nhdplusTools library (copied from repo)
-get_nhdplus_byid <- function(comids, layer) {
-  
-  id_name <- list(catchmentsp = "featureid", nhdflowline_network = "comid")
-  
-  if (!any(names(id_name) %in% layer)) {
-    stop(paste("Layer must be one of",
-               paste(names(id_name),
-                     collapse = ", ")))
-  }
-  
-  post_url <- "https://cida.usgs.gov/nwc/geoserver/nhdplus/ows"
-  
-  # nolint start
-  
-  filter_1 <- paste0('<?xml version="1.0"?>',
-                     '<wfs:GetFeature xmlns:wfs="http://www.opengis.net/wfs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" service="WFS" version="1.1.0" outputFormat="application/json" xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">',
-                     '<wfs:Query xmlns:feature="http://gov.usgs.cida/nhdplus" typeName="feature:',
-                     layer, '" srsName="EPSG:4326">',
-                     '<ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">',
-                     '<ogc:Or>',
-                     '<ogc:PropertyIsEqualTo>',
-                     '<ogc:PropertyName>',
-                     id_name[[layer]],
-                     '</ogc:PropertyName>',
-                     '<ogc:Literal>')
-  
-  filter_2 <- paste0('</ogc:Literal>',
-                     '</ogc:PropertyIsEqualTo>',
-                     '<ogc:PropertyIsEqualTo>',
-                     '<ogc:PropertyName>',
-                     id_name[[layer]],
-                     '</ogc:PropertyName>',
-                     '<ogc:Literal>')
-  
-  filter_3 <- paste0('</ogc:Literal>',
-                     '</ogc:PropertyIsEqualTo>',
-                     '</ogc:Or>',
-                     '</ogc:Filter>',
-                     '</wfs:Query>',
-                     '</wfs:GetFeature>')
-  
-  filter_xml <- paste0(filter_1, paste0(comids, collapse = filter_2), filter_3)
-  
-  # nolint end
-  
-  req_data <- httr::RETRY("POST", post_url, body = filter_xml, times = 3, pause_cap = 60)
-  
-  return(make_web_sf(req_data))
-}
 
 
 #subfunction make_web_sf(req_data)
@@ -91,7 +41,7 @@ points$'comid' <- ''
 points$'pathlength' <- ''
 # params for flow lines
 layer <- 'nhdflowline_network'
-rm(flines) #just in case
+rm(flines) #just in case (does throw warning if not found)
 #loop over one sf point at a time
 for(i in 1:length(points$id)){
   cat(round(i / length(points$id), 2), '\n')
@@ -101,7 +51,7 @@ for(i in 1:length(points$id)){
     #write comid to table
     points[i,'comid'] <- comid
     #use comid to get fline and pathlength
-    fline <- get_nhdplus_byid(comid, layer)
+    fline <- nhdplusTools:::get_nhdplus_byid(comid, layer)
     points[i,'pathlength'] <- fline$'pathlength'
     #save fline to flines to plot?
     if (exists('flines')) {
@@ -138,13 +88,13 @@ comid <- discover_nhdplus_id(point)
 
 #get flowline get_nhdplus.get_nhdplus_byid(comid, layer)
 layer <- 'nhdflowline_network'
-fline <- get_nhdplus_byid(comid, layer)
+fline <- nhdplusTools:::get_nhdplus_byid(comid, layer)
 #Length of full path in km?
 flowDist <- fline$'pathlength'
 
 #get catchment polygon (optional)
 layer <- 'catchmentsp'
-catchment <- get_nhdplus_byid(comid, layer)
+catchment <- nhdplusTools:::get_nhdplus_byid(comid, layer)
 #NOTE: gridcode field may be able to be used to get elevetation raster within catchment
 
 
@@ -230,13 +180,13 @@ flowDist_calc <- sum(st_length(nldi_down))
 downIDs <- nldi_down$'nhdplus_comid'
 comid_term <- tail(downIDs, n=1)
 layer <- 'nhdflowline_network'
-last_fline <- get_nhdplus_byid(comid_term, layer)
+last_fline <- nhdplusTools:::get_nhdplus_byid(comid_term, layer)
 
 #we don't need the geometry for the catchments but could get/plot it
 catchments <- catchment
 layer <- 'catchmentsp'
 for(id in downIDs){
-  catchment_temp <- get_nhdplus_byid(id, layer)
+  catchment_temp <- nhdplusTools:::get_nhdplus_byid(id, layer)
   catchments <- rbind(catchments, catchment_temp)
 }
 
