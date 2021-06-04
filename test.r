@@ -10,8 +10,20 @@ library(sf)
 library(tidyverse)
 
 
+get_comid <- function(point) {
+  tryCatch(discover_nhdplus_id(point),
+           message=function(m) {
+             if (startsWith(as.character(m[1]), 'No data returned')) {
+               #TODO: Confirm in Ocean Catchments?
+               #return default for OceanCatchment
+               700000000
+               } else {
+                 #TODO: confirm if() not met when service down
+                 message(m)}
+           })
   }
-}
+
+
 
 
 data(reststat)
@@ -22,8 +34,9 @@ rest <- reststat %>%
 
 #My feeble attempt to run on the sf
 points <- rest
+# Assign comid to points
+points$'comid' <- lapply(points$geometry, get_comid)
 # There is a more elegant way to create empty fields
-points$'comid' <- ''
 points$'pathlength' <- ''
 # params for flow lines
 layer <- 'nhdflowline_network'
@@ -32,18 +45,6 @@ rm(flines) #just in case (does throw warning if not found)
 for(i in 1:length(points$id)){
   cat(round(i / length(points$id), 2)*100, '% complete\n')
   point <- rest[i,]
-  comid <- tryCatch(discover_nhdplus_id(point),
-                    message=function(m) {
-                      if (startsWith(as.character(m[1]), 'No data returned')) {
-                        #TODO: Confirm in Ocean Catchments?
-                        #return default for OceanCatchment
-                        700000000
-                      } else {
-                        #TODO: confirm if() not met when service down
-                        message(m)}
-                    })
-  # Write comid to table
-  points[i,'comid'] <- comid
   if (comid==700000000) {
     # Ocean Catchment
     points[i,'pathlength'] <- -1
