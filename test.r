@@ -41,16 +41,17 @@ points$'pathlength' <- ''
 layer <- 'nhdflowline_network'
 rm(flines) #just in case (does throw warning if not found)
 #loop over one sf point at a time
+#Be faster if run only on unique comid and joined back
 for(i in 1:length(points$id)){
-  cat(round(i / length(points$id), 2)*100, '% complete\n')
-  point <- rest[i,]
-  if (comid==700000000) {
+  #cat(round(i / length(points$id), 2)*100, '% complete\n')
+  point <- points[i,]
+  if (point$comid==700000000) {
     # Ocean Catchment
     points[i,'pathlength'] <- -1
     # Note: -9999 for coastal so -1 keeps with x<0
   } else {
     # Use comid to get fline and pathlength
-    fline <- nhdplusTools:::get_nhdplus_byid(comid, layer)
+    fline <- nhdplusTools:::get_nhdplus_byid(point$comid, layer)
     # Note: pathlength does not include current segment
     points[i,'pathlength'] <- fline$'pathlength'
     # Save fline to flines to plot
