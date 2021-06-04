@@ -10,20 +10,6 @@ library(sf)
 library(tidyverse)
 
 
-#subfunction make_web_sf(req_data)
-make_web_sf <- function(content) {
-  if(content$status_code == 200) {
-    tryCatch(sf::read_sf(rawToChar(content$content)),
-             error = function(e) {
-               message(paste("Something went wrong with a web request.\n", e))
-             }, warning = function(w) {
-               message(paste("Something went wrong with a web request.\n", w))
-             })
-  } else {
-    message(paste("Something went wrong with a web request.\n", content$url,
-                  "\n", "returned",
-                  content$status_code))
-    data.frame()
   }
 }
 
