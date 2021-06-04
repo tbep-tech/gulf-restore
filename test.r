@@ -35,8 +35,10 @@ points <- rest
 # Assign comid to points
 points$'comid' <- lapply(points$geometry, get_comid)
 #TODO: slow, use distinct to drop repeat geometries then join back?
-# There is a more elegant way to create empty fields
-points$'pathlength' <- ''
+# For ocean cathments assign -1 to pathlength
+points$'pathlength'[points$comid==700000000] <- -1
+# Note: -9999 for coastal so -1 keeps with x<0
+
 # params for flow lines
 layer <- 'nhdflowline_network'
 rm(flines) #just in case (does throw warning if not found)
@@ -45,11 +47,7 @@ rm(flines) #just in case (does throw warning if not found)
 for(i in 1:length(points$id)){
   #cat(round(i / length(points$id), 2)*100, '% complete\n')
   point <- points[i,]
-  if (point$comid==700000000) {
-    # Ocean Catchment
-    points[i,'pathlength'] <- -1
-    # Note: -9999 for coastal so -1 keeps with x<0
-  } else {
+  if (point$comid!=700000000) {
     # Use comid to get fline and pathlength
     fline <- nhdplusTools:::get_nhdplus_byid(point$comid, layer)
     # Note: pathlength does not include current segment
