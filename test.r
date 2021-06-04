@@ -14,16 +14,14 @@ get_comid <- function(point) {
   tryCatch(discover_nhdplus_id(point),
            message=function(m) {
              if (startsWith(as.character(m[1]), 'No data returned')) {
-               #TODO: Confirm in Ocean Catchments?
-               #return default for OceanCatchment
+               #TODO: Confirm in Ocean Catchments? Currently assumed if no comid
+               #return default for OceanCatchment (not in nhdPlus catchment)
                700000000
                } else {
                  #TODO: confirm if() not met when service down
                  message(m)}
            })
   }
-
-
 
 
 data(reststat)
@@ -36,6 +34,7 @@ rest <- reststat %>%
 points <- rest
 # Assign comid to points
 points$'comid' <- lapply(points$geometry, get_comid)
+#TODO: slow, use distinct to drop repeat geometries then join back?
 # There is a more elegant way to create empty fields
 points$'pathlength' <- ''
 # params for flow lines
@@ -48,9 +47,11 @@ for(i in 1:length(points$id)){
   if (comid==700000000) {
     # Ocean Catchment
     points[i,'pathlength'] <- -1
+    # Note: -9999 for coastal so -1 keeps with x<0
   } else {
     # Use comid to get fline and pathlength
     fline <- nhdplusTools:::get_nhdplus_byid(comid, layer)
+    # Note: pathlength does not include current segment
     points[i,'pathlength'] <- fline$'pathlength'
     # Save fline to flines to plot
     if (exists('flines')) {
@@ -67,14 +68,6 @@ ggplot() +
   geom_sf(data = points)
 #save results
 #st_write(flines, 'flines.geojson')
-#Notes:
-#Problem w/ comid for 169 points: 4, 18, 19, 20, 21, 22, 23, 31, 52, 55, 62, 65, 69, 72, 73, 74, 91, 95,
-#96, 97, 100, 101, 102, 103, 122, etc
-#These are over the water where there isn't a catchment.
-# Options: (1) select out ahead to skip, (2) test outside after by comparing to
-#ocean poly, or (3) just assume failures are not in catchment
-
-#Some geometries repeat, it takes a while to run and removing duplicates might be worthwhile
 
 
 
