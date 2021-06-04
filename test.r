@@ -59,10 +59,27 @@ for(i in 1:length(points$id)){
       flines <- fline #first time
       }
   }
-#warning(paste("Issue with row ", i, "\n Returned: ", comid))
 }
+
+#Loop to get catchments using comid (optional)
+# 51 w/ message 'Found invalid geometry, attempting to fix.' resolved?
+layer <- 'catchmentsp'
+for(i in 1:length(points$id)){
+  point <- points[i,]
+  if (point$comid!=700000000) {
+    catchment <- nhdplusTools:::get_nhdplus_byid(point$comid, layer)
+    # Save catchment to catchments to plot
+    if (exists('catchments')) {
+      catchments <- rbind(catchments, catchment)
+    } else {
+      catchments <- catchment #first time
+    }
+  }
+}
+
 #plot results
-ggplot() +
+ggplot() + 
+  geom_sf(data = catchments) +
   geom_sf(data = flines) +
   geom_sf(data = points)
 #save results
