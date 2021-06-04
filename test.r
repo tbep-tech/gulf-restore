@@ -44,23 +44,34 @@ layer <- 'nhdflowline_network'
 rm(flines) #just in case (does throw warning if not found)
 #loop over one sf point at a time
 for(i in 1:length(points$id)){
-  cat(round(i / length(points$id), 2), '\n')
+  cat(round(i / length(points$id), 2)*100, '% complete\n')
   point <- rest[i,]
-  comid <- discover_nhdplus_id(point)
-  if (length(comid)>0) {
-    #write comid to table
-    points[i,'comid'] <- comid
-    #use comid to get fline and pathlength
+  comid <- tryCatch(discover_nhdplus_id(point),
+                    message=function(m) {
+                      if (startsWith(as.character(m[1]), 'No data returned')) {
+                        #TODO: Confirm in Ocean Catchments?
+                        #return default for OceanCatchment
+                        700000000
+                      } else {
+                        #TODO: confirm if() not met when service down
+                        message(m)}
+                    })
+  # Write comid to table
+  points[i,'comid'] <- comid
+  if (comid==700000000) {
+    # Ocean Catchment
+    points[i,'pathlength'] <- -1
+  } else {
+    # Use comid to get fline and pathlength
     fline <- nhdplusTools:::get_nhdplus_byid(comid, layer)
     points[i,'pathlength'] <- fline$'pathlength'
-    #save fline to flines to plot?
+    # Save fline to flines to plot
     if (exists('flines')) {
       flines <- rbind(flines, fline)
     } else {
       flines <- fline #first time
       }
-  } else {
-      #problem with comid response
+  }  else {
       warning(paste("Issue with row ", i, "\n Returned: ", comid))
     }
 }
@@ -68,11 +79,15 @@ for(i in 1:length(points$id)){
 ggplot() +
   geom_sf(data = flines) +
   geom_sf(data = points)
+#save results
+#st_write(flines, 'flines.geojson')
 #Notes:
-#Problem w/ comid for 25 points: 4, 18, 19, 20, 21, 22, 23, 31, 52, 55, 62, 65, 69, 72, 73, 74, 91, 95,
-#96, 97, 100, 101, 102, 103, 122
-#could these be over the water where there isn't a catchment?
-#Very unlikely, but may need to handle if a point falls on catchment line (returns 2 catchments)
+#Problem w/ comid for 169 points: 4, 18, 19, 20, 21, 22, 23, 31, 52, 55, 62, 65, 69, 72, 73, 74, 91, 95,
+#96, 97, 100, 101, 102, 103, 122, etc
+#These are over the water where there isn't a catchment.
+# Options: (1) select out ahead to skip, (2) test outside after by comparing to
+#ocean poly, or (3) just assume failures are not in catchment
+
 #Some geometries repeat, it takes a while to run and removing duplicates might be worthwhile
 
 
