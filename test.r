@@ -71,9 +71,8 @@ for(i in 1:length(points$id)){
     } else {
       flines <- fline #first time
       }
-  }  else {
-      warning(paste("Issue with row ", i, "\n Returned: ", comid))
-    }
+  }
+#warning(paste("Issue with row ", i, "\n Returned: ", comid))
 }
 #plot results
 ggplot() +
