@@ -85,6 +85,36 @@ ggplot() +
 #save results
 #st_write(flines, 'flines.geojson')
 
+# For points where points$pathlength < 0 (coastal or ocean)
+#get distance using euclidean, existing dist()
+# For all others
+#add distance from point to fline and slice fline 
+#identify outflow point
+terminal_list = unique(flines$terminalpa)  # reduces to 49, 150000002 is coastal
+
+# Get endpoint for the 49 terminal lines
+# Get lines for now, easier than checking flines for them first
+layer <- 'nhdflowline_network'
+for(id in terminal_list){
+  terminal_fline <- nhdplusTools:::get_nhdplus_byid(point$comid, layer)
+  end <- get_node(terminal_fline, "end")
+  end$terminal_comid <-id
+  if (exists('ends')) {
+    ends <- rbind(ends, end)
+  } else {
+    ends <- end #first time
+  }
+}
+# Join ends to flines where terminal_comid = terminalpa
+
+# Join distance col to points
+
+# This query doesn't work hydrosequence != comid
+layer <- 'nhdflowline_network'
+#terminalpa == hydrosequence on terminal fline 
+end_fline <- nhdplusTools:::get_nhdplus_byid(terminal_list[3], layer)
+#add euclidean distance from outflow to station, using existing dist()
+
 
 
 #The following was initialy used to outline the process on 1st point, it includes catchment/downstream
