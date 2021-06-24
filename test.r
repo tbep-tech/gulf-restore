@@ -24,17 +24,71 @@ get_comid <- function(point) {
   }
 
 
+distance_catchment_outlet<- function(point, fline) {
+  #Note: this should only be used on positive pathlength
+  #     point and fline must have matching comid
+  if(point$comid == fline$comid){
+    end = get_node(terminal_line, "end")
+    st_distance(point, end)
+  } else {
+    FALSE
+  }
+}
+
+
+test_terminal <- function(comid) {
+  # confirm terminal line is terminal (1) or not (0)
+  layer <- 'nhdflowline_network'
+  check_line <- nhdplusTools:::get_nhdplus_byid(comid, layer)
+  check_line$terminalfl
+  }
+
+
+terminal_point <- function(point) {
+  #NOTE: point must have columns: comid and pathlength
+  #terminal includes diversions, for main only, mode = 'downstreamMain' and
+  #down_lines <- nldi_down$DM_flowlines
+  if(point$pathlength < 0){
+    # Where points$pathlength < 0 (coastal or ocean) terminal point == point
+    point['geometry']
+  } else {
+    # For all others identify terminal line and point from complete flow line
+    nldi_feature <-list("featureSource"='comid', "featureID"=point$comid[[1]])
+    search_distance <- ceiling(point$pathlength)  # Rounds up to int
+    nldi_down <- navigate_nldi(nldi_feature,
+                               mode = 'downstreamDiversions',
+                               data_source = "flowlines",
+                               distance_km = search_distance)
+    down_lines <- nldi_down$DD_flowlines  # All lines (keep for mapping?)
+    terminal_line <- tail(down_lines, n=1)  # Last line
+    # confirm terminal line is terminal
+    #TODO: add break if 0?
+    #test_terminal(terminal_line$nhdplus_comid)
+    # Get terminal point
+    get_node(terminal_line, "end")
+    }
+  }
+
+# Restoration data
 data(reststat)
 data(restdat)
 rest <- reststat %>% 
   full_join(restdat, by = 'id') %>% 
   st_as_sf(coords = c('lon', 'lat'), crs = 4326)
 
+# Station data
+data(epcdata)
+wqsta <- epcdata %>% 
+  select(epchc_station, Longitude, Latitude) %>% 
+  unique %>% 
+  st_as_sf(coords = c('Longitude', 'Latitude'), crs = 4326)
+
 #My feeble attempt to run on the sf
 points <- rest
 # Assign comid to points
-points$'comid' <- lapply(points$geometry, get_comid)
 #TODO: slow, use distinct to drop repeat geometries then join back?
+points$'comid' <- lapply(points$geometry, get_comid)
+
 # For ocean cathments assign -1 to pathlength
 points$'pathlength'[points$comid==700000000] <- -1
 # Note: -9999 for coastal so -1 keeps with x<0
@@ -43,7 +97,8 @@ points$'pathlength'[points$comid==700000000] <- -1
 layer <- 'nhdflowline_network'
 rm(flines) #just in case (does throw warning if not found)
 #loop over one sf point at a time
-#Be faster if run only on unique comid and joined back
+#TODO: Run only on unique 255/887 comid and joined back
+#length(unique(points$comid))
 for(i in 1:length(points$id)){
   #cat(round(i / length(points$id), 2)*100, '% complete\n')
   point <- points[i,]
@@ -85,35 +140,43 @@ ggplot() +
 #save results
 #st_write(flines, 'flines.geojson')
 
-# For points where points$pathlength < 0 (coastal or ocean)
-#get distance using euclidean, existing dist()
-# For all others
-#add distance from point to fline and slice fline 
-#identify outflow point
-terminal_list = unique(flines$terminalpa)  # reduces to 49, 150000002 is coastal
-
-# Get endpoint for the 49 terminal lines
-# Get lines for now, easier than checking flines for them first
-layer <- 'nhdflowline_network'
-for(id in terminal_list){
-  terminal_fline <- nhdplusTools:::get_nhdplus_byid(point$comid, layer)
-  end <- get_node(terminal_fline, "end")
-  end$terminal_comid <-id
-  if (exists('ends')) {
-    ends <- rbind(ends, end)
-  } else {
-    ends <- end #first time
-  }
+# Get euclidean distance from terminal point to nearest station
+rm(end_points)
+for(i in 1:length(points$id)){
+  point <- points[i,]
+  end_point <- terminal_point(point)
+  # add end_point to end_points
+  if (exists('end_points')) {
+    end_points <- rbind(end_points, end_point)
+    } else {
+    end_points <- end_point #first time
+    }
+  #Notes:
+  #flines$terminalpa is terminal HYDROSEQ not COMID
+  #hydro_list = unique(lines$terminalpa) will reduce to 49 unique terminal paths
+  #dataRetrieval::findNLDI defaults to 100km
+  #Will still work on terminal reach
+  #does not currently return down_lines to plot
+  # Plot it to check visually
+  #ggplot() + 
+  #  geom_sf(data = down_lines) +
+  #  geom_sf(data = end_point) +
+  #  geom_sf(data = point$geometry)
 }
-# Join ends to flines where terminal_comid = terminalpa
 
-# Join distance col to points
+# get distance to nearest station
+nearest <- st_nearest_feature(end_points, wqsta)  #list of indices
+points$nearest_epchc_station <- wqsta$epchc_station[nearest]
+#distances <- st_distance(end_points, wqsta$geometry[nearest], by_element = TRUE)
+points$path_station <- st_distance(end_points,
+                                   wqsta$geometry[nearest],
+                                   by_element = TRUE)
+#test on 1st
+#st_distance(c(-82.4586227014661, 27.9413730949163), c(-82.480698, 27.9237))
+st_distance(end_points[1,], wqsta[20,])  # Passes
 
-# This query doesn't work hydrosequence != comid
-layer <- 'nhdflowline_network'
-#terminalpa == hydrosequence on terminal fline 
-end_fline <- nhdplusTools:::get_nhdplus_byid(terminal_list[3], layer)
-#add euclidean distance from outflow to station, using existing dist()
+
+
 
 
 
