@@ -28,10 +28,11 @@ distance_catchment_outlet<- function(point, fline) {
   #Note: this should only be used on positive pathlength
   #     point and fline must have matching comid
   if(point$comid == fline$comid){
-    end = get_node(terminal_line, "end")
+    end = get_node(fline, "end")
     st_distance(point, end)
   } else {
     FALSE
+    #TODO: BREAK LOUDLY
   }
 }
 
@@ -62,8 +63,8 @@ terminal_point <- function(point) {
     down_lines <- nldi_down$DD_flowlines  # All lines (keep for mapping?)
     terminal_line <- tail(down_lines, n=1)  # Last line
     # confirm terminal line is terminal
-    #TODO: add break if 0?
-    #test_terminal(terminal_line$nhdplus_comid)
+    #TODO: BREAK LOUDLY if false? (0)
+    test_terminal(terminal_line$nhdplus_comid)
     # Get terminal point
     get_node(terminal_line, "end")
     }
@@ -86,16 +87,17 @@ wqsta <- epcdata %>%
 #My feeble attempt to run on the sf
 points <- rest
 # Assign comid to points
-#TODO: slow, use distinct to drop repeat geometries then join back?
+#TODO: slow, only 576/887 geometries are unique, drop repeats then join back?
 points$'comid' <- lapply(points$geometry, get_comid)
 
-# For ocean cathments assign -1 to pathlength
+# For ocean catchments assign -1 to pathlength
 points$'pathlength'[points$comid==700000000] <- -1
+points$'path_catchment'[points$comid==700000000] <- 0
 # Note: -9999 for coastal so -1 keeps with x<0
 
 # params for flow lines
 layer <- 'nhdflowline_network'
-rm(flines) #just in case (does throw warning if not found)
+rm(flines) #just in case this isn't run1 (does throw warning if not found)
 #loop over one sf point at a time
 #TODO: Run only on unique 255/887 comid and joined back
 #length(unique(points$comid))
@@ -103,10 +105,20 @@ for(i in 1:length(points$id)){
   #cat(round(i / length(points$id), 2)*100, '% complete\n')
   point <- points[i,]
   if (point$comid!=700000000) {
+    
     # Use comid to get fline and pathlength
     fline <- nhdplusTools:::get_nhdplus_byid(point$comid, layer)
     # Note: pathlength does not include current segment
     points[i,'pathlength'] <- fline$'pathlength'
+    
+    # Use point and fline to get distance to catchment pour point
+    # Coastal gets complex, where fline end != outflow point, so don't do those
+    if (fline$pathlength<0){
+      points[i,'path_catchment'] <- 0
+    } else {
+      points[i,'path_catchment'] <- distance_catchment_outlet(point, fline)
+    }
+    
     # Save fline to flines to plot
     if (exists('flines')) {
       flines <- rbind(flines, fline)
@@ -115,6 +127,9 @@ for(i in 1:length(points$id)){
       }
   }
 }
+
+# Get distance from point to end of fline
+
 
 #Loop to get catchments using comid (optional)
 # 51 w/ message 'Found invalid geometry, attempting to fix.' resolved?
