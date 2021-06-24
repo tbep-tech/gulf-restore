@@ -128,33 +128,6 @@ for(i in 1:length(points$id)){
   }
 }
 
-# Get distance from point to end of fline
-
-
-#Loop to get catchments using comid (optional)
-# 51 w/ message 'Found invalid geometry, attempting to fix.' resolved?
-layer <- 'catchmentsp'
-for(i in 1:length(points$id)){
-  point <- points[i,]
-  if (point$comid!=700000000) {
-    catchment <- nhdplusTools:::get_nhdplus_byid(point$comid, layer)
-    # Save catchment to catchments to plot
-    if (exists('catchments')) {
-      catchments <- rbind(catchments, catchment)
-    } else {
-      catchments <- catchment #first time
-    }
-  }
-}
-
-#plot results
-ggplot() + 
-  geom_sf(data = catchments) +
-  geom_sf(data = flines) +
-  geom_sf(data = points)
-#save results
-#st_write(flines, 'flines.geojson')
-
 # Get euclidean distance from terminal point to nearest station
 rm(end_points)
 for(i in 1:length(points$id)){
@@ -188,9 +161,39 @@ points$path_station <- st_distance(end_points,
                                    by_element = TRUE)
 #test on 1st
 #st_distance(c(-82.4586227014661, 27.9413730949163), c(-82.480698, 27.9237))
-st_distance(end_points[1,], wqsta[20,])  # Passes
+#st_distance(end_points[1,], wqsta[20,])  # Passes
 
+# Sum path distance
+#TODO: this is not elegant R code
+#First sum for non-coastal
+points$path_total[points$pathlength>=0] <- unclass(points$path_station[points$pathlength>=0])/1000 +
+                              points$pathlength[points$pathlength>=0] +
+                              (points$path_catchment[points$pathlength>=0]/1000)
+points$path_total[points$pathlength<0] <- unclass(points$path_station[points$pathlength<0])/1000
 
+#Loop to get catchments using comid (optional)
+# 51 w/ message 'Found invalid geometry, attempting to fix.' resolved?
+layer <- 'catchmentsp'
+for(i in 1:length(points$id)){
+  point <- points[i,]
+  if (point$comid!=700000000) {
+    catchment <- nhdplusTools:::get_nhdplus_byid(point$comid, layer)
+    # Save catchment to catchments to plot
+    if (exists('catchments')) {
+      catchments <- rbind(catchments, catchment)
+    } else {
+      catchments <- catchment #first time
+    }
+  }
+}
+
+#plot results
+ggplot() + 
+  geom_sf(data = catchments) +
+  geom_sf(data = flines) +
+  geom_sf(data = points)
+#save results
+#st_write(flines, 'flines.geojson')
 
 
 
