@@ -45,13 +45,13 @@ test_terminal <- function(comid) {
   }
 
 
-terminal_point <- function(point) {
+terminal_point <- function(point, return_flowline = FALSE) {
   #NOTE: point must have columns: comid and pathlength
   #terminal includes diversions, for main only, mode = 'downstreamMain' and
   #down_lines <- nldi_down$DM_flowlines
-  if(point$pathlength < 0){
+  if (point$pathlength < 0) {
     # Where points$pathlength < 0 (coastal or ocean) terminal point == point
-    point['geometry']
+    list(point['geometry'])
   } else {
     # For all others identify terminal line and point from complete flow line
     nldi_feature <-list("featureSource"='comid', "featureID"=point$comid[[1]])
@@ -65,10 +65,17 @@ terminal_point <- function(point) {
     # confirm terminal line is terminal
     #TODO: BREAK LOUDLY if false? (0)
     test_terminal(terminal_line$nhdplus_comid)
-    # Get terminal point
-    get_node(terminal_line, "end")
-    }
+  
+    # Return terminal point
+    list(get_node(terminal_line, "end"), down_lines)
+    #if (return_flowline = TRUE) {
+    #  list(get_node(terminal_line, "end"), down_lines)
+    #} else {
+    #  get_node(terminal_line, "end")
+    #}
   }
+}
+
 
 # Restoration data
 data(reststat)
@@ -132,13 +139,24 @@ for(i in 1:length(points$id)){
 rm(end_points)
 for(i in 1:length(points$id)){
   point <- points[i,]
-  end_point <- terminal_point(point)
+  terminal_list <- terminal_point(point)
+  end_point <- terminal_list[[1]]
+  if (length(terminal_list)>1)  down_line <- terminal_list[2]
+  
   # add end_point to end_points
   if (exists('end_points')) {
     end_points <- rbind(end_points, end_point)
     } else {
     end_points <- end_point #first time
     }
+  
+  # add flowline to flowlines (optional for plot)
+  if (exists('down_lines')) {
+    down_lines <- rbind(down_lines, down_line)
+  } else {
+    down_lines <- down_line #first time
+  }
+  
   #Notes:
   #flines$terminalpa is terminal HYDROSEQ not COMID
   #hydro_list = unique(lines$terminalpa) will reduce to 49 unique terminal paths
@@ -151,6 +169,7 @@ for(i in 1:length(points$id)){
   #  geom_sf(data = end_point) +
   #  geom_sf(data = point$geometry)
 }
+
 
 # get distance to nearest station
 nearest <- st_nearest_feature(end_points, wqsta)  #list of indices
@@ -191,7 +210,11 @@ for(i in 1:length(points$id)){
 ggplot() + 
   geom_sf(data = catchments) +
   geom_sf(data = flines) +
-  geom_sf(data = points)
+  geom_sf(data = points) +
+  geom_sf(data = end_points)
+
+#Down lines is still problematic
+
 #save results
 #st_write(flines, 'flines.geojson')
 
