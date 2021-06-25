@@ -213,6 +213,7 @@ for(i in 1:length(points$id)){
 ggplot() + 
   geom_sf(data = catchments) +
   geom_sf(data = flines) +
+  geom_sf(data = down_lines) +
   geom_sf(data = points) +
   geom_sf(data = end_points)
 
