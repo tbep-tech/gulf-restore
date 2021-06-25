@@ -137,24 +137,27 @@ for(i in 1:length(points$id)){
 
 # Get euclidean distance from terminal point to nearest station
 rm(end_points)
+rm(down_lines)
 for(i in 1:length(points$id)){
   point <- points[i,]
   terminal_list <- terminal_point(point)
   end_point <- terminal_list[[1]]
-  if (length(terminal_list)>1)  down_line <- terminal_list[2]
   
   # add end_point to end_points
   if (exists('end_points')) {
     end_points <- rbind(end_points, end_point)
-    } else {
-    end_points <- end_point #first time
-    }
-  
-  # add flowline to flowlines (optional for plot)
-  if (exists('down_lines')) {
-    down_lines <- rbind(down_lines, down_line)
   } else {
-    down_lines <- down_line #first time
+    end_points <- end_point #first time
+  } 
+  
+  # add down_line to down_lines (optional for plot)
+  if (length(terminal_list)>1) {
+    down_line <- terminal_list[2]
+    if (exists('down_lines')) {
+      down_lines <- rbind(down_lines, down_line[[1]])
+    } else {
+      down_lines <- down_line[[1]] #first time
+    }
   }
   
   #Notes:
